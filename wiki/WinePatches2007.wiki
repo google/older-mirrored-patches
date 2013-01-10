@@ -1,0 +1,1026 @@
+[Wine contributions Wine] from mid-July 2007 to mid-March 2008.
+
+|| *Author* || *Date* || *Description* ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=778c04db079d3955bcea263bb5693c624318bf75 comctl32: Add listview checkbox toggle test.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea537b916e4a15fc39d9462445db9731f0849bec quartz: Transmit pullpin messages further.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e02322aef89dd3b452ff2e566692ad4d3bab5776 quartz: Implement forwarding mediaseeking messages.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d38b8502a6858e5d727385a7b06df3822c17a5dc quartz: Pass the reference time + small delay on on begin of playback.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c53a803ab73c78519e97f4e8da9021b0576ebc15 quartz: Fix checking for duration.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ec4240065f1494fb90c2e1aa61be1330f9fe340 quartz: Add mediaseeking stub to audio renderer.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=734d6159d520e8440e72d7518f22d250e639ff51 quartz: Add critical sections to IMediaSeeking.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3c9e2263eeedbe532ca6dbae58667c3238256bdc quartz: Fix bug in transmitting messages further.] ||
+|| Maarten Lankhorst || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=366eca51df96b9fa5c1f63cd93c4162b46151ce2 quartz: Don't pass reference time when running.] ||
+|| Dan Hipschman || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d664c276dffc1f0f53ef6700ef182ef9c8c5d70c qmgr: Add a stub implementation of IBackgroundCopyJob2.] ||
+|| Dan Hipschman || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=764cf334d6aa909a29cf21e4d9a90ce06209598a rpcrt4: Use correct count in rpcrt4_conn_np_write.] ||
+|| Jacek Caban || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ff3c3955d4dbe48d5160ae769c17a83f6c8f84b jscript: Added IActiveScriptProperty stub implementation.] ||
+|| Jacek Caban || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=12a589843607bd413086dea9596fa1b426e4a559 jscript: Added IActiveScriptParse stub implementation.] ||
+|| Jacek Caban || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e553c56956470f9fe9f0413bc9a75273a16537a7 activscp.idl: Added IActiveScriptProperty declaration.] ||
+|| Maarten Lankhorst || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=796bb9233322df53ea5c772c166484c7754ef822 quartz: Move IMediaSeeking from the parser pin to the parser filter.] ||
+|| Maarten Lankhorst || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebf6bbd50f40bb0616607b27fa1040285841a5ed quartz: Call send flush/endofstream and segment messages downstream.] ||
+|| Dan Hipschman || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d37b1a4969896d69d782b7ec55fc4e85690af0a7 widl: Ignore libraries in imported IDL files.] ||
+|| Maarten Lankhorst || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=24708e4edb1c664b624505b15eb4df06a56e5036 quartz: Fix the magic bytes for mp3's with id3 tags.] ||
+|| Maarten Lankhorst || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2756bedd8aa0a191f6d3d64d16cb41b8d6331303 winemp3: Skip idv3 header too.] ||
+|| Dan Kegel || 2008-03-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5b499d37a8824b953e5cee9df674ef052a53ef8 shell32: Only print &quot;HCR_GetFolderAttributes should be called for simple...] ||
+|| Alexandre Julliard || 2008-03-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af369106dbc9361c4329adb6e1b1cec3b2f7990b winex11: Clip out children window when repainting the desktop.] ||
+|| Alexandre Julliard || 2008-03-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2ea5723528e0e8a9336e0f4a5fd9e8a7fad0edb server: Fix desktop window coordinates mapping in expose_window.] ||
+|| Maarten Lankhorst || 2008-03-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f629dc4eb6006fbdc3f658d13186b9c7e08b189d wine.inf: Change default windows version to XP.] ||
+|| Maarten Lankhorst || 2008-03-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=15907b5035ea7f03b369a0463ab1f6ac2b24704e winmm: Fix midi deadlock by not holding lock on release.] ||
+|| Maarten Lankhorst || 2008-03-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=021019ff8fbc49a778abcf7800edacb4fa33068d dsound: Add an option to mix sound buffers in the mixer again.] ||
+|| Jacek Caban || 2008-03-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0750bfbb1d5f9c470b5554e35c9c324f9bbe7015 jscript: Added JScript stub implementation.] ||
+|| Jacek Caban || 2008-03-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=85b024d5f71195b815d51ab990fdde02f6b66bed jscript: Added JScript class factory.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd69ababec3b26e76837ed0d3cd82509c619a38e user32: Fix enumeration for EnumWindowStations and EnumDesktops.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0f8b16f117207a1f9e41963cb732cca44b492ab3 quartz: Implement a few MediaSeeking functions.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=18f42a6eb70678aef06cd10a5a8d7139f614c996 quartz: Change some more stubs from traces to fixmes.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b662a6a556c8144cf7586d5f17b92f59b9dce3c4 quartz: Add initial support for time formats in IMediaSeeking.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ffe48d40137003f59cb5a6df053ea1384a51e414 quartz: Make MediaSeeking stubs fixmes.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6d965b8fb6cbb892662e5324155e6c5b2efb430d quartz: Silence the directsound buffer on starting.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b1f9acc68862d28a934f5fa5a6e2ec2635af9df6 quartz: Set a default sync source on the filtergraph.] ||
+|| Dan Hipschman || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=136a4ebbb2237994c1289b35685d62666c50a66a qmgr: Implement IBackgroundCopyJob_AddFileSet.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d47bdbfbf166884a1fd93fd97a628dd418a18e97 quartz: Destroy the filtergraph better in releasing.] ||
+|| Maarten Lankhorst || 2008-03-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=14ba79ec621bf60855016297cded61cc865daf5a quartz: Fix IFilterGraph RemoveFilter to stop the filter before removing it.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8ef6713acb5e3287c1b0c6ce6ff27485a427f482 urlmon: Added special URLACTION_SCRIPT_OVERRIDE_SAFETY handling.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a736c6677cecf588368c44314390ebff239df72 urlmon: Added more policy tests.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=15feb50d424a4cd017d1e4dacfc5c4302c24a550 urlmon: Added ProcessUrlAction implementation.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19b6cf8135e74bde820b669f248efacda221fbe2 urlmon: Added URLACTION_* and URLPOLICY_* declarations.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfb1089a45f17c596fdcf86ebcda8acfced6259b urlmon: Fixed URLZONEREG_DEFAULT handling in GetZoneActionPolicy.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f7748b9b577397ac874f3479874ae95c55bf62a mshtml: Return full patch in res protocol's secure URL.] ||
+|| Jacek Caban || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc159d832deea4e0a4a5d28b9c8152d4be848637 urlmon: Move InternetParseUrl(PARSE_SECURITY_URL) call to map_url_to_zone and...] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c09284c9193e74aaa6a047ca651f366351fdf99 quartz: Add directsound renderer to filter list.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=25f9d3c17366b6454dba49b2897304c2248137fe quartz: Implement detection on file extension in filesource.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83efc64dd505ffb91aeaad39ec90850ef0c322fe quartz: Uncomment a trace.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b5a8df58cba34730cf475d5bd988fff6e116423b quartz: Fix typo.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6c1d089a44c8a31037566b56979bca5ec3daaba6 quartz: Detect and skip id3v2 header in mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e1867dac0d82cd3fcede46f3bb08e5d8875865f6 quartz: Implement a dummy null renderer for directshow.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=07b12032d2e9bd24bdf952df875e82449898857a quartz: Don't add MERIT_DO_NOT_USE filters automatically to create a connection.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=950d3443e768550062f2d0ca506b4d6ee00367cd qcap: Implement a stubby CaptureGraphBuilder2::RenderStream.] ||
+|| Maarten Lankhorst || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e32b11ab6ec2a53f70e6bf19144c04680011f1a qcap: Add better findpin stub for CaptureGraphBuilder.] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9617b326182ab01e7b286b7a0e0fd4d0bcb8eebc qmgr: Implement progress updates for downloads given by URL.] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8199e3dfa261b65cfeab039939c0ab28bbbc5f3e qmgr: Transfer files given by URL (including HTTP, etc).] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f2b3303d75a516877c88319f83a9a680464fe72 qmgr: Transfer files given by URL (including HTTP, etc).] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1c93ee77e5cdf4e1fececbf576908889bcbe80dc qmgr: Implement BackgroundCopyJob_Complete.] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0e8f1931846669818787255867397c415f5afd86 kernel32: Add the MOVEFILE_WRITE_THROUGH flag for MoveFileEx (stub).] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b329a2ef3cdb17f4b301adcbe5beddf57506ace6 qmgr: Implement local file background &quot;downloads.&quot;] ||
+|| Dan Hipschman || 2008-03-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=374fea0a71cd7f141f491ec0abee9b5f14168d4a qmgr: Add infrastructure for background file transferring.] ||
+|| Dan Kegel || 2008-03-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8e4d5d21fd2236cba706bfe24a853a17e34de1cd wintab: Expand whitelist of tablets.] ||
+|| Dan Hipschman || 2008-03-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd499df4d5dca5aff2cd179b2149bafbcd3b81d1 qmgr: Add critical sections for jobs and files.] ||
+|| Jacek Caban || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=66c728dec1a37f10c6e039f0a63558c05590ab9d jscript: Added Dll[Un[]]RegisterServer implementation.] ||
+|| Alexandre Julliard || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b9dee8efa7e74c49169cedf53788fefb69c3b1a5 user32: Add a SetCapture function to the driver interface.] ||
+|| Alexandre Julliard || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e129f88d0e8e212702a33906d3ce9609837f4f5 user32: Add a helper function to set the capture window.] ||
+|| Lei Zhang || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8cbd8bd87e85d07f1d134a712b1c452c90fc3a0 shell32: Use xdg well known directories for desktop folder symbolic link.] ||
+|| Lei Zhang || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=78f5db2b511cb8b558f1198dbf640781e929de8f shell32: Use xdg well known directories for my_xxx folder symbolic links.] ||
+|| Lei Zhang || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5ba1c21bea6a66455a478910575fcad9c9024a4 shell32: Add xdg-user-dirs lookup code.] ||
+|| Lei Zhang || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f5c97693e2301918d16577578c237dd81852a14 comctl32: Fix TB_GETSTRING return values.] ||
+|| Lei Zhang || 2008-03-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=375f60b07af4fec5d16bb5534f52379b61811053 comctl32: Add tests for TB_GETSTRING, fix NULL pointer access.] ||
+|| Alexandre Julliard || 2008-03-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e874fded991d85c30f4d4f5d728923a5ff96a1ee winex11: Discard ConfigureNotify events even if the intervening events are for...] ||
+|| Jacek Caban || 2008-03-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe5ea9f006ada0a79ba2fad2cb82d476ea3393d1 include: Added activaut.idl.] ||
+|| Jacek Caban || 2008-03-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7ba25f0b22698d5ebc48d1c02400c1c2268540c5 activscp.idl: Added CATID_* declarations.] ||
+|| Alexandre Julliard || 2008-03-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0118e0d0f10fb61abcfeb5100b206b94594d4493 winex11: Add support for merging redundant events, and use it for...] ||
+|| Maarten Lankhorst || 2008-03-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=619ac152d5479f3c6ad035e0eecaf4e6a16cf26d include: Add flag for BSM_ALLDESKTOPS.] ||
+|| Jacek Caban || 2008-03-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fa23a2c4b68ce2dd5d506075099949d3e476d78d jscript: Added stub DLL.] ||
+|| Jacek Caban || 2008-03-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bbfae3deffcb395bc068ff5111f682c3cc09b584 urlmon: Fixed MapUrlToZone test on IE7.] ||
+|| Dan Hipschman || 2008-03-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=275f00f54d29682729d2286e2ddf8a5f0c74d6e1 qmgr: Only have one BackgroundCopyManager per system.] ||
+|| Maarten Lankhorst || 2008-03-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b164ce484e388e4e78fe16c658e52daec749367 server: Fix reference leak in enum_desktop.] ||
+|| Dan Kegel || 2008-03-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1eba6c7644f801f82c66b109f39d754f0c4e05f2 winex11: wintab.c: use atan2 instead of atan.] ||
+|| Lei Zhang || 2008-03-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0831be5adcf440b6ffb8b68c75d0f65df1e7290f quartz: Validate input for FilterGraph2_AddFilter.] ||
+|| Maarten Lankhorst || 2008-03-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8d8ddab110a89d2ad7a3bf5d7f33b1ed58306d0 include: Add flag for BROADCAST_QUERY_DENY.] ||
+|| Maarten Lankhorst || 2008-03-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c978bbee87dd6e09e4ad836df5ad7d63506face2 oleaut32: Handle TKIND_ALIAS properly when passed as pointer.] ||
+|| Dan Hipschman || 2008-03-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eb7043699341d0bbf861529d6e07a557e990a298 qmgr: Implement IBackgroundCopyJob_Resume.] ||
+|| Lei Zhang || 2008-03-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5637c779d24fbecd609cf5288f5d650cb25f3d8c shell32: Remove unused variable.] ||
+|| Roy Shea || 2008-03-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc484a9b934d3abbd1e360f4b0af1990c791c464 qmgr: Implement IBackgroundCopyJob_GetProgress.] ||
+|| Roy Shea || 2008-03-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0fd05f09ec7f7aef41be809285ae6aba30047e4 qmgr: Implement Skip and Reset for IEnumBackgroundCopyJobs.] ||
+|| Roy Shea || 2008-03-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8dfba77c8cfcf235ee2c6b8927059c8b97f9ac0b qmgr: Implement IEnumBackgroundCopyJobs_GetCount.] ||
+|| Dan Hipschman || 2008-03-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1317e3115adc0e580a333602ae1f27f89730c6a8 qmgr: Implement IEnumBackgroundCopyJobs_Next.] ||
+|| Alexandre Julliard || 2008-03-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9238ccca487620a96ddbfb9d203fb50b460601e5 winex11: Set the appropriate _NET_WM_STATE properties for maximized windows.] ||
+|| Maarten Lankhorst || 2008-03-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1032ba6dc3aca18365152ecd10b428deda5c3e83 kernel32: Fix GetVolumeInformation for fat32 partitions.] ||
+|| Maarten Lankhorst || 2008-03-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=109943cc4c3889fb90b8c9dc2f94bd66e27cb46f cfgmgr32: Forward some more functions to setupapi.] ||
+|| Maarten Lankhorst || 2008-03-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ba8642639aa8f682c0b6441b6636d2322c204206 setupapi: Implement CM_Get_Device_ID and add a stub for CM_Get_Parent.] ||
+|| Roy Shea || 2008-02-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8a0e98b719cbb072a1ee8503761d8547dfca671 qmgr: Implement job lists for IBackgroundCopyManager.] ||
+|| Roy Shea || 2008-02-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e6cbde105f81990bb96c5b243e78ba77582f28ba qmgr: Implement IBackgroundCopyFile_GetProgress.] ||
+|| Roy Shea || 2008-02-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4866d1bde66848f550ca39ba2686e052bcfc126f qmgr: Implement GetLocalName and GetRemoteName for IBackgroundCopyFile.] ||
+|| Roy Shea || 2008-02-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c4776c2a343c08615249f3c898d2c7f37a969f4 qmgr: Implement Skip and Reset for IEnumBackgroundCopyFiles.] ||
+|| Dan Hipschman || 2008-02-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=980e00c63b17906413fe99c54b897001d1f63630 qmgr: Implement IEnumBackgroundCopyFiles_Next.] ||
+|| Roy Shea || 2008-02-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84a5eca28e660174cc4a1a4fe443fdb084945941 qmgr: Implement IEnumBackgroundCopyFiles_GetCount.] ||
+|| Roy Shea || 2008-02-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=27421285b9d8bf578fb3b8df5316409a2d0238a5 qmgr: Implement IBackgroundCopyJob_EnumFiles.] ||
+|| Alexandre Julliard || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eaea28e5d83b8d302eed62dbf574b5d6d2c14cdd winex11: Check the current window state on Map/UnmapNotify and ignore obsolete...] ||
+|| Alexandre Julliard || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a5344b4ad2b9be527940c8d259961e4b4e9cfb8 winex11: Added tracking of the WM_STATE window property.] ||
+|| Alexandre Julliard || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9939b7b4305def8505aa16b631ba6d76d74def53 winex11: Clear the NET_WM_STATE status when a window is withdrawn.] ||
+|| Roy Shea || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be8bac15fd43756aeaac883c145c17645729dc90 qmgr: Implement IBackgroundCopyJob_AddFile.] ||
+|| Roy Shea || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83aee6b1a30a29d2b8e7052c3a2cc1c48cb29faa qmgr: Implement the IUnknown interface for IEnumBackgroundCopyFiles.] ||
+|| Roy Shea || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=128654ba0805eb132d77f2e3963694f25b9b8c0d qmgr: Implement the IUnknown interface for IBackgroundCopyFile.] ||
+|| Dmitry Timoshkov || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aebcbf0f6e10d80b04bc4a3dcd3e8ca55dfd60d0 kernel32: Return upper cased drive letters in paths, some applications depend...] ||
+|| Maarten Lankhorst || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b254b407a494633127c3977a27794b958c776174 shlwapi: Don't add a trailing slash in the case that nothing has to be appended...] ||
+|| Maarten Lankhorst || 2008-02-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5132fb4469a4914f6459486d69280b0745e11808 wininet: Fix retrieving raw headers.] ||
+|| Roy Shea || 2008-02-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9f63253d001055d6e95c18f1e4ebed136e545c10 qmgr: Implement IBackgroundCopyManager_EnumJobs with test.] ||
+|| Roy Shea || 2008-02-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=00a3dceb75ccccc9589af81ac92be25ac21e6bf3 qmgr: Implement the IUnknown interface for IEnumBackgroundCopyJobs.] ||
+|| Roy Shea || 2008-02-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=28e7c3b9a93afc0010b5c498e098a49ced458156 qmgr: Implement IBackgroundCopyJob_GetDisplayName with test.] ||
+|| Roy Shea || 2008-02-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3f126b4a60ab7dde5d772147e23c7302df70f434 qmgr: Implement IBackgroundCopyJob_GetType with test.] ||
+|| Maarten Lankhorst || 2008-02-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=60401737c61520ccf57779be2cbeed49beea25b5 wininet: Add stub for INTERNET_OPTION_PER_CONNECTION.] ||
+|| Roy Shea || 2008-02-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=575b1bfcc7919966064fc3ef2fe29e14b89c456b qmgr: Implement IBackgroundCopyJob_GetId with test.] ||
+|| Roy Shea || 2008-02-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=111e6929ac9067694efd55c710c7609e1d988522 qmgr: Implement IBackgroundCopyManager_CreateJob with test.] ||
+|| Roy Shea || 2008-02-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fee94bbc9e4098930822bb62317ea1bf1685fa06 qmgr: Implement the IUnknown interface for IBackgroundCopyJob and stubs for the...] ||
+|| Dan Hipschman || 2008-02-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d7b1f18b16759a820589c6cf21d64ee19a63da5 widl: Allow is_string_type to work for typedef'd types.] ||
+|| Maarten Lankhorst || 2008-02-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=284f86183cce638ff8fce4023cb76273e979aa09 advapi: Check if service really exists before bombing out in CreateService.] ||
+|| Alexandre Julliard || 2008-02-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=23afe2e94cc3321331f6e8e0bb4556afbd242e50 winex11: Make the BitBlt short-cuts more generic to apply to all possible ROPs.] ||
+|| Dmitry Timoshkov || 2008-02-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae8457e431f9733415ae6a183c275dce3dd30826 winex11.drv: Add an optimized path for BitBlt(SRCINVERT).] ||
+|| Alexandre Julliard || 2008-02-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=55165f87cce88e6b49f2436ef0f9d7dc12e25285 user32: Pass the modified SetWindowPos flags to the set_window_pos server...] ||
+|| Dmitry Timoshkov || 2008-02-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9f23c3f9d5cba98117dadca03cb68145a01539f8 user32: Add a z-order test for owned popup windows.] ||
+|| Roy Shea || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=884e7e7b5661a398e0ce36a585f5b6698517ffb5 qmgr: Add some tests.] ||
+|| Roy Shea || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c51ad2c3f78cf801b7458a810c4490f85421ed1 qmgr: Add ServiceMain.] ||
+|| Roy Shea || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=313a903a8503ff674eb18a7514012c0f56117ca9 qmgr: Implement DLL server registration.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4868cde91d34d493c67b60ed28e9ef25a0edc177 qedit: Add stub implementation of MediaDet.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8551a073db54c4a58363b180bf02def20bfe018 qedit: Add tests directory and a simple test.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4f7a5c5c952de127c8cc367dfe45fafbe922175 qedit: Add MediaDet registration.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e2ce6982968a65464aa216a2ba5818781331fd4 include: Add IMediaDet interface and MediaDet class.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=121e8ebbbe9ad5e408f5ee39711b419f67713d72 include: Add ISampleGrabber interface.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a69b83f1eedb72d3851c151014a80863fffb317 include: Generate qedit.h, add ISampleGrabberCB interface.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=080c0812bc310203d1885328758a53427b7063b3 qedit: Add the DirectShow ClassFactory.] ||
+|| Lei Zhang || 2008-02-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6de8be71b3b849ab2c510829977ee7f6c33d359c qedit: Skeleton implementation of qedit.dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2472e81cea2854d0dd2f491f88852c6667ead9c9 dssenh: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e11826f553158d880c7c922f97a0267e5bb7f881 softpub: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b3a9699ab3e3f60d135b2b80f73fb8ba2540ec6d slbcsp: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=322d4cab1e6b1c6ddbb9be86d6e0ffef2aeab1d4 sccbase: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c438d23902824e077a5c26f3c76971a060edec5d mssip32: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c3d24bf5cdec69f5ef7432925d1d8053562e12a initpki: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e4576c807ba771c2d5cb63edec58eb6330ebb51c gpkcsp: Add initial stub dll.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f9308217792c47ccda45e462107a89dbed126be2 cryptdlg: Add initial stub dll.] ||
+|| Alexandre Julliard || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f15dd4d4e4424a84623f4af7c71b955e7aa234b user32: Rewrite SWP_DoOwnedPopups to take into account topmost windows.] ||
+|| Maarten Lankhorst || 2008-02-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c6e61fbf892fe80bd34dfedeff3eaeeec43d0236 user32: Fix a message test that would only pass on wine.] ||
+|| Maarten Lankhorst || 2008-02-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a33ab3484e8b12f426448cedc6104d5db988a9bf browseui: Add undocumented Component Category Cache Daemon stub.] ||
+|| Maarten Lankhorst || 2008-02-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e07112ba5bce86aa6ed0001f9b16b0032cbae5d3 include: Add IRunnableTask interface.] ||
+|| Dmitry Timoshkov || 2008-02-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d421a47834ba2328bf609c709886e487a0736b3 user32: Use custom window procs instead of DefWindowProcA/W in the...] ||
+|| Dmitry Timoshkov || 2008-02-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=066c60eb312609737b4b66e69c91750612364b05 user32: Add a couple of tests for WS_EX_TOPMOST.] ||
+|| Dan Kegel || 2008-02-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=316869b273ce8bbed968d6380c1b89f07187090a msvcrt: Fix EOF behavior on read from pipe or console.] ||
+|| Lei Zhang || 2008-02-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9742724afeed8a03c19b9dac3eaa995ad557ac8e quartz: Add VideoRendererDefault.] ||
+|| Lei Zhang || 2008-02-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6c1cdc71869ba175e30730ebbc6a86cef5ff89d7 user32: Use wine_dbgstr_rect() in traces.] ||
+|| Lei Zhang || 2008-02-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=398040123177368fc37dd20345dd3888a29a5b93 comctl32: Use wine_dbgstr_rect() in traces.] ||
+|| Dan Hipschman || 2008-01-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d0820c1840f7a7bcf367c325c118ed85a4109546 oleaut32: Use the symbolic name for TYPEFLAG_FDISPATCHABLE.] ||
+|| Alexandre Julliard || 2008-01-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8913182b89d542633678d1c3abcfe00e28be8e6d winex11: Check for need to make window managed when WS_VISIBLE is set outside...] ||
+|| Alexandre Julliard || 2008-01-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a753f90cf61be5ed6d93d336b1ace01e9ca75b1 user32: Menus should be top-most windows.] ||
+|| Alexandre Julliard || 2008-01-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e85f7ed79ea6e74674d92136a0cbb084aafd133f comctl32: Tooltips should be top-most windows.] ||
+|| Alexandre Julliard || 2008-01-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cbdf1294e6474ae5254a2fe9cb900b08a89b8b1b winex11: Export a function to dock a window into the system tray, and get rid...] ||
+|| Roy Shea || 2008-01-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=807fc8c5433770e2ebc1d5f06e495eb998da0515 qmgr: Implement IClassFactory methods.] ||
+|| Lei Zhang || 2008-01-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8bbb3d68e1772531796e4c209d4d7ba85da9b997 ddraw: Register the DirectDraw 7 Object.] ||
+|| Alexandre Julliard || 2008-01-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2921f5c156b368b4ce6e615eb61dad5c5f423bf8 server: Invalidate the correct region when custom valid rects are specified.] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aaf02c6f4a6105f8186b5e6b1c3179e80f213c88 winebuild: Don't try to use the .init section on Mac OS.] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c06ba6fd8e3845e3b92239168a529c2f4b0e96d wineboot: Delay import the dlls that are not needed for the default initialisation.] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b71d645f05d9728ab28c8f3be5709a5fd5365f1 ntdll: Fall back to a server device ioctl for files with no associated fd.] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=538071ce7e8052ea317950bb13615f09af315911 winebuild: Reserve the space for the PE header in the .init section.] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4003457ff3b328295b40ce43d8c68f0e0250b889 mountmgr.sys: Fix values returned for IOCTL_STORAGE_GET_DEVICE_NUMBER on emulated ...] ||
+|| Alexandre Julliard || 2008-01-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1d6d080d4b2dc0afbc65e3b64c8f13086dfdce48 wineboot: Add a --init option used when launched automatically at startup.] ||
+|| Alexandre Julliard || 2008-01-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c00a78da52dc14acdb391ae02ec10a63d3b85ab kernel32: Don't inherit stdin/stdout handles in wineboot.] ||
+|| Alexandre Julliard || 2008-01-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7687f78f7133fc0891e0b76f097415f77dc10411 user32: Don't inherit stdin/stdout handles in explorer.] ||
+|| Alexandre Julliard || 2008-01-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a3132343d9c6f1b87f79034d80ef6595e4a1bbd kernel32: Close the stdio handles when creating a detached process.] ||
+|| Alexandre Julliard || 2008-01-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1796650353a8094d2496eb102ef873ec47071ee mountmgr.sys: Implemented IOCTL_DISK_GET_DRIVE_GEOMETRY and IOCTL_STORAGE_GET_DEVICE ...] ||
+|| Alexandre Julliard || 2008-01-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebac63e17c4768f4f284752ac3fecf2b9030cbcf wineboot: Don't print errors for non-fatal problems.] ||
+|| Alexandre Julliard || 2008-01-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c486d8774f9c1e9849b42d22e69d98be71596a36 kernel32: Fail more gracefully in GetVolumeInformation for fake drive devices.] ||
+|| Alexandre Julliard || 2008-01-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=781c3b9c6aebacd869a026993f8ae84be2159de1 advapi32: Fix the length written to the pipe for the start message.] ||
+|| Alexandre Julliard || 2008-01-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44dbb07441202aa0be0ca864984d428dc3d77492 ntdll: Return a proper Information field also when opening a server file object.] ||
+|| Alexandre Julliard || 2008-01-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f1e73cb3576bf4e7b065dacca06c3196f8591ad server: Wait for the expiration of all the process SIGKILL timers before exiting ...] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d55b2de5747da90666065b5ed2fdeb8049282419 kernel32: Launch wineboot on first startup of a wine process.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d17b29303cd9075123033f159339f9872c14b227 kernel32/tests: Added tests for FindFirstVolume/FindNextVolume.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=838f12539bf54370d0c344d8b6d880ac303ffb39 mountmgr.sys: Implemented the IOCTL_MOUNTMGR_QUERY_POINTS request.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f508df25b1e068f58e8299dd113f51b014c721e kernel32: Implemented FindFirstVolume/FindNextVolume using the mount point manager.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6befc98dba09aae816692da159be4fb3431b2a57 mountmgr.sys: Add devices to the MountedDevices registry key.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43dc80e623d00781c726892ef0eddce7b03c9db7 mountmgr.sys: Added initial stub for the mount point manager device.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3133280d08538ac68b4d49aeecc1327f2eb15ddc advapi32: Don't wait for 20 seconds if a service fails to start.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2143dee78a0acf8be8c07062e84cc12ef18ef7cb mountmgr.sys: Create disk devices for all configured drives.] ||
+|| Alexandre Julliard || 2008-01-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=07e92a7dad0c881efda10b5f3c914c178b0bbcf9 mountmgr.sys: Create a hard disk device for PhysicalDrive0.] ||
+|| Alexandre Julliard || 2008-01-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af268c621131624fc34f34ccab9fcd8d47500c31 server: Redesign the server shutdown processing.] ||
+|| Alexandre Julliard || 2008-01-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=307cb09a62072ccf2b24df9a1be8a5f3b5e44e47 server: Use exponential backoff when waiting for wineserver -k to complete.] ||
+|| Jeremy White || 2007-12-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=659494660e77c4fbe0186f92fab3724d02d1619e wintab32: If we could not find a stylus sort of device, we haven't found a tablet.] ||
+|| Jeremy White || 2007-12-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51aecf8056748b4a9abcf67ec8f5dc7c73f76af2 wintab32: Add logic to detect specific tablet cursor types, use it to discard non ...] ||
+|| Jeremy White || 2007-12-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca89d7e80998a817b4ed82e30901854b3f70cf8a wintab32: Add modest trace information for tablets.] ||
+|| Jeremy White || 2007-12-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6c1d38649ae547d57dbb91bc07281390d0b3befa wintab32: Remove the unused and clearly broken FindOpenContext function.] ||
+|| Lei Zhang || 2007-12-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b810430f1fe5777cfe5f71e69c7478623346ad8b gdiplus: Initialize a variable in a test.] ||
+|| Lei Zhang || 2007-12-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=003b5de4f2f08bf1d278ef0dd05cd6004f621afb gdiplus: Add GdipCreatePen2 and test cases.] ||
+|| Jeremy White || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5adac3b1960ed2803e27346b799eafbe98bc99a wintab32: Don't return information for non existent cursors.] ||
+|| Jeremy White || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f193197a66c052c81d006e4c7ab40247ef7f0411 wintab32: Capture the number of buttons earlier, allowing our button maps to be fille ...] ||
+|| Maarten Lankhorst || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7034b92d904baa71f1bc885d0078d8ab6ae47f35 winealsa: Add special case for microphone source in mixer.] ||
+|| Jeremy White || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51ea5cb4e8e314ff2712ac13fbac0e820de3ca51 wintab32: Fix the W-&gt;A translation for CSR_NAME and CSR_BTNNAMES.] ||
+|| Jeremy White || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3036e7f626dac9e5728029a5951f2d538bf6ccd4 wintab32: Implement the ability to return the number of devices and cursors.] ||
+|| Jeremy White || 2007-12-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=047a969658f1efe7fa3bea7b4c713d123f63ac70 wintab32: Add constants for cursor types and use them.] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee0554b737b817c3009e33e764f976464590809f wintab32: Do not offset the physical device id by the cursor number.] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d58429d085cdf890d9362a30b36626ca419e5b5a wintab32: Compute our physical device characteristics based on the first tablet devic ...] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c9fcb15b11773c5d37d0bf5546dffe7939d8596a wintab32: Store and use the physical device id to match device to cursor.] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9267fcd99fb54d58b0928734a7ffe41fc479a4f3 wintab32: Correctly handle devices with a device id of 0.] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=64a929c48353b68cc4cd177d37ed25308abf282b wintab32: Order the cursor array by the standard Wacom promulgates.] ||
+|| Jeremy White || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5132ab4693edfad9704d0dd223778c6e6ad86e80 wintab32: Add additional device tracing.] ||
+|| Alexandre Julliard || 2007-12-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=28aed6d9c886cd566d27e9aff162203be2ad0959 kernel32: Initialize MaximumLength of the user params directory too.] ||
+|| Alexandre Julliard || 2007-12-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4269c8eed130acd3a767ca36da80265e0340a8a kernel32: Store the initial directory as a full path in the process parameters.] ||
+|| Lei Zhang || 2007-12-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=99a193ce7e661abb23b2a3ff982d8afc5eacd2ee quartz: Make filtergraph aggregatable.] ||
+|| Lei Zhang || 2007-12-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5ddb13381eac3b73bc2e9e6b0db4d0f60799c280 quartz: Move aggregation tests into separate file.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ffbeae78f76f4b6c1ce2d51093473044b9f49522 server: Don't count system processes as users of a desktop.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eb2d8458a371bbfab81a125814ccafebd82e16d9 advapi32: Move the EnumDependentServicesA/W stubs in service.c where they belong.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e34244a3b9c7cb0be4de3c24c99d8de82b5d3815 wineboot: Rewrite wininit.ini processing to use GetPrivateProfileSectionW. Convert ...] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1b356745b1fae791e9977154eaff06b5c639b00 include: Added the mountmgr.h header.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a32873bfcc3f0e96cb7853797d3930668720a93a explorer: It no longer needs to be made a system process.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f6e1db3e0c40bd99035605149d08f54af3f694e wineboot: Add support for starting NT-style services.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7593fac6327bc8e95848801c83ae00cfee547c54 advapi32: Start non-interactive services in a separate window station.] ||
+|| Roy Shea || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=702e6d8d152557f5107f1b55e7ae31cccf8b9441 qmgr: AddRef, QueryInterface, and stub functions for queue manager interface.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a58b2847c50a3695e8a9fd4df70fbad7872b9e3 wineboot: Convert the rest of the code to Unicode.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=11750af32961f69da96cc04712f71cb4fc285383 server: Don't give out full access to the system process event.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b85eee2363bcca934489e15a000b146bb683cf4 wine.inf: Mark the spool service as disabled, it's just a stub.] ||
+|| Alexandre Julliard || 2007-12-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=06e888f244a6bb548017f05f03bc4b8418f53e47 wineboot: Simplify the unnecessarily complex code structure.] ||
+|| Alexandre Julliard || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c673b2284d03c17154ccc977203cbc6d05a95e69 advapi32: Return from StartServiceCtrlDispatcher when all services are stopped.] ||
+|| Alexandre Julliard || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a12b9c52da5617d58c7c80823946287679b43452 advapi32: Replace the list of services with an array.] ||
+|| Alexandre Julliard || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=865bb0a67a06720c94e1360c5ae4c669b364d60d advapi32: Reimplement RegisterServiceCtrlHandler on top of RegisterServiceCtrlHandlerEx.] ||
+|| Alexandre Julliard || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4889a0edf7a798928a297fb7b1e25f445e839eb6 advapi32: Fix RegisterServiceCtrlHandler spec entry.] ||
+|| Alexandre Julliard || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f11ad82886aa14d4aae6b9a7c04ad416a9dcb98 advapi32: Use exponential backoff when waiting for a service to start.] ||
+|| Dmitry Timoshkov || 2007-12-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0e799c6d7bfefcce10323680ecd249286046cce4 user32: Set the edit text in a combobox only if combobox has strings.] ||
+|| Alexandre Julliard || 2007-12-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c69468ddcc4478e29645372edd370a9ad353cea1 server: Fix possible NULL dereference.] ||
+|| Alexandre Julliard || 2007-12-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7ac931acf29dbf80ffbb27fed51c46bbd4bf3504 ntoskrnl.exe: Added implementation for IoCreateDriver and IoDeleteDriver.] ||
+|| Alexandre Julliard || 2007-12-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f5131e47ffc366c2b99d247ffb7035e798af245 ntoskrnl.exe: Allow returning data in ioctls along with a positive non-zero status.] ||
+|| Maarten Lankhorst || 2007-12-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8e639ec392b1652edd4a0f121e534f036b4ceac9 riched20: Fix bugs in EM_SETOPTIONS.] ||
+|| Roy Shea || 2007-12-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ceb8e1f31fe3d6067c5ac201449e29409f5cc7f qmgr: Generate C file with local GUID definitions from bits.idl.] ||
+|| Maarten Lankhorst || 2007-12-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b81335501f32fb11b3634faf7a5c484c458dabc8 riched20: Implement ECO/EM SELECTIONBAR.] ||
+|| Maarten Lankhorst || 2007-12-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=483e3be2e662616e79deade581d4ecb22333daf2 winealsa: Add 'Front Mic' as alias for microphone.] ||
+|| Maarten Lankhorst || 2007-12-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4637a4ef49b56dfb3bbe7a3bebb26160e0e30e20 riched20: Make some functions static.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5cd582bae61a8e1d7866eb16c48b8397976af59 quartz: Fix typo in GraphConfig_AddRef.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5075f73564c0956a22fa4f914da7187d91410c2 quartz: Set *ppvObject to NULL if QueryInterface fails.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8f69b5a427d571ba4850bde918064d56557b139 quartz: Do aggregation test for more video renderer interfaces.] ||
+|| Alexandre Julliard || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e533e50d59cea7c464641d49f7d2d7f918a5d923 user32: Print the RegisterHotKey fixme only once.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d5e78c84c70d3c525f4a26fb04ee4ee66f547770 ole32: Print a fixme when an aggregation attempt fails.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf20ca1dd476d5647447e7983ff2ddf3c9ae7812 quartz: Make aggregation test generic.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=932cc2d7f910ec9a7df17384610832922e67b861 quartz: Make video renderer aggregatable.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=766046d4ab5ad649bbf2203b573319b8e8667478 quartz: Add videorenderer aggregation test.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=63df94ba0b62d859c50b49969a3c6483fd62c57b quartz: Give video renderer's Inner_QueryInterface a less generic name.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f6f1bcb6e82b3d53c084797ac5ba3d4967c3046 quartz: Add videorenderer QueryInterface test.] ||
+|| Lei Zhang || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=29cc256b9a92e91258a0df69a6c09f3a3641ac01 quartz: Add referenceclock QueryInterface test.] ||
+|| Maarten Lankhorst || 2007-12-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1733875f013c0c14e91bb916971247dbd26a67ae include: Update oleacc with new constants and IAccessible interface.] ||
+|| Maarten Lankhorst || 2007-12-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f75600dd1de81e016a44dee37391bc5bb051c7b6 winealsa: Add control 'Digital' as alias for microphone.] ||
+|| Alexandre Julliard || 2007-12-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b6012061292e1dc2ebbf929736dd2244ae85fd3a winecrt0: DriverEntry is a WINAPI function.] ||
+|| Maarten Lankhorst || 2007-12-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=affd447db0c7cb9c4c056916ce930d0ffd9511aa winealsa: Don't require a cswitch control for capture.] ||
+|| Maarten Lankhorst || 2007-12-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e87f3741b758ab810e3ea966f21ea2344c59672 winealsa: Remove fixed fixme.] ||
+|| Alexandru Balut || 2007-12-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=586970365736da41cfac8d9cfc85b38962c91202 wine.inf: Fix the type of some values in HKLM, System\CurrentControlSet\Control\Sessi ...] ||
+|| Lei Zhang || 2007-12-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cff265950a9c9e3e684ff99747800987851426de quartz: Add IFilterGraph2 interface and stubs.] ||
+|| Alexandre Julliard || 2007-12-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b462c20876feae7b1384a50a8acfa5b376562bda winebuild: Don't set the IMAGE_FILE_DLL flag on native modules.] ||
+|| Alexandre Julliard || 2007-12-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5fb981acea5ce23d134ea5fbb5f79d274783a19 Makedll.rules: Add a generic EXTRADLLFLAGS variable instead of defining a specific ...] ||
+|| Roy Shea || 2007-12-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=00ef4e5829305f77b5eafb796a07de84eb92877c qmgrprxy: Queue manager proxy generated using an IDL compiler and bits.idl.] ||
+|| Alexandre Julliard || 2007-12-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5d63b55352f85a56e63dc0aaf5f74084de1403a kernel32: Read label and serial from the filesystem when the device is accessible ...] ||
+|| Alexandre Julliard || 2007-12-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6a3dd1ecf9571da6fd22a8bcb5b8f571e22481be kernel32: Revert change that slipped in commit db24d3af9a6e56c3036ba0a3e5d62dae4f2676 ...] ||
+|| Maarten Lankhorst || 2007-12-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9fb2cacd64dd6a039b9edd4fbdf72c27a8bd6590 winealsa: Fix return value checking in wavein.] ||
+|| Maarten Lankhorst || 2007-12-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5290f53193d0d43ad2867098228a2599422ebf61 winealsa: Simplify the feeding of capture buffers.] ||
+|| Maarten Lankhorst || 2007-12-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=322cd0b9796ed2ed7c70f7298c90980bbe064f4a winealsa: Clear dwBytesRecorded in waveheader when adding buffer.] ||
+|| Maarten Lankhorst || 2007-12-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=02e1ce0a4236f80cc1782c78290a2b97f9caf5bd winealsa: Fix period size in capture.] ||
+|| Lei Zhang || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f84f4cab70b330daf3cfb0a1f2367b14d17d99a3 quartz: Move current tests into their own test case.] ||
+|| Roy Shea || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b655da64122ea7bb80dc44a4d602598bb39a5fe2 qmgr: Renamed bits_main.c to qmgr_main.c and updated comments.] ||
+|| Roy Shea || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a63f3e6a11925baec514f45b3ab660ad5c544156 include: Added IDL file for BITS.] ||
+|| Roy Shea || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68b55594a07b6a2ba47ed98b0799968e1cfb9681 include: Added bitsmsg.h header.] ||
+|| Lei Zhang || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=646eefaa476995c387f8616a401c4dba6e2fccc8 quartz: Add some IGraphBuilder related tests.] ||
+|| Lei Zhang || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4ab6fd3de0180bcd4acee4fc4b03f355a41a625c quartz: Add a test for IFilterGraph2.] ||
+|| Lei Zhang || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31aab429340ac5c65adea83b769b36121507ba41 quartz: Fix return value in IFilterGraph_FindFilterByName.] ||
+|| Lei Zhang || 2007-12-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d1a6016c9b18fabeb38a6dbe2fcfe82847706d1 quartz: Validate input for IFilterGraph_FindFilterByName.] ||
+|| Alexandre Julliard || 2007-12-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d30b5742edbd48d8687bdb17a9776bc6ad5e7d1e server: Implemented EnumWindowStations and EnumDesktops.] ||
+|| Alexandre Julliard || 2007-12-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5e38b332df0417e748f461a6946c0dad5cd293d server: Partial implementation of NtQueryDirectoryObject.] ||
+|| Alexandre Julliard || 2007-12-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8382eb01b2f2ed05a0a8131618e8c68e6581ad2d server: Return correct object types in the get_directory_entry request.] ||
+|| Roy Shea || 2007-12-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91d07f699590d0a64f0f72e49e438db17f699c30 wininet: Added check of dwStructSize required by Windows in calls to InternetCrackUrlA.] ||
+|| Roy Shea || 2007-12-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7903d7f3f480a1c571122f40ebd69a876a79bfdc wininet: Removed inline from copy_compsA and zero_compsA to allow Windows testing.] ||
+|| Roy Shea || 2007-12-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4714c4fa806280dc8a4f06e5e4bf5cda73ca6db1 svchost: Implementation of svchost.] ||
+|| Alexandru Balut || 2007-12-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=90d8741d23c9cc19f7f9d285efea2c7f8467af1a oleaut32: Implement VarWeekdayName + tests.] ||
+|| Lei Zhang || 2007-11-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fa057686bb52b0f39d4acc790c7d9b4b0f7f20e3 shell32: Perform copy in UnixFolder_ISFHelper_CopyItems.] ||
+|| Lei Zhang || 2007-11-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cb99cd331d34762dd093829e7d5e1b2be41a48af shell32: Only notify immediate parent.] ||
+|| Alexandre Julliard || 2007-11-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db500aad2d65497e9a8e41d96345de7469dc7c15 shell32: Don't wait for the command to terminate in ShellLink_InvokeCommand.] ||
+|| Alexandre Julliard || 2007-11-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74572e43bec5110423da4362603389ebc0be3884 include: Added definition for SEE_MASK_NOASYNC.] ||
+|| Alexandre Julliard || 2007-11-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=14eb294a484989daedf60ff598f9593f12416c8c shell32: Pass some of the ShellExecute flags through InvokeCommand.] ||
+|| Lei Zhang || 2007-11-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70c75dcd0d7d39b67547e9700eec52dfd5dbc6d0 shell32: rename My Video to My Videos.] ||
+|| Alexandre Julliard || 2007-11-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ff78347e2ef1f0028eff30c3a4fca47c159a166 user32: Remove a few traces that only duplicate the relay information.] ||
+|| Lei Zhang || 2007-11-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4dda7c6371f04d6aaf8c7d37e58139a2acaee567 shell32: Don't crash if $HOME is not set.] ||
+|| Dan Kegel || 2007-11-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=89b9af77147cfc5afdb90bafb81228cd9bc4399e advapi32: Fix buffer overrun in tests/registry.c:wine_debugstr_wn().] ||
+|| Lei Zhang || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e984d7ba40e6d7e6de78a2cd4f88f0b3a2f4f087 sane.ds: Get number of options only once.] ||
+|| Dan Kegel || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aaa93200ad4f4880456fad0f4582e2e57695861f user32: Implement return value for DdeClientTransaction for XTYP_EXECUTE.] ||
+|| Lei Zhang || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84e8ea2fdcba6ea76f023e8bd584a78896066e83 sane.ds: Check return value from sane_get_option_descriptor().] ||
+|| Lei Zhang || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83a4dbaa689d54f12ce05011c9f41b7637f3b75b wininet: Skip strcmp() in a test if the returned value/len is wrong.] ||
+|| Lei Zhang || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=124f2aa27e45f4d6fe780ab172010fa27d8aa5cd sane.ds: Fix a memory leak.] ||
+|| Lei Zhang || 2007-11-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05907c3e29aed2684bf3879cd28ae2b47e8c29c9 sane.ds: Check return value from sane_control_option().] ||
+|| Lei Zhang || 2007-11-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f727e56d6d330b5ed5103f4d93d25d529c792bfb wininet: Initialize ftp sockets.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=caf56765d5b8294dc5fd1e51e7492c0fcc2559e6 include: Add WINGDIAPI to the exported gdi32 functions.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c57b5057dbb3e27d3672ff2d50d19fbf98c0cfa5 user32: Make all internal user32 functions and variables hidden.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c32e02e48d3aeba7588b566973c9fb02253e8a10 winebuild: Add a few nops to stub entry points to make Safedisc happy.] ||
+|| Dan Kegel || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a1e4758f076190dbef7d06f9e10241d0aabe3788 msvcrt: Fix two buglets in heap test.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a368cc4756a5bd3ca6fe9380062bec95732a82d gdi32: Make all internal gdi functions hidden.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=95c728551d5ee9b71d2a6328d0220a8b678c5225 include: Mark imported functions with hidden visibility.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=919e32c034b6a9634b9d8101164c44d0548200e9 include: Add WINUSERAPI to the exported user32 functions.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6cf2df5a0c38472faa1081e477fb626079174e4f include: Add NTSYSAPI to the exported ntdll functions.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6678c07f5784365fee9dc3c43f71f9712897cfde include: Only use DECLSPEC_IMPORT for Windows compilers in unicode.h.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d1da3430c2481e61f030475c24894a4df97b2bf include: Add WINADVAPI to the exported advapi32 functions.] ||
+|| Alexandre Julliard || 2007-11-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=16d85e2d303e5612c575ab0fd1fd51542d670506 include: Add WINBASEAPI to the exported kernel32 functions.] ||
+|| Dan Hipschman || 2007-11-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0ac63961d4b43e67a5aa2b58092f717d2c90ec7 widl: Don't rely on type_memsize to return 0 for all conformant arrays.] ||
+|| Jacek Caban || 2007-11-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a3717bff1855f5c6a1c5ecbfae137dfb9deaf968 mshtml: Added AcceptLanguage handling.] ||
+|| Nigel Liang || 2007-11-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f44627b047674552ccaf61e666a3f4fc4b87cf7 wininet: Release object in HttpSendRequestExW before return on error.] ||
+|| Dan Kegel || 2007-11-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=559b38c34ce9e43e623be74c344800ad45159264 cabinet: FCICreate: Initialize oldCCAB.] ||
+|| Dan Kegel || 2007-11-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c2330178eba94ea96db8a1bb03f2a34cc93290b5 cabinet: FCIAddFile: Set defaults in case callback doesn't set some fields.] ||
+|| Dan Hipschman || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eaffc0a0da2b1fbf6074235749eada78956e2f39 rpcrt4/tests: Initialize memory in the get_name test.] ||
+|| Lei Zhang || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf313ee857b9167cb26b39040d6184f50b36c18f comctl32: Fix uninitialized, unused variables.] ||
+|| Dan Hipschman || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b0bc8e58def27bdf7d4c376fba3b091a0420d448 widl: Don't output a void conformance for NdrClearOutParameters.] ||
+|| Dan Hipschman || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8d15820f7934551a66005bf9c9ec1e5eaaf01742 widl: Handle pointers to conformant arrays (e.g., &quot;[size_is(, n)] int **p; &quot;).] ||
+|| Dan Hipschman || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8caa325eb7e5225a042622d8f8199adb1aa488a1 rpcrt4: Initialize allocated pointers to NULL in PointerUnmarshall.] ||
+|| Lei Zhang || 2007-11-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=019016f90fcbef28059df3376ff425caad1b691b comctl32: Fix typo in rebar.] ||
+|| Lei Zhang || 2007-11-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d05f7fc74294e1e4f72fe0e1cbeb0aae204f904 comctl32: Datetime should close its monthcal when the monthcal loses focus.] ||
+|| Dan Hipschman || 2007-10-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea7ab4da66c4eb96768fc210e34e1e2d14e284a3 widl: Add a --local-stubs option.] ||
+|| Dan Kegel || 2007-10-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ab07d61b916cbdb698879226cc77075c4405ee88 ntdll: NtAccessCheck: Only send used bytes to server.] ||
+|| Lei Zhang || 2007-10-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2519fdcda334167b44899e188f3d9400a83ea13 comctl32: Set tab focus correctly.] ||
+|| Alexandre Julliard || 2007-10-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8268ad551a258de88f4e0338a19e4866fc0deea0 server: Remove failed ioctls from the queue as soon as the result is set.] ||
+|| Lei Zhang || 2007-10-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=73213d14440d42e58fe1acc0ac1fc94dc14d32c5 comctl32: Add tab delete item / get focus test.] ||
+|| Lei Zhang || 2007-10-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31a09c3b7bc0b89e59c77a1f361c095536046fe9 comctl32: Add tab insert item / get focus test.] ||
+|| Dan Kegel || 2007-10-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc072e209d3016ed87adcf7f81adca17a706b56a advapi32/tests: Fix undefined memory references in registry.c.] ||
+|| Lei Zhang || 2007-10-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5a17f98df43d5cac9b666334c9135479b7d935d comctl32: Move tab test's createParentWindow() into START_TEST().] ||
+|| Dan Hipschman || 2007-10-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70e12b31b8d4976fe4cdfc2dd74329e86d1a8170 widl: Fix ExprEvalRoutines output.] ||
+|| Dan Hipschman || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f974facf5a7a04e27462ab83f3109fa50abec537 widl: Allow void pointers with iid_is attributes.] ||
+|| Dan Hipschman || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d7b34c19225e962af46cd6ad382de8103988d22 oleaut32: Use widl to generate oaidl_p.c.] ||
+|| Dan Hipschman || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9825ac7a1a0e2ac0088efe6ffda30000a9da2dfd widl: Fix a crash in compare_expr.] ||
+|| Lei Zhang || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c2263ddc4c6326d79a9d7f246eeba7ca7d45c5f user32: Do not send button click to dialog with disabled default button.] ||
+|| Dan Kegel || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d9b69f5a32ee0778fa337c6471fe4b8fda8c3dd winmm: Avoid testing linecontrols if can't get line info.] ||
+|| Dan Kegel || 2007-10-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=374db6371ca0cd17fea47685489ad6cb99b475b5 wine.inf: Add fake DLL for mshtml.dll.] ||
+|| Dan Hipschman || 2007-10-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9051918976a9fdd7b0dd6c09f5b5028d7b2a6616 widl: parser_error must append a newline, so write a new function, error_loc.] ||
+|| Dan Hipschman || 2007-10-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=816f99328827cc1d8e0885c4399a8e65ee56e69b oleaut32: Add stubs for IPropertyBag_Read.] ||
+|| Roy Shea || 2007-10-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=79e7e15f25bfbd97e1532a69bdc1f642b91ae2c0 include/rpc.h: Add missing headers.] ||
+|| Dan Hipschman || 2007-10-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1aab1072c1838d0f167dd94dc4c0c16ae9df5be3 widl: Use error_loc instead of yyerror.] ||
+|| Dan Kegel || 2007-10-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4b0cf5f5b5b35beb40ec1cc4a4e6669729a38be gdi32/tests: Fix false pass in warn+heap case.] ||
+|| Miko&#x0142;aj Zalewski || 2007-10-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf509c29f121e908609ec36a984839f3e0186ff0 advapi32: Make CreateWellKnownSid create domain sids (with test).] ||
+|| Miko&#x0142;aj Zalewski || 2007-10-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b06379b2b3afb3382d3ff50c8a71f566aef91f13 advapi32: Add a test for CreateWellKnownSid and implement two more SIDs.] ||
+|| Miko&#x0142;aj Zalewski || 2007-10-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8bc12f3f41004a71542155eea5947a296b6b695b advapi32/tests: Define OBJECT_BASIC_INFORMATION in source file as it is not defined ...] ||
+|| Miko&#x0142;aj Zalewski || 2007-10-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05cb54fcc86c98b0f79f58788d0c0562b8c18d7a advapi32/tests: Make the SDDL test pass under Vista.] ||
+|| Dan Hipschman || 2007-10-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd6a276f4c93adcc3afe02a0e190b2454a13ef46 widl: Update the manpage.] ||
+|| Dan Hipschman || 2007-10-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ff8930f2bfdfd5a16924422fcd9e2730593952fa widl: Fix problems with variable-size user types.] ||
+|| Alexandre Julliard || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7892ccf2b5c702f59c01142249926ad6fd14324 shell32: Check for internal shell classes before querying the registry in SHCoCreateI ...] ||
+|| Alexandre Julliard || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7fd1ad5ffaed038dd046dbdffdd2a66e5e6c6e67 ntdll: Cache the DOS drives stat info for up to one second.] ||
+|| Alexandre Julliard || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f092818f057ce02d0f8c4628cbf7e93c1d69040 shell32: Use wine_get_dos_file_name instead of duplicating knowledge about the drive ...] ||
+|| Nigel Liang || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d2ac2039b3212b1a2b6dccdda3fc0640787a696 wininet: Release object in HttpEndRequestW after use.] ||
+|| Dan Hipschman || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=67c634c2035bcf4ddefddac4dc4bc7fc72b22923 widl: Improve file cleanup when errors occur.] ||
+|| Dan Hipschman || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4fb7a0e40ed9c8ef47faa1d4ce4f26a545614dcb widl: Remove printf format strings that aren't really format strings.] ||
+|| Dan Hipschman || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=40e90aae25198e7a059520c0258eefe3e817fe00 widl: Generate dlldata files.] ||
+|| Dan Hipschman || 2007-10-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1d0f9378bc855652bf45db0e29b07fa85724dbd1 widl: Detect conformant arrays of user types correctly.] ||
+|| Alexandre Julliard || 2007-10-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7fa032d1a4d34b0cb41add32235d122b10bd2734 winex11: Process all types of messages while moving/resizing a window.] ||
+|| Dan Hipschman || 2007-10-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f173addbef6759a5782023a5ac5da843e0b790fa widl: Use new functions need_proxy and need_stub to clean up code and avoid generatin ...] ||
+|| Dan Hipschman || 2007-10-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebfbec6e5c29db673d00eaf16ce14981b950b312 widl: Output the correct value for TableSize in ProxyFileInfo.] ||
+|| Dmitry Timoshkov || 2007-10-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6b8ee0e41f0333de11cf837b21fba580a641c0f6 wordpad: Refuse to load OLE compound storage files like Windows does.] ||
+|| Dmitry Timoshkov || 2007-10-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=566ce8f5edd314d31a2f76f10da51d8674a66112 user32: Add more listbox message tests, make them pass under Wine.] ||
+|| Lei Zhang || 2007-10-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e58e4679b5c745f4d4c450088fe617d28306ea3c comctl32: Select today's date when the today link is clicked.] ||
+|| Lei Zhang || 2007-10-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d81b6fa8c765926fd13977e2ff5bd65115432914 comctl32: Monthcal should send notifications when today link gets clicked.] ||
+|| Lei Zhang || 2007-10-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=76949d377838e0fabe553b321043226eca65c21f comctl32: Correct monthcal WM_LBUTTONDOWN return values.] ||
+|| Lei Zhang || 2007-10-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=734600e272efddb9153df425269814e2ae4a2cf9 comctl32: Monthcal today link test.] ||
+|| Lei Zhang || 2007-10-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3accf13ec0882ca66820d00c77f9892ae6cd0d17 comctl32: Simplify monthcal test.] ||
+|| Dan Hipschman || 2007-10-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e219087c65c3a4877e8e15941443cc9b3748d82b rpcrt4/tests: Free memory from one of the tests.] ||
+|| Nigel Liang || 2007-10-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c31faf499156a631fedcc30015d94adb6a3d1617 include/winsock.h: Fix parenthesis mismatch.] ||
+|| Dan Hipschman || 2007-10-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=acfde97b9ee3bd0df8d3bfc4a83ab538eb08b535 rpcrt4, widl: Make pointer layouts compatible with windows; fix conformant array ...] ||
+|| Dan Hipschman || 2007-10-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cfa54572707404bfabe89ccd522ed8e6f00fb0db widl: Allow quoted UUIDs.] ||
+|| Roy Shea || 2007-10-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b0255f6d8aacff0b2b68028508a5da041b78dd0 qmgr: Skeleton implementation of Background Intelligent Transfer Service (BITS).] ||
+|| Dan Hipschman || 2007-10-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=24ce74e96a49db7007a2e86399e9481d9a81e95f widl: Implement pointer_default functionality.] ||
+|| Dan Hipschman || 2007-10-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2226ddcadfeaf2029f67838bc5dc73094c8df366 widl: Keep track of every allocated type_t to simplify set_all_tfswrite.] ||
+|| Lei Zhang || 2007-10-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4b8ca91d036f3e0098023abce4c992466ce4517d comctl32: Fix monthcal hit tests.] ||
+|| Dan Kegel || 2007-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8e8f8401599dd49247b62294a77e3fe969ec8b8a quartz: Make clock test less flaky.] ||
+|| Dan Hipschman || 2007-10-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e0b209815ddd31c95de8f4b5e6fd06cd0f28e858 rpcrt4/tests: Make server.idl compatible with MIDL.] ||
+|| Dan Hipschman || 2007-10-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d00ff2ed58a0ca17354fcc3072fede626821e6fb widl: Make structs containing user types bogus; fix square_test_us test failure.] ||
+|| Dan Kegel || 2007-10-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=56eb6f67305ae390c709adddd114fd9040334135 msvcrt: Fix ^Z handling in text mode.] ||
+|| Dan Kegel || 2007-10-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4cd3a16f181b30ffa0a1099d6d676c413b25cc22 msvcrt: Improve CR CR LF handling.] ||
+|| Dan Hipschman || 2007-10-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9650cf9bdbc5eb3aa37f932c51a4e039cce17b08 widl: Correct default pointers.] ||
+|| Dan Hipschman || 2007-10-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c8c425f425907ddb6abf33294000e76e940ca05 widl: Add newlines to error messages that are missing them.] ||
+|| Dan Hipschman || 2007-10-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32a2477ef574546a2ce1fbfdf2e327d7a5298a16 widl: Add a declonly argument to write_type_left.] ||
+|| Dan Hipschman || 2007-10-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=304852f97e8da64954e33ceb6ab5e014fa26049f widl: Write types in the format string comments.] ||
+|| Roy Shea || 2007-10-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8c43acc2b5dba5cf1b30777daad522f34ffbf31 net.exe: Added missing service name.] ||
+|| Dmitry Timoshkov || 2007-10-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a218e97affb928d5d7d4eba8d89670d4603769f user32: Add a message test for ownerdrawn listbox, make it pass under Wine.] ||
+|| Alexandre Julliard || 2007-09-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e36ed76139a37aa1439048ee642acfdbfd25c28c winex11.drv: Always drag the full window for top-level windows to avoid having to ...] ||
+|| Dan Hipschman || 2007-09-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cbd75d3ace9a4d06a16837bea5b046ba1122aeb0 widl: Fix array alignment bug.] ||
+|| Jacek Caban || 2007-09-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ba65105d54224cd9551819189a6946e7ccd014f mshtml: Added IHTMLDocument5 interface stub implementation.] ||
+|| Dan Hipschman || 2007-09-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=723c8bacfaba0c945f889eaf8861e94385878f40 widl: Fix string codes in pointer descriptions.] ||
+|| Miko&#x0142;aj Zalewski || 2007-09-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4db3b1bba868924665258d80c138d4c9655b90a3 shell32: shlview: Change some more ANSI calls to Unicode.] ||
+|| Dan Hipschman || 2007-09-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=347f2a2da2b98d8e365f944e439c9b8ee54ee30d widl: Fix top-level conformant arrays with pointer attributes.] ||
+|| Miko&#x0142;aj Zalewski || 2007-09-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=212c36048a381af11b424a6fe901d69de92a760b shell32: Make the shell view control Unicode.] ||
+|| Dan Hipschman || 2007-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bb3275ce97c44346879ae8a2759d64f92af4e47a widl: Clean up write_conf_or_var_desc with string_of_type.] ||
+|| Miko&#x0142;aj Zalewski || 2007-09-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b4aa62fd2ae961a2c4017d766b728b834b705cc advapi32: Add some more rights constants for ConvertStringSecurityDescriptorToSecurit ...] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=df3cb0630df098cab0aa7f422c40ff813e91bd93 setupapi: Create symbolic link value when interface is created.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d34ec8b8a121ed05e7859827f55a385727349e26 setupapi: Add test showing value of path.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1878ab8fd9aab52d0d1763cc99e61b5ec4134fb setupapi: Add stubs for SetupDiCreateDeviceInterfaceA/W.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be863b07ff157556beed1d3a66a60942d86a9cba setupapi: Implement SetupDiEnumDeviceInterfaces.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa2b23cab5aeabc893d9d635848f7357064614e0 setupapi: Implement SetupDiCreateDeviceInterfaceA on top of SetupDiCreateInterfaceW.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a9d74cf994d0a3853373799e9a1456a0b7a47bb8 setupapi: Respect samDesired in SetupDiOpenClassRegKeyExW.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a63c9356a4fcaeea42eb31752c6ac0323b75daf2 setupapi: Implement SetupDiGetDeviceInterfaceDetailA/W.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9b1e1b2aadcdebf09ef306677844701d6177cf82 setupapi: Set last error on failure in SetupDiOpenClassRegKeyExW.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8069619b907564345ea8fa07d63d92856cff09bc setupapi: Add tests for SetupDiCreateDeviceInterface.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=707fca6cbce5d9e387112738339e54a4f2697712 setupapi: Set last error on invalid input.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6bd4ed73cb04c67614baad9e74c0cfb8db82bd12 setupapi: Add tests for SetupDiGetDeviceInterfaceDetail.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=69b0b424550c35d5f74508975f47907ed56b1686 setupapi: Implement SetupDiCreateDeviceInterfaceW.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=66820122091fa678804fabd75daec4deb10316ef setupapi: Add error checking to SetupDiCreateDeviceInterfaceW stub.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50a4039037b0b3c7a01da3462c5791e9e0a129d1 setupapi: When enumerating an interface, add the interface to its device.] ||
+|| Juan Lang || 2007-09-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=15eba01660040d7bd4effd5f6eab5cf285fac3c9 setupapi: Remove a redundant parameter check.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f94f6367f2f4ada5bfb1fe973c6836b2b2e71dbc setupapi: Implement SetupDiGetDeviceInstanceIdW.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f841667cac1558d2131543c5dc9baba1c6418b01 setupapi: Implement SetupDiGetClassDevsW.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4b9bc2454b6c996ea601a2ae3d3ce80b8225273 setupapi: Implement SetupDiRegisterDeviceInfo.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e481b1eaee50b86071bcafffbebb746418e86fe4 setupapi: Add tests for SetupDiGetDeviceInstanceId.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e1449796973d67a204e72f6b43124c9f5f2609f5 setupapi: Make a helper to convert a GUID to a string.] ||
+|| Dan Hipschman || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dbfabf68a2c36a554c44589b55ef0dbab24ef4b6 widl: Respect pointer attributes better.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c1ccd65792cc003bcac08d5ceeaac17b80447919 setupapi: Implement SetupDiGetDeviceInstanceIdA on top of SetupDiGetDeviceInstanceIdW.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bc924f5b3a02316f71b70653da4c953ba00f557e setupapi: Implement SetupDiGetDeviceRegistryPropertyA/W.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a7ad54ef9243a618a55dbaf8815363aa62da3e6c setupapi: Add a placeholder for devices.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a57a17d3fc012dd97b9931de68bc0a118a0bb868 setupapi: Add tests for SetupDiRegisterDeviceInfo.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8985a62a340a7f1fdd44c91c878d0c94a0af5474 setupapi: Save device description to registry when creating a device.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83f05e79bb77785a101c458100dc227738abda6e setupapi: Implement SetupDiCreateDeviceInfoW.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=80be1fe74007ff207480036ee8596809eb3dae5d setupapi: Devices created by SetupDiCreateDeviceInfo are &quot;phantoms&quot;, and are deleted ...] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c0a3117535d1a4b9a724ab2494c3de434fea248 setupapi: Add stubs for SetupDiGetDeviceInstanceIdA/W.] ||
+|| Dan Hipschman || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=767a1f26f6249b485a6aa09467ac1d45174214c8 widl: Handle top-level conformance for complex arrays.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6b50538f123d0b62e773f749dd32a18bd8e3157f setupapi: Implement SetupDiGetClassDescriptionExA.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=634cba84d2fc548594276a26d672e4117a527956 setupapi: Implement SetupDiEnumDeviceInfo.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=60fefd72e8330e2942235309e3cd3ea2604c7a4c setupapi: Implement SetupDiSetDeviceRegistryPropertyA/W.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a2a99474e23c40a0fb302382cec744ecaef7ccc setupapi: Add stub for SetupDiRegisterDeviceInfo.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=362e8e1f62657e4de041f2f8e0c9c9e34703dcab setupapi: Add tests for SetupDiCreateDeviceInfo.] ||
+|| Dan Hipschman || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33da66d6c8c829ded8059dd3aeb1549081d76c23 widl: Set the pointer description offset to zero if there are no pointers.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1bbfd72afbda1e1b953ac6fef7a396ba5b518209 setupapi: Add error checking to SetupDiCreateDeviceInfoW stub.] ||
+|| Juan Lang || 2007-09-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=00ef2e3269a51e5817121ee47b3e18d9e58e77d5 setupapi: Save class GUID to registry when creating a device.] ||
+|| Alexandre Julliard || 2007-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d21e6b37517d77cfc051005ebb3efaf479f9bc3 winex11.drv: If a window is not resizable through the window manager fall back to ...] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f534a67bfc59d3b8b74d69cfcc4e60411f293104 crypt32: Simplify AsnDecodeSequenceItems a tiny bit.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2bff633acb55d3ee8d12ee207aafd510058034b crypt32: Temporarily change prototype of AsnDecodeIntInternal to the CryptDecodeObjec ...] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee28204fcf37c39786bcb865da55eed1e93a6160 crypt32: ret is already true, don't retest it.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e03864a205ec084fb313ccdea855f4ca4179bd65 crypt32: Use internal form for all internal decoding functions.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d62285d006389c2a17e1d1b33f2ffcb6bd0f3ba0 setupapi: Fix typo.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ce47433d94d2dffc6f0bb45f053375d2942400f2 crypt32: Get rid of encoding type argument to AsnDecodeSequence, it isn't used.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be91ad360437363bf91aae977a95d8244df8dee9 crypt32: Simplify DecodePathLenConstraint.] ||
+|| Dan Hipschman || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b16de39417aad0393257370f52d05e07e362a9e2 widl: Fix alignment comments.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae6f5616cb3dabaf47e3b48602db976d5ba6b0e7 setupapi: Correct type to match PSDK.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ad94982284f4d7db57c4c1c4f66b80be01f9b3ce crypt32: Implement DecodeAltName with DecodeAltNameInternal.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a538e95c1d77694ce4a4f2ddc40de11c534d8131 crypt32: Use simpler form for internal time decoding functions.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9fc7973727e9140f92188d5624e8e44600cb9065 setupapi: Add missing prototypes and definitions, and change function prototypes ...] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d0dccf164c508c3d98ec03bb78aab5752763bc3 crypt32: Move a comment that belonged elsewhere.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c4c856fde5370c515714f0a81a7dc50ac647838 crypt32: Explicitly count bytes to copy in DecodeCopyBytes.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91f2a4d687dcbab4539aa4f9db5d8982cfd95ade crypt32: Fix alignment for 64-bit systems.] ||
+|| Dan Hipschman || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8df79f0c999c4736326f381b59de8b31cf894beb widl: Implement pointer descriptions for complex structures.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c5bd5f5ca6c2543d7a20a2761e0f5b78bff4f1f crypt32: Introduce a space checking helper for functions that don't allocate memory ...] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=89a541a493ca5352d2cae6c3ef88e3f627d2f176 crypt32: Use AsnDecodeIntInternal where an internal function is called for.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e475b4a774edf29d7c3ae5def5f0d0f5d159368 crypt32: Test and correct decoding indefinite-length-encoded PKCS content.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=71b5ba03362dfaf3dc3ebda43a51e7f223ae2f6b crypt32: Implement streamed encoding of an indefinite-length data message.] ||
+|| Dan Hipschman || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6eb07cb100086ce52fe83d3134899a197b7b71e6 widl: Handle all buffer sizes.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5fbca384e4eb15af4f96fe3e27f6001eee4c5597 crypt32: Separate DecodeInt into an internal and external version.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=52be131a2904989ffad66acf0eae9269fed83c45 crypt32: Allow items in an array to be indefinite-length encoded.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4fd90ddad335c3eb6f9ae74bebce95d65d97e960 crypt32: Allow a sequence to have an indefinite-length encoding.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43e6b48b33026bfb67c3b7a5863a7e525ff7450c crypt32: Use correct encoded length when decoding a sequence.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=34aaabca830018d6a5212e0a91f3a25032601fc3 crypt32: Allow indefinite-length encoding of sequence items.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2e8ae598e11ee1c87e51b02ce7bea63f52b94646 crypt32: Set *pcbDecoded in every function.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2e2fe9b9f786479e5285504b6a98d6cdf96c00ed setupapi: Fix return type.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=21246938c4ce4442e9e5ed59efd4fa721b42166a crypt32: Don't use exception handler when decoding time zone, caller already does.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=205c733b1309f0291bcaa2b0a0027ac8257128af crypt32: Use internal decode int function a couple more places.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19fd9872a669147e14cff3adc4dbdcc7e5f74fa9 crypt32: Get rid of encoding type from AsnDecodeSequenceItems, it's never checked.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19956d6e97a57962cde6a063cbc2ca571b58589a crypt32: Pass length rather than entire message to CRYPT_EncodeContentLength.] ||
+|| Dan Hipschman || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=132f06cd48c7ebd176649a5e00795e7a7fc67adb widl: Implement complex arrays.] ||
+|| Juan Lang || 2007-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0bd29b124310e9797f66ddd162f574ecad237e99 crypt32: Use decode function's returned decoded length to advance pointer when decodi ...] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd982c85976819bec370e13d3a99ac78a17d99aa crypt32: Return bytes decoded when decoding a sequence.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f3490f3ed8bcbf80aba08916a349ba34541d1eb6 crypt32: Add a decoded parameter to AsnDecodeSequence.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e747f706b1d7f87d12c48ed49d2f465e1b2f1537 crypt32: Correct GET_LEN_BYTES for the indefinite-length form.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=deb07ccb1c5258e2097b591263cd6993a893bba3 crypt32: Return bytes decoded from AsnDecodeArray.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7e8eed94464649c270a592b209b13f2cdf702eb crypt32: Return bytes decoded when copying DER-encoded bytes.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc2059b67c5734e9193c489eadce9916eda64f04 crypt32: Fix alignment on 64-bit systems.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c2d66da665984e6dbfa462baa935b211c1c8b146 msi: Don't crash if record has no fields.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ba45902dafc8fabd93ce49e2d8bcf4cc9d946e33 wininet: Create a TCP connection if FLAG_ICC_FORCE_CONNECTION is specified.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2f02f3bf778412b747d70ed91ce5fe3cb7d1390 crypt32: Pass bytes decoded pointer to AsnDecodeArray.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a3331c6f2278489826be35a46620cead4f9c3c07 msi: Initialize nested.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7ecf5becbd9ce7f62a80cc4294db1f44a62a17c1 crypt32: Introduce a helper function to get encoded length that allows indefinite ...] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=731d37b049027afd44241d05cd9e4487fe1086d0 crypt32: Use a simpler prototype for array decoding functions.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=71a78c4478aa277333e71c36a88a1c0297093c78 msi: Make sure nested is initialized.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=716a7405e47c1f4019a6286d723e5611e00d5a9b crypt32: Update comments.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d168bd4c0fe9725114a652175ffcab01a25fb91 crypt32: Support indefinite-length encoded arrays.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=54a51afcd77891353400499fc3bd69c81cf5cdf7 crypt32: Remove an unneeded WINAPI.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f4bcb4a3dd9dba6c4fa92ac880d62efb7a31cfa crypt32: Return bytes decoded when decoding an alt name entry.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1dd1c6c2c89bd9afae39a2405ce3663025dd0e30 crypt32: Make a decode OID function that returns the number of bytes decoded.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=15b19f1d1637dce7f56c3e1a71e11811cd0013de crypt32: Add a test of an indefinite-length sequence.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=159a369318ce4e0a1e9223bd92c6cdcf920bd40f crypt32: Set bytes decoded in all success paths.] ||
+|| Juan Lang || 2007-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=09447fb605d9ea302bb6cdd1bc7fef7d9791a58a crypt32: Correct an optimization.] ||
+|| Dan Hipschman || 2007-09-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e84eb9a475a10410b6ad56c029ef1023fa44d9c widl: Add padding to the end of complex structures.] ||
+|| Dmitry Timoshkov || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e3cfd6ef32d1e298879b1b1b15f0a039dd04bc6b shell32: Remove class cache introduced in commit f686cfab2feb9010efe82a932dc9f5904566 ...] ||
+|| Dan Hipschman || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ce4055c573151de710b875443dc1b8435ab9a772 widl: Fix an unused parameter warning on write_conf_or_var_desc.] ||
+|| Juan Lang || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b13d16a0da4f02c577bc8b4ee02e5124e749ad19 wintrust: Implement SoftpubCleanup.] ||
+|| Juan Lang || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae8e8a0a57954f4091c147e91d9fc78d206bbc79 wintrust: Don't prefer native version.] ||
+|| Dan Hipschman || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7deb62505cc80c8412e319238351fc0d59810d50 widl: Use the correct functions for interface pointers in stubs.] ||
+|| Juan Lang || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=40f33d656819085d585943a2f38b9ad2a50f9132 wintrust: Implement WinVerifyTrust.] ||
+|| Juan Lang || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=277ef05efb3431b4f1b34266d9d0e9283e1eb693 wintrust: Save signer cert so chain can be created.] ||
+|| Dan Hipschman || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=177346f1b6825a4f7425369612004402d6a0ef12 widl: Add calls to NdrFooFree for more types in server stubs.] ||
+|| Juan Lang || 2007-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0463f99b73ea92a6532ae38e5bf00d633049228c wintrust: Partially implement SoftpubAuthenticode.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0d2766fdc945fc967e5efbedbab9e022baabf4a rsaenh: Validate pad byte when decrypting a block cipher.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0add110077451403b45cbc8ff0e18b2e5d91739 crypt32: Make chain tests more strict.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5833ac9f42b0968c44492c55b29903be085eb5d crypt32: Set subject's info status from method used to find issuer.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c8254886f087a22e3648a87f6494184941b74ae crypt32: Only decode authority key ID in subject cert once when looking for issuer.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=54428bfb99b8396d7027a20dd56f276169a73df3 crypt32: Pass subject's info status when adding an issuer to a chain.] ||
+|| Juan Lang || 2007-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05492ae9073eac48bbcf63cfe2edac7e80275aed crypt32: (Re)introduce helper function to get issuer certificate.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f23ec305344dca2ea62a432785358a58af7baa87 crypt32: Add initial tests for CertVerifyCertificateChainPolicy.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7115ce33c7ffb393cd6853010dd8e63ba2db88a crypt32: Support CRYPT_DECODE_TO_BE_SIGNED_FLAG.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b56f0c5b687043bd8c8d09d1773bd606800b35a0 crypt32: Implement CertVerifyCertificateChainPolicy for the base policy.] ||
+|| Dan Hipschman || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d2c6e78f2ae1e263dabbcc03e7cf267f2d3685a widl: Output UUID files compatible with older Visual C++ and MinGW.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9663f9427b10e1d82bc98b03b07d688d09f64dd2 crypt32: Add a root store implementation that reads trusted certificates from well ...] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91c76955e7db93606f3e8a92ba844fe618c11745 crypt32: Add a stub for CertVerifyCertificateChainPolicy.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8bc15e7b4a156316775744edbb79f7ea17e5381e crypt32: Add policy flags definitions.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5f06293eb10f21ef852a267235023ed8f5a6cea8 crypt32: Implement CertVerifyCertificateChainPolicy for the authenticode policy.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5666efb1374bb0a1e7f9d92614f9c6956ac9eca3 rsaenh: Call setup_key whenever the IV is reset.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=41d057837cd7c22ba2db55690add4761865e0e24 rsaenh: Support setting the effective key length of RC2 keys.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=391f826d49604f2bc70bf2574e2273307f139d48 crypt32: Add a function to create a certificate chain engine potentially before the ...] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=16c40d91124547499a289df8efffba2e9d1effb5 rsaenh: Reorder padding code to avoid unnecessary comparison.] ||
+|| Juan Lang || 2007-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=039beff4415cc6b92aa2ed19619f0d66bcfaf1d8 crypt32: Implement CertVerifyCertificateChainPolicy for the basic constraints policy.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e9ee8c8717833dcd4c580451477f48df4d6efc8f crypt32: Open world store when creating chain, not when building a simple chain.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfd2d3d9bc3785c2a0051dc94bca4adb7a60a12c crypt32: Don't abort chain creation if the root signature isn't valid.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d82f3f37a2160fbacc852152eefe6a464bdfac87 crypt32: Remove a misplaced todo_wine.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c4e07a5bfc4cb298bbcc05d7e7d122c6be3da80f crypt32: Separate allocating a simple chain and checking it from building it.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a82b36ac9811dcec46f0db1967d4fec357522ff2 crypt32: Store world store in chain.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a040dd22e75f8ca86961a0a0afbc0caa97c9f109 crypt32: Defer checking signatures until chain is complete.] ||
+|| Lei Zhang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9210defdf77e6db5830fdb1206fb077df60ce00f riched20: Do not pass NULL lParam to ME_ToUnicode for EM_REPLACESEL.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8698a598fc8aa2094caa1800ec13e8de19ac087e crypt32: Don't add end cert's store to world.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=818634d69a4c3979b43d467818a319208053d709 crypt32: Not finding an issuer shouldn't cause chain creation to fail.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6aa03fc4c314671234975aecdb1afa81233d7427 crypt32: Add more tests for getting issuer cert from store.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=69834b16accf0fcb7335ee7c807486b86d2997db crypt32: Set *ppChainContext even on error.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e674f3580d629a3a5e0ef82df4db4fb16efd491 crypt32: Consider alternate issuers when building chains.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b029479379da1a53d76b751de212ed02501f25d crypt32: Add special case for certificates with no signature algorithm.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=56d4a3c3924917253b401c6c2920a932072f0bee crypt32: Don't ask CertGetIssuerCertificateFromStore to verify revocation status, ...] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31618f91dd3db6c05627ea85768d4858ac67b1c5 crypt32: Test whether chain creation should fail when a root signature is invalid.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1fc8c6078899ea973930434a4e45e49779410926 crypt32: Flags weren't set, so don't bother passing them.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1a059879bf0d0df531646238c676daedfde329b9 crypt32: Make a helper function to create initial candidate chain.] ||
+|| Juan Lang || 2007-09-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=192ed7353d15dbd45047945ce8813f9b6cb3b77a crypt32: Test that the end cert in a chain's store isn't implicitly searched for ...] ||
+|| Dan Hipschman || 2007-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ba54c455fbb312817e0896dd422f7fe721a5099e widl: Allow size_is on strings.] ||
+|| Dan Hipschman || 2007-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=62fb623e14498716730eea347a999256b9707803 widl: Implement NDR for struct field alignment.] ||
+|| Dan Hipschman || 2007-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d036da6d3c657bc49119079171a1eef8204f8a8 widl: Fix top-level and callback conformances.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d06a24517f63caab722a180bedf920d1602cff29 crypt32: Time validity nesting doesn't appear to be checked, so don't check it.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf2047fd726d643638d8191cc9836cbd24c3e163 crypt32: The preferred issuer flag appears to be a bug in XP, so don't set it.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c39696eb14c9a61ecf5fe14a394f0b89dd96b104 crypt32: Don't fail chain creation if signature doesn't match.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8b787a81039c4a62c04540d2529593cf3f5fa87 crypt32: Halt chain creation when a cycle is detected.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4e88cb64402e602ab1a61f859bc8eaafdc5c139 crypt32: Check chain root's trusted status regardless of whether its signature is ...] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8cd7abf1be287af002e742cf2a06a0d83364baa4 crypt32: Properly reference count certificate contexts referenced by a chain.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6c9b788fb89e4b4b41b357981e169397b8216266 crypt32: Check path length constraint on a chain.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6a8a7362cc1dae3237b7e92ea4db2a8b44df79d4 crypt32: Greatly expand certificate chain tests.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51a9d208eebf1f0e61f5035e30c0bf50f843bd35 crypt32: Implement CertDuplicateCertificateChain.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51948b0c980e6f7a9e2725958c16f8c712bfcc69 crypt32: Check time of each element in chain against requested time.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45eef63a35f27a522e4c3e24f2511593bffb987c crypt32: Add a default cycle detection modulus.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3ef4c7e1ccbbd331c5283e8ecd92cc51edc6333d crypt32: Remove unneeded WINAPI from internal function.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ce46d5e4a38b9be67b442747ab6952a0bf44a88 crypt32: Check whether each signing certificate can be a CA.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1540f24e9247a7418449b43aa45068afca1f76ed crypt32: Don't fail chain creation if root isn't self-signed.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=14b0df1fef5258ab6bb84acde166389cdc7947e5 crypt32: Set error status on issued certificate, not on issuer.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0dc82780cab6583935abcc811ef912cd215b1767 crypt32: Free lower quality chain contexts.] ||
+|| Juan Lang || 2007-08-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=03d76d97ecc427d534069c5e0194ca0eadacfcca crypt32: Correct combining trust status of a chain's elements into the chain's trust ...] ||
+|| Juan Lang || 2007-08-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a47f47fe294a2ad6aede0bd79c1d468d150b2b53 winerror.h: Add more error definitions.] ||
+|| Dan Hipschman || 2007-08-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d73123dbc8c262025783a15d1bb4eca271f8b81 widl: Handle the size_is attribute on pointers.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fb07a3aa02cfb3329bce4a08b7d4e8f45e93bbe0 wintrust: Use a helper function to get a signer's cert info from a message.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eda48d8868065d2d7debafa79ba25fd8e1d8bc59 crypt32: Set trust status on root element in chain.] ||
+|| Dan Hipschman || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d82b384859c9d87827a35151e14f8ca2365e8a57 widl: Handle LPSTR in typelibs.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b157166345693d9b4b6eceafd6edaa79c3512381 wintrust: Implement pfnCertificateTrust.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4d85d80a37967a57df85ee9b9d8be8a6fbb4e3e wintrust: Use pfnAddStore2Chain internally.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c34271aaa54165e8b9ecb1395b0836e3de9388a wintrust: Test and implement pfnAddSgnr2Chain.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d7bffa5c7117dbdd3849b3141c69445cc8cf08c wintrust: Save signers of a message in SoftpubLoadSignature.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f2fae1d991b08d2150709c3b16ef8fec50b7e2a wintrust: Test and implement pfnAddCert2Chain.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3db50276ab66c87ea9e8ab8548dcc5f06d6afe3c wintrust: Add missing definitions.] ||
+|| Juan Lang || 2007-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=150ddd6bd48540dbf5bd92f3bd9b94fc7f605564 wintrust: Test and implement pfnAddStore2Chain.] ||
+|| Juan Lang || 2007-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=92de4384690fd86f2b7951d5c3e5a9850ac85fca wintrust: Implement SoftpubLoadSignature.] ||
+|| Juan Lang || 2007-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f8b296fb18d904ea5f064dd4209df7bdfcebed9 wintrust: Move mem alloc functions to wintrust_main.c.] ||
+|| Juan Lang || 2007-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a3fb3b566875b4ba52430e460e14318db3a469f wintrust: Test and implement SoftpubLoadMessage.] ||
+|| Juan Lang || 2007-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=492518d03729179ccc05d9315b4fa3bb4f314e02 wintrust: Use common memory functions.] ||
+|| Juan Lang || 2007-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01b083c5758b25a1ba7d495033f9abac2633d273 imagehlp: Move WIN_CERTIFICATE types to wintrust.h, and rename a type, to match PSDK.] ||
+|| Dan Kegel || 2007-08-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9e0ece41a580f511e6e416cb2485eedeac9736c1 shdocvw: iexplore needs to handle the -nohome option.] ||
+|| Juan Lang || 2007-08-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ff26d428e3e59ed4e8e1a04411ed692c47254cb4 crypt32: Partially implement CMSG_CTRL_VERIFY_SIGNATURE_EX.] ||
+|| Juan Lang || 2007-08-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8cc4db1c75694ea3f887cea46ff0e53a1a2eb13 wintrust: Test and correct alloc and free functions in WintrustLoadFunctionPointers.] ||
+|| Juan Lang || 2007-08-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bb963cc92060115b458bf229bcad65028e05b6eb wintrust: Add trust step error definitions.] ||
+|| Juan Lang || 2007-08-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7850caa714784d0e168efcacc45d359498881e4a wintrust: Test and implement SoftpubInitialize.] ||
+|| Juan Lang || 2007-08-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=67a0ff46eb40ba0376425bc47a564c2f237065bc wintrust: Make crypt provider functions calling convention explicit.] ||
+|| Lei Zhang || 2007-08-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ffbca82668fcf16d1ebb82669b244f2a6c64a0f7 gphoto2: Import photos in the right order.] ||
+|| Lei Zhang || 2007-08-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e2605fb0ed517cc2ea03a18cb3f94bda5629321f gphoto2.ds: Add preview button and ability to disable import GUI.] ||
+|| Nigel Liang || 2007-08-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=998baf9f0fe4723b0171f03626687ef1e541a344 winecfg: Suport color schemes from .theme format themes.] ||
+|| Lei Zhang || 2007-08-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4945a255e40d90b755cde1f35caea00f9d30009a gphoto2: Add missing brackets.] ||
+|| Juan Lang || 2007-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5b4806159deb89a5d340145b16ec5fce935b537 crypt32: Implement CryptVerifyMessageSignature.] ||
+|| Juan Lang || 2007-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5bbed2b95abb5b8983df487c62039c683fe98cb advapi32: Add more tests for CryptVerifySignatureW, and correct its parameter checking.] ||
+|| Juan Lang || 2007-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a9e1d66480c85c98c72c4ebd9710bb297ae3091 crypt32: Test and correct verifying the signature of a valid signed message.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f1f8e87b332489fb710c90d9473d668223f7e424 crypt32: Make constructing handles a member of signed msg data.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ed6fbb2712206e671500debbd9946c3ef91ddf34 crypt32: Update a hash message's hash handles when decoding it.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e7ce5ae2bcca233dede16ccaa675036dcfd9b9e1 crypt32: Add a couple tests that show you can't get the hash from an encoded hash ...] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e52c80e53b67d00750537dc87238f0e6d51ed281 crypt32: Test and implement CryptGetMessageSignerCount.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=de88fedcce46fa51e3b84e8819882c1faa75c386 crypt32: Add helper function to update signed message data.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d4c318f2952d0f0fee446ee9ca3273c9acf1e6ed crypt32: Only free allocated handles.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d3431271faf13454f278ace4950d41caab68e428 crypt32: Test and implement getting the computed hash from a decoded signed message.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d2dc7d78a9e6f6e7c925cc254961849132634d12 crypt32: Move signed message data functions together.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc8948fefab090237fb83eabbe324d9f74b2a734 crypt32: Add tests for CryptMsgControl.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c4dd74d84c8bf2f52532ae76eb7e32a61d682dcc crypt32: Add a helper function to construct a signer handles structure.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bfde05d8b69f12b00f5cc286110f2388fa33ed1f crypt32: Make updating a hash a member of signed message data, not signed message.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bfbc159d1e0bb55de630748c65c98a22a3fc8a61 crypt32: Separate construction of signer handles from signer info.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b9038be1ff6ca6f35db2756443cb232f7a144bba crypt32: Implement CryptGetMessageCertificates.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b7e420429db8e3a2eab503f49ce0b04a4ac7f551 crypt32: Implement verifying a decoded signed message's signature.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b6032a41b3c9768b3d6c47e50ea4c71c6b989fa2 crypt32: Trace encoding and decoding public keys on crypt channel.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c4330e732e7fec10b4b5310879a21b8f4b5666e crypt32: Test an encoded signed message with a cert with a public key.] ||
+|| Lei Zhang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8942b7888be73847b77e1ad79f99afa49a88c5a2 wine.inf: Add twain_32.dll to the list of fake dlls.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7748905743a497ac5215f9289b555061406675d2 crypt32: Make a signed message data type.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6acd76164617ecb3391a4449b88080129d756339 crypt32: Explicitly terminate loop when a matching signer cert is found.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e9299d980fc240a2781bcfc4de0c9ac6282aa3a crypt32: Use signed message data type for decoded signed messages.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4fb26709cd631bc24ca27acdc47f8f7b770a56a4 crypt32: Test encoding a signed message with a valid public key.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3e88838b606a93c67e92ee1a50e5b1d53a8df730 crypt32: Implement verifying the hash of a decoded hash message.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31c414f4b483c424dbf7244ad3dca08651b2a667 crypt32: Add a default message control function pointer.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f9d9be7625fca4917916fdd334a254dd78ffb85 crypt32: Don't keep an unneeded copy of the crypto provider for each signer.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=163e8d6256224fa4e6bc65a3f7ddc434b97bfdf8 crypt32: Add a mostly stub control function for decode messages.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1522282673e19f6cb31b775bafd8cb564e05d138 crypt32: Make more functions members of signed message data, rather than message.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=07ba16c291e3933037f75bb2ca5cdbab7639ff16 crypt32: Use a helper function to allocate signer handles.] ||
+|| Juan Lang || 2007-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0080d3d691913577538801696a4b70edc930b4a3 crypt32: Make a helper function to a free a signed message's handles.] ||
+|| Alexandre Julliard || 2007-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4bac1e959dc6a88192abb11ea2aa9cdee1a79b56 comctl32: Create the manifest directory if needed (spotted by Dan Kegel).] ||
+|| Juan Lang || 2007-08-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9be5007669af733bf9ae81bedfca83eeda5f144f crypt32: Don't store redundant copy of crypto provider in file store.] ||
+|| Juan Lang || 2007-08-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e1108533b98f0c50519eb7dd2227a9c0c3f214a crypt32: Pass crypto provider and appropriate flags when opening PKCS messages, and ...] ||
+|| Juan Lang || 2007-08-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1d534244702f7c5ca64d707628fd397cbcbb0b8e crypt32: Don't store the crypto provider when it isn't needed.] ||
+|| Juan Lang || 2007-08-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=065ed54f690584ee52c46869a755702b4dd0eb05 crypt32: Don't store redundant copy of crypto provider in reg store.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f68036cebd370e3d1ccd44df0c3cdf1988e55439 crypt32: Rename a confusing type.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f3128c92446663329fac703fff8c6ae24a6c31e3 crypt32: Where possible, pass a pointer rather than an offset, it's less confusing.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bc37988dff3c8071fdbcb25f84c52f6d39a2d232 crypt32: Use public type and APIs for memory stores wherever possible.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=afc50ce3fe99fef60a1b2a62f6b36efe6fdda238 crypt32: Remove some unnecessary casts.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=adaaab923d1bce88a624b14012d215721cd48408 crypt32: Move cert store definitions to header.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9f85156e23c808bc8beff9f32dbfdf2dc7280116 crypt32: Move collection stores to a separate file.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=71dffcee843fc26f98ed36ed8e38ae2aba2cb1f6 crypt32: Move file store to a separate file.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6aa10439a9b0dcf28f02097f47b2a9f7ee01abc1 crypt32: Use public APIs to empty a store.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2a8aa8787863f688b1e31325ff19fcac2ea3c034 crypt32: Use externed vars for context variables.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=131f1d20e717aacf75c5213ae2fbd0d2d880af34 crypt32: Move provider stores to a separate file.] ||
+|| Juan Lang || 2007-08-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0070d8226fc1a075b1056abf7596335a654719ca crypt32: Move registry stores to a separate file.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f7d27e00202a765ff2f8e6529b616f36d14c32af gdiplus: Added GdipDrawString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f46b779451ada547ea9ffd6bc8b86eb71c87c214 gdiplus/tests: Added GpStringFormat tests.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee59d41441bac1a9b797b1385251374c79b55505 gdiplus: Added GdipAddPathBezierI.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d4107db6bb77b0ad1446f6139dadf8fb3354fdd2 gdiplus: Handle StringFormatFlagsNoWrap in GdipMeasureString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d0cead32a64455ec1efd3d37914d948d0b7cbf7a gdiplus: Allow null-terminated strings in GdipDrawString.] ||
+|| Juan Lang || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf3535351ac00e2572388f874fa7d8d47a58f8be wintrust: Remove redundant check of pbSignedDataMsg (Coverity).] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca949393087e575b2bdefc66bc97bd991516bc7f gdiplus: Handle empty layout rectangle in GdipDrawString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8c77f9b48db84f4bf65f049cacfb6e29fb1d6cc gdiplus: Added GdipSetStringFormatLineAlign/GdipGetStringFormatLineAlign.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be66c3c93b0b4089deaedb75ea658c71af102eb2 gdiplus: Use DrawText instead of TabbedTextOut.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b56689d22c41a64eb611a5488068e9b89601382a gdiplus: Added GdipSetLineBlend stub.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b1237257f086649a204a301c996c29e269a1e7e5 gdiplus: Fix default value of StringTrimmingCharacter.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ab7d17727c38b3e3acebac1fa4ad10f212a0f7fc wininet: Support HTTP_QUERY_RAW_HEADER_CRLF|HTTP_QUERY_FLAG_REQUEST_HEADERS.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a51cf1d35ab635206a2ba3652059a34cc067756e gdiplus: Added GdipMeasureString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a364fc325819db40665c7214558da033af73b470 gdiplus: Added GdipDeleteFont.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=958ece2192c917d24303716b381e9670aac0d20e gdiplus: Added GdipGetLogFontW.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=936f310190806eada54edf353c89421cdb0c7b4f gdiplus: Added GdipSetStringFormatHotkeyPrefix/GdipGetStringFormatHotkeyPrefix.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=92aa57bece965ff3355bba8cfcfefe8a90699861 gdiplus: Fixed 2 GdipDrawString bugs.] ||
+|| Jacek Caban || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=865d92a6e416b94ed46b73182370b00889c7a5ec mshtml: Call setup_nswindow on load event.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=73be69c5760fe882b5fa597cd310f293bd8a13c7 gdiplus: Added string format constructor.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=62cae5ab39e31e4ffeb14e3c9495ae25fb247961 gdiplus: Save elements of font's style.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5cdfee8153cfe391843486a19f854087d8f39014 wininet: A small test for HttpQueryInfoA.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5662820072ef3ce138dd625a08bcd5770d3cee6a gdiplus: Added GdipSetTextRenderingHint/GdipGetTextRenderingHint.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=551a606ab247a6a89dc4e1e42c28feb717827990 gdiplus: Added GdipGetStringFormatTrimming/GdipSetStringFormatTrimming.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=537112fb52a18454eaa5993ec6b4862dd757043a gdiplus: Fixed conformance of font constructor.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=510ecb653092fada7d1dc09fbdcce000bd2ff9ba gdiplus: Added more font tests.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e041fe4b92e47d097554798e18d3ced81fcc68c gdiplus/tests: Added GdipAddPathLineI test.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44e983925aff41f670be43202055422cdf2aebd7 gdiplus: Handle empty layout rectangle in GdipMeasureString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4202ababb0b17b368ce9cee3fb180dcb19a3aec5 gdiplus: Added font tests.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3fa49f0f0273345cbe030ab8a45de5176e153007 wininet: Make HttpQueryInfo[AW] work for lpBuffer == NULL and len &gt; 0.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3f32083ed736dd124e9d95d2d53e9d8e074a1a53 gdiplus: Handle StringFormatFlagsNoWrap in GdipDrawString.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=380f18498666bcae9b067c14f331a48513aae48e gdiplus: Added GdipDeleteStringFormat.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=16dea47a5c690d1833547f5740631c558a9def89 gdiplus: Added GdipGetStringFormatAlign/GdipSetStringFormatAlign.] ||
+|| Juan Lang || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1626da2bbaacb5aefc71f9281f025bfd7ccb33c7 crypt32: Free default chain engine.] ||
+|| Lei Zhang || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=13ae5f8e8c6a5034613874a189ce0625f11dc56b riched20: Add missing scroll bar update.] ||
+|| Lei Zhang || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0d4707c284808df6d87eeb5908df29693889eccc riched20: Properly calculate control display height.] ||
+|| Evan Stade || 2007-08-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=059a2d8c6fcfe6007bf3ab7be523f681ab7769ab gdiplus: Added GdipAddPathLineI.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f1ec80d13ba7545ae3278248f776e45ccf2d1ccf wintrust: Implement WTHelperGetProvCertFromChain.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f1cb8057e71fccfb503d093df99ca686ed3191ea crypt32: Fix typo.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e807eb9ad6027194114f0f65f87c720a690dd7ae gdiplus: Added GdipSetCompositingMode/GdipGetCompositingMode.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d060aeccca03e48c82ff16fc5b2a9d90b9375bb6 gdiplus: Added font constructor.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ba0b7a5de34ee0873b3e4d2c2065bc1236061a15 wintrust: Implement WTHelperProvDataFromStateData.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=afa4d3233a073fa76119de0572bf715a5c5e7e56 gdiplus: Better handle UnitPixel pen width.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=abd6feaf9350939a6b6886b4ef933a5b83539ab2 crypt32: Add initial tests for certificate chains.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d6e0750f25db9f9df34fed6f091c96bda74710a gdiplus: Added GdipDrawRectangles.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a58b30819080a05dfc30914f5e6af34f3089a43 crypt32: Initial implementation of CertGetCertificateChain and CertFreeCertificateChain.] ||
+|| Jacek Caban || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=80a1a2f135f493d0d5b5e94b461d2751ef8ff9d5 mshtml: Make window.external visible for JavaScript code.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e79b5656e5fa88e224f118b69c534c3312c38be kernel32: Return error code if WOWCallback16Ex of a real-mode function failed.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7316156d35fbf6f75de6486759e8beefc8f2a088 crypt32: Fix typo.] ||
+|| Jacek Caban || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=718b771f2a57d0c762d24c6ef62f070eb3647e8a mshtml: Return wine: URI for protocols handled by MSHTML.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=714a3731eb92261735900e245ae1c91d7bd4c232 crypt32: Set return value on exception.] ||
+|| Alexandre Julliard || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6790cdb8f5c8d15df0b19702e36e888c996fc97c comctl32: Create a manifest file at dll registration time.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=570eb6093ea0e96e35dc9a23d3de42e2cf166d3f winedos: Make UMB executable.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51651c7c5c0c6c086934f1eef13804208129c5ae crypt32: Add a chain test with real certificates.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=466d8a01a5af51f802ccc6cc5bd1ecfd206a5321 crypt32: Add stub for CertFreeCertificateChain.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33407c63978c6d801b06f5f9892344e98e0525d5 wintrust: Forward WinVerifyTrustEx to WinVerifyTrust.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3126c7704ccbd7e3681afc3c1fb182c6f479b740 gdiplus: Added GdipRotateWorldTransform.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=30fdcc7612c539c82567d7925337079223014efb gdiplus: Added GdipScaleWorldTransform.] ||
+|| Evan Stade || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1e33bdcfbd00410b280c4bf513722c10b9637295 gdiplus: Added GdipCreateFontFromLogfontA.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1547f39800e6759b9dcc7f092a15c5eb29e73c2f crypt32: Move CertGetCertificateChain to chain.c.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b2b1f88818c19bb58c26c748e0475aa51e51501 crypt32: Set output chain to NULL.] ||
+|| Juan Lang || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0823c4fc61156540b2c246e334deaccbbe46f23f wintrust: Implement WTHelperGetProvSignerFromChain.] ||
+|| Jacek Caban || 2007-08-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=000c3d429599bf135a81bc29f6a89383c6294335 mshtml: Check use_wine_url in nsIURI::GetAsciiSpec.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f7e62befe8149fb3f98a4a9789d846263f8c7066 wintrust: Implement SPC indirect data encoding.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f7bcc26cc5f90c9fd58b064247029db8af64a104 crypt32: Avoid a memory allocation when decoding the subject key identifier extension.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d49c9d59d1770cd773752277fd874afb47b2c7ba crypt32: Add missing break.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b82bfa3455a391c9a9c28fa5b2f47fb1d44d33cf crypt32: Test authority key identifier with a multi-byte id to show that its byte ...] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa0f823429f8a51dcc1d78166c83dc98fab08705 crypt32: Test finding the issuer of a certificate.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=998bea104335a04e3f53159abe14ecc1624d0531 wintrust: Implement SPC PE image decoding.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d965df2205c6004800c1eb9b6a89e229bb85011 wintrust: Implement SPC PE image encoding.] ||
+|| Juan Lang || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=261f02ca68f838ab5fe9013f2ea9d408b9747907 wintrust: Implement SPC indirect data decoding.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=216c3b0d0aee29728adcd8f0b7846563fca030fb kernel: Allocate global memory with execute permission.] ||
+|| Jacek Caban || 2007-08-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83a83880cdabe23b655971af45c852ea8c3a0a9d urlmon: Wrap IBindCtx in CreateAsyncBindCtxEx.] ||
+|| Jacek Caban || 2007-08-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=464121bc003a3ea65c8943bff8eecdd51c5f4235 mshtml: Don't mess with gecko specific protocols.] ||
+|| Jacek Caban || 2007-08-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37e386279991f966281f92bdbe6a7c37c5715ecb mshtml: Make get_typeinfo thread safe.] ||
+|| James Hawkins || 2007-08-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b353a09569d32a8302ffe6278944d9cf4f514b10 msi: Add tests for the RemoveFiles standard action.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ff752456e123ded9d77a4654b7889709638a7aaa gdiplus: Better error checking in GdipBitmapLockBits.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f8b2b77f69bad9d45f3648519d3ed95ab72c9ee8 gdiplus: Added GdipConvertToEmfPlus stub.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f848055151c4e9c3db6f8e4cd067f820de4799e4 crypt32: Use helper functions to simplify CryptEncodeObject and CryptEncodeObjectEx.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b9411ba374e9570f99bdc23b8769d7ccb64ad1c1 gdiplus: Added GdipCreateTextureIA.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c30236dee4b0fae1c3be5be23fd5b6002ebd15d gdiplus: Replace GetDC(0) with CreateCompatibleDC(0).] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98dd6c75e29c84a31a2845a1f704afe21cc22fbd wintrust: Add missing definitions.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=96a69f0508483546f9de505d37200cf656269aa3 gdiplus: Added GdipSetTextureTransform stub.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=94a19d1f759b76de7d2127978a09e844b6026cde gdiplus: Added GdipGetImageGraphicsContext.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8254c37ad8813442b20d661e07e0bd8b4f6240a9 gdiplus: Updated GdipCloneBrush, GdipDeleteBrush.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=795b62216d6b0a9067e983e84f006c0c6bab2afc gdiplus: Added GdipTranslateWorldTransform.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6a9d049b74f4a4baa71684069679979d33d2d216 wintrust: Add tests for encoding and decoding SPC PE image data.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d8d9e7d08836698d9f55153cece7c006f7c1751 crypt32: Validate parameters better in CryptDecodeObject.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c5efcc412c8c05ad2da24f58578bfe5b3cd77ce wintrust: Add stubs for SPC_LINK and SPC_PE_IMAGE encoding/decoding.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c58c4bc2fdb7ad3c7819da55cef005dc63d7e6b crypt32: Use helper functions to simplify CryptDecodeObject and CryptDecodeObjectEx.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44047e02c2f1f1497e744664611dccb67ded54b3 wintrust: Add tests for encoding/decoding SPC links.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a50b1fea64299f57cfb442a11bdbca398cbe840 crypt32: Improve tracing when builtin function isn't available.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2ba471e0d6d5fa5515445e12cf9281905ce37b37 gdiplus: Fix test to pass in Windows.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=29cae46fce50cfa059bedca1034fbd82f55a9810 wintrust: Implement decoding SPC links.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=25f0fb929d8c0fc0bd045906b988079111961572 wintrust: Implement CryptSIPGetSignedDataMsg.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=06b51457e1622a4f14a3150b96363c2d55e48450 wintrust: Implement encoding SPC links.] ||
+|| Evan Stade || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=04d4c2621cb31b6d844c021fde10bcdad30c1a06 gdiplus: Added GdipDrawImageRectRect.] ||
+|| Juan Lang || 2007-08-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=038b53c301364c1775c823b8ad561c494be91413 crypt32: Ex encode/decode functions should call non-Ex versions if no Ex version ...] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ff2e63d41edbc4be10954802946878210c13e599 gdiplus: Added GdipCreatePath2.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cae277f13ed892e731201d941d07da079aaa541c gdiplus/tests: Added GdipCreateBitmapFromScan0 test.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c147389ff18f8a5dbc29d40aa35910d8125bffac gdiplus: Added GdipSetImagePalette stub.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b66c0a00d9e334c8f732b438978829ab4c550576 gdiplus: Added GdipFillRectangle.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b5d7af5438072f886735f85eff7663a864def089 gdiplus: Added GdipGetPenDashOffset/GdipSetPenDashOffset.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ad8ea1b0a6054f3ff4873dc983a8ebd0e2c4a6e7 gdiplus: Added GdipCreateBitmapFromGraphics stub.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a41fa500f456650a430e7bff817eb306ff14a8cd gdiplus: Fixed conformance of GdipCreateBitmapFromScan0.] ||
+|| Evan Stade || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a08b998f204374fedfbb73aaa7daf7a18fa2a5ee oleaut32: Handle transparency data when loading PNG images.] ||
+|| Juan Lang || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9da1baa130bf3f414a94f4fa44f097e5e61c20ae crypt32: Use real certificates to test finding subject certificates, and correct ...] ||
+|| Juan Lang || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8778b9f506d511c96860f10f9c3f6f37e4dcdd33 crypt32: Correct loading OID functions from the registry.] ||
+|| Juan Lang || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84a54b5a1f44b029617eaf2b7d92a2643fbeff51 crypt32: Trace more return values.] ||
+|| James Hawkins || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ac081610966ed3bba1b93f88266da7372e839c8 msi: Implement the UnpublishFeatures standard action.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e9ced90f70cee45f8b66ca578f5bb11b6999e3a user32: CallWindowProc[AW] for mismatched built-in winprocs should take into account ...] ||
+|| James Hawkins || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=511bdd9de8ceade99951d227060ad7fc417a9315 msi: Simplify MsiQueryComponentState, with more tests.] ||
+|| Nigel Liang || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f03cf760bf360608b81ba980de7a9a88d71f00d winecfg: Fix crash when remove app button is pressed in applications tab.] ||
+|| Juan Lang || 2007-08-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0c4c1985b0e5e5a818ae1ccae634f5735cfe4a97 crypt32: Add stub for I_CryptGetAsn1Decoder.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ec3049168cb94d587487fa53b1ff14a8a7677f16 gdiplus: Updated brush cloner/deleter.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=de351ab9917778b95ff38c457e006efccaefe234 gdiplus: Added GdipDrawImageI.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ddea5bd7bae511b3de0b5c40f707a7e91f4d7efb gdiplus: Added GdipGetLineGammaCorrection/GdipSetLineGammaCorrection.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d806c67821ebd2173353c90a43f64d005ed4731b gdiplus: Added GdipCreateLineBrushFromRectI.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c84c204b48d70b86ee24b6362102d8d98528c274 gdiplus: Updated GdipDrawRectangleI.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bb904a277946224da2f13f70ed6edb0d5ff27a5e gdiplus: Added GdipFillRectangleI.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a93e61d377f03d390dddfb19b8f8c3a135e71def gdiplus: Added GdipSetImageAttributesColorMatrix stub.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=985ea4afac506cfa05914bca50f4c135808bee3b gdiplus: GdipLoadImageFromStream makes initializations.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8726f5ad2dfd68d385ecf2bc69513fe8d295073d gdiplus: Added GdipCreateBitmapFromFile.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d03a41325a77c2cc6893e19777e028542f7d6df gdiplus: Don't prematurely release stream.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a9a30d95c5b26bc93ce1698098d85cd488b4f53 gdiplus: Added GdipBitmapLockBits.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=48ae8ea5422f631277142c4926d1763ec505448b gdiplus: Added GdipSetLineSigmaBlend stub.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3f9fad16923ed3d2e62b20d96b701c4cf35a3b02 gdiplus: Make GdipGetMetafileHeaderFromMetafile return Ok.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3ea77f5cfde7dbf1cacf35ff3f0e595eba01d7c7 gdiplus: Added GdipCreateStreamOnFile.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37657bc4d14c4338d0ee64800f8c421f036287b1 gdiplus: Added GdipSetLineWrapMode.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=369dc8caba29162330981f3eadb931c47164ee0c gdiplus: Added GdipSetCustomLineCapStrokeCaps stub.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b438a0220f31e8f1778012f62ba7eff758abfa9 gdiplus: Added GdipCreateLineBrush.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0794e5daf3778495b34617a5d7ce8264069ae1ce gdiplus: Return width and height of metafiles.] ||
+|| Evan Stade || 2007-08-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=02887b6c90bd927f23e8ff36ade05ecaf9ab397d gdiplus: Fixed bug drawing custom caps.] ||
+|| Huw Davies || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc881a258e0881e1a20417f5dbfdd72535a025e2 wininet: Fix the case when Proxy or ProxyBypass is NULL.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d89528b0161fd3524500aa6bcaac86473ec3631a crypt32: Use the authority key identifier to search for a certificate's issuer.] ||
+|| James Hawkins || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca55c7a3307188952513c01aa8f6abf8da18b46b msi: Implement the MSIINSTALLCONTEXT_MACHINE context for MsiQueryComponentState.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c9a54102883bab8357993b982c4ef1954c4dcbf2 crypt32: According to MSDN, inner content is only decoded when the content type is ...] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c91e591a95d15c09b994d2d7f25798d7e3e0942e crypt32: Fix typo.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5a213a816379092f76e50dc6602ad03b953c8bf crypt32: Add a couple traces.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bcbf5dcee337d83540c188a6572974ead74219cd crypt32: Test and correct finding a subject certificate.] ||
+|| Nigel Liang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e56e37b2d4176912fbc81778c3580c2debb5712 winecfg: Fix apply button always available in graphics tab bug.] ||
+|| James Hawkins || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5f442207d579dc3d6cf5243c4c63c6be966edccc msi: Forward MsiQueryComponentStateA to MsiQueryComponentStateW.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53087dbe12ea5997c554755107e69c128443fe73 crypt32: Introduce cryptasn debug channel to quiet down crypt traces.] ||
+|| Nigel Liang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a21ad9f5cb5cf7c7865d27a7f8efd6deece982c winecfg: Fix crash in graphics tab.] ||
+|| James Hawkins || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=072adfa99aa0c5ba9e4bbcdb5b6bf4ba2cf692ab msi: Add tests for MsiQueryComponentState.] ||
+|| James Hawkins || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0713c3286934e38704125f3a55748cf03b1756f1 msi: Implement the remaining contexts for MsiQueryComponentState.] ||
+|| Juan Lang || 2007-08-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05d2ab176a83d251c5fd698885ae892e0f971c82 crypt32: Implement CertRDNValueToStr for UTF-8 strings.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f3879cd97fd95a3a571f9c98c75450ab436e2fa0 gdiplus: Added GdipImageGetFrameDimensionsList stub.] ||
+|| James Hawkins || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f1b790be0663790ca9d467737aba2c005306e6ad msi: Fix the size allocated for the deferred custom action string.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=81c0865bee71f0da14445e139ae7c8c3f868f6cf gdiplus: Allow non-default GdiplusStartupInput.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8128aeb035ddfa769df99b08ca551eafcc5c007a gdiplus: Added GdipCreateBitmapFromStream.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=72a760beb0595555959e0e45f4a0854dd53869a7 oleaut32: Allow PNG_COLOR_TYPE_RGB_ALPHA.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4d25791b40e5529c5bba30eeecfe960e096171ef gdiplus: Added GdipGetImagePixelFormat.] ||
+|| Nigel Liang || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4536a9d66d11c46028952de5b44ccf52da43a1b5 winecfg: Fix crash caused by calling set_reg_key with NULL value.] ||
+|| Evan Stade || 2007-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1015722dfe87266c330097c8c874d8ae356d2b51 gdiplus: Added GdipImageSelectActiveFrame stub.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf8b59ef81d448d39204db2fd67972531f92c8e6 gdi32: Don't print fixme more than once.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b26d7ce82d959026143e128e0c28c110cf43d3b0 gdiplus: Added GdipCreatePathGradient.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ea7ef468b1911393bf95e3d6359cef3ba9e3a6c gdiplus: Added GdipS/GetPathGradientGammaCorrection.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a9c857b3ffbc21d6fbde0d021daa9b2816373d2 gdiplus: Added GdipG/SetPathGradientCenterPoint.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=88ab6d32d3597d9e4622092a7e35011c2889293d gdiplus: Removed old fixmes.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f0aa3af7c945a8e538e12eca2b631a44c9c3d06 gdiplus: Use custom cap base inset differently.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7929ba8dcecae2a0faaf8b7f7e32c5a4371f5bff gdiplus: Updated GpBrush functions.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=496c319c7001c3429cffda3cf747cf7a66d4b627 gdiplus: Added GdipG/SetPathGradientFocusScales.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=490ca1cabb6d0fb75e1829e7e6d9fbd2fa9dccfd gdiplus: Added GdipGetPathGradientPointCount.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=46ce55bf99f8ed4670604c10a296f228e1f835fc gdiplus: Alphabetized header.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=15dce3a4324d8f69f9bd8124c09f2b37301910fe gdiplus: Added GdipSetPathGradientSigmaBlend stub.] ||
+|| Evan Stade || 2007-08-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=03af4ed338257ffc71018e620c1c23cc5d5c43de gdiplus: Added GdipS/GetPathGradientSurroundColorsWithCount stubs.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fdf9f8fb0536d2f56198478e04f2f928f5c22323 gdiplus: Added GdipIsOutlineVisiblePathPointI stub.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2cf5551dbe3453b3701e4a0e20cdb6bb53c251a gdiplus: Added GdipSetPathGradientCenterColor.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f18cdef727d34d4428d2cef01b151e555f5be25a gdiplus: Added solid-color path gradient brush implementation.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0dbfe959f9ca0e6faa8c87604525732742c64a9 gdiplus: Added GdipSetPathGradientWrapMode.] ||
+|| Alexandre Julliard || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ed3b5322f634a1c75375873ebe7b9191505a8694 ntdll: Relax the activation context size check.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e7a1e99a763608afe9b7861def2ac33daec953bc crypt32: Add CERT_ID_XXX defines.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c98f605b0e472a0cd7b19728326abe488e402f26 crypt32: Test encoding a cert with a subject key identifier extension.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bba20a68b8e4895583b917e9df8962d94f4b45bf gdiplus: Added GdipClonePath.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac28066b487f5f167f3a26fbced82bf15c6f4d2a crypt32: Test and fix getting a certificate context's key identifier property.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a55f233219c3877db9defd1c86c4046e869da76f oleaut32: Slight correction to EMF rendering.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9194d60061f60577d21313514bc9537c8c43674d crypt32: Test encoding/decoding a couple more alt name entry types.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=90824039acf6ddf5e328524a4fca4c310945a976 crypt32: Add and use a helper function for getting cert properties.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=676c6e5a3648e65cb1afe7af7b6136f4b384c114 crypt32: Implement encoding OID and directory name alt name entries.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e29e37af5780793e64631670cfcf15ee0b9159b gdiplus: Added GdipDrawLine.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5885eb3cc3dc38e7933bd5b10ce849c24b238766 crypt32: Fix typo in key context property test, and the problems it hid.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44948c3b38859cf63a3115b81a7c234a2ca9cba8 crypt32: Implement decoding OID and directory name alt name entries.] ||
+|| Nigel Liang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=35f4e95c36094372ca03e548ef24abe149c7b7d4 winecfg: Remove bad default setting for logpixels registery.] ||
+|| Dmitry Timoshkov || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f71832ac9c5be0929fe0a1e4f6eb6f7905aa0e7 gdi32: Also print a readable table name in the failure notice.] ||
+|| Nigel Liang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d5a89bab087d09f3e3876e29ae32a2e863273fe winecfg: Read/write registry in unicode.] ||
+|| Miko&#x0142;aj Zalewski || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2777a94d4eef7dd8f8d422bed1c1363a059f9109 write.exe: Add a new program that calls wordpad.exe.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ef7793b51339d37c3f695faa9e90576e8ff5d2b gdiplus: Added GdipFillPolygon.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=192e1115bd9416944ff5fed8c3962271a795cf22 gdiplus: Don't suggest image size when converting WMF to EMF.] ||
+|| Evan Stade || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0d45cd0212365dd66898dbe895ebf18ded265b72 gdiplus: Added GdipSetPenWidth.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0cc08cccb92cf974cd50074bed2f652ad7dcce23 crypt32: Support finding certificates by cert id.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0cb6148422e455406316ea55cef66adc99c0fd03 crypt32: Get rid of bogus check and improve traces for unexpected alt name entry ...] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0c5772dc0a72c8b3e20a60a8d3348c300e83552d crypt32: Test encoding a cert with a public key.] ||
+|| Juan Lang || 2007-08-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=005b50e913595892aa0f5832a9f552b67168bd52 crypt32: Introduce a OID decoding function that ignores the tag and use it where ...] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fcbb2111551ee668e88222721190c75dbe9144c8 gdiplus: Added GdipSetImageAttributesColorKeys stub.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e91d12454a6e709e9e5ded4369ae69f9c3db7455 gdiplus: Added GdipGetMetafileHeaderFromMetafile stub.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dd5e9a91f364d02869b00a355227373242d813e0 gdiplus: Added GdipGetMatrixElements.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cfef981a9aeedc7dab3e626aa0aad6b48dcd87b9 gdiplus: Fix memory leak in GdipCreateMetafileFromWMF.] ||
+|| Jacek Caban || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2395e4907b3df18ec7bc11ced5b054664cedabe shdocvw: Wrong PostData VT is not an error.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ad251e7fe33a3eec2549c69661eb2932f3e1fcfa gdiplus: Added GdipSetMatrixElements.] ||
+|| Jacek Caban || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a39dec21e2f04c41b5ed5e671136245a367eff44 mshtml: Release typelib in PROCESS_DETACH.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9fa4c1248667aa23b88323fbf087e42f547f7ae1 gdiplus: Added GdipCreateBitmapFromScan0.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9da6cc907e0bc7e6a09560b9bf6485d61381d5b2 gdiplus: Changed GdipGetImageType.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a0405dc979e1ee9a971d4a0af1fd982bc2f4f83 gdiplus: Added GdipRemovePropertyItem stub.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8d05cb0c4730e0732d574fd8a30c248f0dc0bad7 gdiplus: Implemented GdipDisposeImageAttributes.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8304765abdd4e5858149ea0c76b327c2f6d15e6f gdiplus: Added partial implementation of GdipSaveImageToStream.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7b601148d5ca0e6185fb0602d3f517ce1872e756 gdiplus: Added GdipCreateMatrix3.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a8866b347f0604d40ec7579921ac197f695120f gdiplus: Added GdipFindFirstImageItem stub.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7352cfdb83d72457d0532474215406f67c7538a0 gdiplus: Implemented GdipDisposeImage.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e0c574fb9ad6f778730a3ae6f74b8d8cbe266af gdiplus: Extend GdipDrawImagePointsRect.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6394e315cf49e4727857214879f64c82269c6bef gdiplus: Added GdipGetPropertyItemSize stub.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5cde960713de02e2864cadc7cadca2e95d37d84a gdiplus: Track width and height of GpBitmaps.] ||
+|| James Hawkins || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f6a93b9c87e930fe6bd5ba16c3e17507dbb1012 msi: Add tests for joining three tables.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c5486fe923e138f34f258fff4f8c97c2bae90c5 gdiplus: Implemented GdipLoadImageFromStreamICM.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44412cf1e43bdc212179242ea645129260ed7149 gdiplus: Change include list on 3 tests.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3ee25cc3dfbe075a9e0b30df1f30fd75432510a4 gdiplus: Added GdipCreateBitmapFromStreamICM.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=359a21d62bb7bd77c1f84962000ec0fa6930f370 gdiplus: Added more stubs to gdiplus.spec.] ||
+|| James Hawkins || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2e6ed06fdcfbb9b71dd550505e784f5d1041eff6 msi: Reimplement joins to allow joining any number of tables, each of arbitrary size.] ||
+|| Evan Stade || 2007-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b4b23cfa07f106747de74e1dc20387f0a9b19cc gdiplus: Added GdipBitmapGetPixel stub.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ff5076c0082d090133be8c8fa1a4bee66e6b9ed8 gdi32: Added more tests for ExtCreatePen on PS_USERSTLYE.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eca194da7f733a89fea56a4d6c481710cc1ff93a gdi32: Handle PS_USERSTYLE in ExtCreatePen.] ||
+|| Juan Lang || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e25b81fd9c7679a2bf7bfa632992855655767915 crypt32: Use the outer content's signature algorithm rather than the public key's ...] ||
+|| Jacek Caban || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e23c5083f52229cdd0a41b1c532a1f3e4ec641ac shdocvw: Added GetExternal implementation.] ||
+|| Juan Lang || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db513c0cb57c1c6e6760562eabf43c69ab750ba4 crypt32: Remove bad special case, it isn't necessary since the outer content specifie ...] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a9c4f30c564a16acf4cc6b543e9882c1f64dccd2 gdiplus: Partial implementation of GdipDrawImagePointsRect.] ||
+|| Jacek Caban || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a84520169f95a9084dec7caea86a929573d819ec mshtml: Added IHTMLWindow::get_external implementation.] ||
+|| Nigel Liang || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4d8f32d5521a95264b77f000758704148846a21 winecfg: Add menu font settings to desktop integration tab.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0b144a1e3b068a6f35c5c121950e8353950d84f gdiplus: Added GdipGetImageBounds stub.] ||
+|| Dmitry Timoshkov || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=991d2d2632e8144c0461004896e8172632719015 gdi32: Make GetFontData traces more readable.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6d9e4a4a927b622049a5788d31d8c71cae43f24e gdiplus: Added a minimal implementation of GdipCreateImageAttributes.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5dd58254843f9841da826076c27421deca8e8ea8 gdiplus: Added ImageAttributes stubs.] ||
+|| Alexandre Julliard || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b6bb63adbf1eafd7f7fcb0d46fe3e272e1aae68 ntdll: Load dll from the directory containing the manifest for local assemblies.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=586e63ef380335137c83c010b844560d7976d48b gdiplus: Implemented GdipGetImageBounds for metafiles.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=55c77d46c6ab333daf3349132168dda52f88cfa8 gdiplus: Implemented GdipGetImageType.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50799cf04f1dcc634a6f9f07c39ea06b98f21e65 gdiplus: Partial implementation of GdipCreateMetafileFromWMF.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=460f01b3208dd0f6e1892d22d40a3105dd26ba86 gdiplus: Added GdipDrawImagePointsRect stub.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=249c07c16104c764481f6701349961998290f418 oleaut32: Recognize EMF header when loading picture.] ||
+|| Evan Stade || 2007-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=030abff4ac849df1fcda3ac345cbbdad4ce9575f gdi32: Improve ExtCreatePen parameter checking.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f9c9f237635c229750bae29caf0af2eb19308c77 ntdll: Allow optional elements in the comClass element.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0509c49d1701e9dd962962254226436e9b8ba19 crypt32: Simplify alignment calculation.] ||
+|| Nigel Liang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e027f0297e378c5ee441fda119b2decdc2585deb winecfg: Add trackbar to set screen resolution in graphics tab.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db72af98b556660a699cd6563f9348bd9f86c33a ntdll: Convert the XML parser to Unicode to support UCS-16 manifests.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d6150a7974ed9f2d3e96d674e84189f9bb4c7552 crypt32: Implement getting inner content of a decoded signed message.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b67b66d7b32f3d7014da190d9a449b378331f13d ntdll: Fix a compiler warning.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a50d8dc1dda877863e1356c36a476bfbbc8f48ec crypt32: Add a few traces.] ||
+|| Lei Zhang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ee4d8509bcc5a8b675c8e0712bf320180b9c757 ntdll: Add Bolivian time zone info.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e10d48c60a36dd266ef3e00f8ee8981278a13c7 crypt32: Implement getting the signer cert info from a decoded signed message.] ||
+|| Jacek Caban || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d1c59edcee16dbd81fb086fbc2739921f73ece2 mshtml: Added mshtml.tlb registration.] ||
+|| James Hawkins || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e81dbebb07fb82131f2e1944797e70b53429b7f msi: Treat an empty string and a NULL string as the same value.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5900ab1437baacde49c2df1300ae08fdb291a80b crypt32: Separate decoding PKCS signer info into internal and external versions.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=555e85a2b243afa81579c790bb2d0116e0563822 crypt32: Implement getting signer info from a decoded signed message.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53285e2462d2c57e0a590e96ea355983f01751cd ntdll: Use the exact size of the manifest file.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5270b3233045f751d042ac15b1c762e035e0af3c crypt32: Add missing definitions.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e4c150bede97661345c67d3ae15eb81f80feefd ntdll: Avoid activation context leak for dlls with no imports.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e0f33dada3257373f012a779538bae1b1331b15 crypt32: Support getting the inner content OID from a decoded signed message.] ||
+|| James Hawkins || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43bc08ddefec949ea856977e60b01854005fe2aa msiexec: Implement a stub MSIServer service.] ||
+|| Alexandre Julliard || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43519e415d8712850e51672a189d8a687b5e6c05 ntdll: Fixed the null bytes check in RtlIsTextUnicode.] ||
+|| Jacek Caban || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4005cf72d6f79404a1df377ecb3379ea5bac5180 mshtml: Added HTMLWindow's IDispatch methods implementation.] ||
+|| James Hawkins || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37286473a05fb9e35f1ff5e785b675764d10e966 msi: Add a stub implementation of MsiSourceListEnumSourcesA.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2acb8a2dd2e28fa61c73c6c289c5c14d216534b6 crypt32: Test getting more parameters from a decoded signed message.] ||
+|| Jacek Caban || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=21572967db5f8b8ba05f791dd0708c9216f46ef6 winhttp: Added winhttp.dll.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=04ef3c05f17d7ee289553ddc2c937869dec61cb9 crypt32: Add CryptMsgControl stub.] ||
+|| Juan Lang || 2007-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=014467031e3a6f18a3c214c2aab1d95ff49584d1 crypt32: Get rid of attribute certs from signed info, they're not supported anyway.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d221915037a8f73cae673b7e19054f83308ffa61 mshtml.idl: Added some missing attributes.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae0beb224ba12b92b582f5eab31c5f16c5f84cd9 widl: Reorder switch cases to keep alphabetical order.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8fd971698531aadca65a802ccee225e8192d2c47 widl: Added displaybind attribute handling.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4413e8c6f833f6c7c6ab8b549fb0a13422fd7dcc widl: Use correct bytes in write_value.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ad39a38e5a7c46201664c9b09963d9c5df2f133 widl: Added nonbrowsable attribute handling.] ||
+|| Jacek Caban || 2007-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=021d06a45fe8802e0c5d04444ceb46e697036866 mshtml: Added mshtml.tlb.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd1e88ae61aa347e45f32e0770536f46f5e93369 crypt32: A decoded message's parameters are dependent on its type.] ||
+|| James Hawkins || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fb45206ed7f99dff600f220b53d7831f375b059c msi: Initialize the size parameter.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d76e1899ad85e2766b5a55a00eb8b916f6b027bd crypt32: Add tests for message stores.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d187fcd172bb0b5583a93fef7b579cf5b1ce1210 crypt32: Test getting parameters from decoded signed messages.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c7f44c8ec7b497e47d46373faaf38946683d4192 crypt32: Implement message stores.] ||
+|| James Hawkins || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b830fb0a3435a6072ccce407b0605b4742efab6c msi: Implement the MSIMODIFY_UPDATE command in the SELECT view.] ||
+|| Evan Stade || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b6b7e915c30a83cd5a6dce6606d5f149e4ae1de1 gdiplus: Check custom dash array for bad properties.] ||
+|| James Hawkins || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b0ac20e951a65e22836fbc92494770f459545764 msi: Add more tests for MSIMODIFY_UPDATE.] ||
+|| James Hawkins || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac1f717ab8789cb1288252009aac8821cbcd5918 msi: Keep track of the wildcard record index.] ||
+|| Evan Stade || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a35206e08eb30df1b0be80833ab67f7f8109ff45 gdiplus/tests: More GdipSetPenDashArray tests.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c7c9e545e2518701e045ff9c47397c7a2ba50fd crypt32: Change type to avoid unnecessary casting.] ||
+|| James Hawkins || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9089835c3552d70b1f54901d7e500814a209a9d3 msi: Use a more unique property separator.] ||
+|| Alexandre Julliard || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f0fb1e3e9830b49ce851aa3748578a8f8a625d4 ntdll: Simply store the assembly type without interpreting it.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f2ae254410b36a841d2ca9908e6d4dbd37dc511 crypt32: Only destroy a decoded message's hash if it's been created.] ||
+|| Evan Stade || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=629e013d7f25ce06fb7eb48491b781f51efcf7ea gdiplus: Fixed a typo.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=299612378a9120340ffc8058ddba105bae192a9a crypt32: Store decoded signed content in message.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=211a8d324f0cdf4e2be1678c5bf8e603be45a2d4 crypt32: Correct type of a decoded signed message.] ||
+|| Evan Stade || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f61f4821fb7cd1004b04355306d341a4fc7f216 gdiplus: Draw custom dashes.] ||
+|| Juan Lang || 2007-07-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=115edc67e60308d35c34dd9adeb46ae2f54db39c crypt32: Implement getting some parameters from a decoded signed message.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe2ce3a08b61f5629181148e53d4ec39b58ced1c gdiplus: Added GdipAddPathEllipse.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f52adfd0dea44dcdea0e87b624f9fdf7970d889c gdiplus: Fix memory leak.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e11f7b7bbd5a134bb4077078bbca1ae00c53a9b9 gdiplus/tests: Added GdipAddPathEllipse test.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e0b13a20b5680e797072efd3033a7e10ed32c78d crypt32: Add initial tests for decoding signed messages.] ||
+|| Alexandre Julliard || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e06eaa49ae04444981a92d2aebf590a9d2a1455f ntdll: Activate the module's activation context while resolving imports and attaching.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d5a478edfa98164665d83ba6989aca499910752f crypt32: Test and implement encoding signed messages with authenticated attributes.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c58cb379ebf5875ca241b609765554a9099e0e85 crypt32: Test and fix encoding and decoding of attributes in PKCS signers.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8ab462100222dfeece36d123a4478469926f332 crypt32: Trace a few more items when decoding.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a8fd94b126f38283d65bf0c88493ef4a3f0837d6 gdiplus/tests: Added pen dash array tests.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4f238a1172a84898943353f4f7ab91b7ef9a6fa gdiplus: Fix arc2polybezier.] ||
+|| Alexandre Julliard || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f457ac63b8d5324d413126d2453cbf18b942b5e ntdll: Support single quotes around XML attribute values.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5674ca2e4e80f30930170fd614c8441088b63ed8 crypt32: Don't check tag in CRYPT_DecodeDERArray, caller already does.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=55729020460264338a633d495be305a1aca64400 crypt32: Test getting the hash from a hash message with an invalid index.] ||
+|| Evan Stade || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51bd0af43ed168709b8ad489f90075e846d846b3 gdiplus: Added GdipSetPenDashArray/GdipGetPenDashArray.] ||
+|| Jacek Caban || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43adec3e81f61bbf77f3c1fa4e339c2a1434f391 kernel32: Added a number of activation context tests.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=429e5b300fe88b34f733fad758832ed253ee2e9d crypt32: Remove redundant assignment.] ||
+|| Alexandre Julliard || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3b5963c98de2fa36e72df5f2d695f32c8f063ecf ntdll: Improve some activation context traces.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a85fa6b15abe69c6a4a974689a571df41763ea5 crypt32: Partially implement decoding of signed messages.] ||
+|| Juan Lang || 2007-07-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=30346ee2969125a61460c0ef941311c466343df3 crypt32: Actually skip content when skipping an item in a sequence.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc97dec8d66a5a2002a849e4c454b13debde7a2f ntdll: Check existing dependencies in activation context before adding a new one.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fba5a59b610c7b1aa658ce597e44ccb148223f24 gdiplus: Added GdipDisposeImage stub.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f30732fdf99d7bc0fb13d74ecf0ad6629a378d52 gdiplus: Added GdipSetWorldTransform/GdipGetWorldTransform.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eab427ee3fc8477df55db652b6334361958523c3 gdiplus: Added GdipCloneMatrix.] ||
+|| Jacek Caban || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dcbbd30064f87d88132b14eb0acd465d09ad45e7 kernel32: Added FindActCtxSectionStringA implementation.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3e8af414ba653358f4e34cc4b0c3088636b71a1 gdiplus: Use world transform when drawing points.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b7053b74ba006d5f946051f7dee250ff1271f3e0 gdiplus: Make pen width depend on world transform.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b0acdb8389f9f52d89075d898d1ed342aa036dad gdiplus: Limit fixme output.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ad0d2b90ee7d027d140e4447ea0c2de97e8d30a7 ntdll: Store the base directory for an assembly (based on a patch by Eric Pouech).] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8770b6e8215d98fd0eb31189d639dc8044e3b621 gdiplus: Added GdipGetImageType stub.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=875a56ec398a42dd9576ae93b8b753e2f7091bf9 gdiplus: Added GdipLoadImageFromStreamICM stub.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=82e1aac81d776c203c3e0509f9fb7c7e53921906 ntdll: Don't add an empty assembly when creating an activation context.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=827f979b37b5e0fb2f0f74c3d5c3acc039c24da4 gdiplus: Added support for more page units.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=816213955360c650475cddacd117725e968ea8b3 gdiplus: Added GdipSetPageScale/GdipGetPageScale.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=76bd190a72902d6efab2c85f8aa0d775d02c68da ntdll: Use activation contexts information to load dlls (based on a patch by Jacek ...] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5cc8c10e0e8930edbba5ec29603a1a17d02131b8 gdiplus: Added GdipCreateMetafileFromEmf stub.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b844fe84429caaeacb53ebfb13699aedad70ba1 ntdll: Fix return status when failing to load the associated manifest for a module.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c424b3c16cf7dc863a36818da8cf209d1543dc4 gdiplus: Create gdi pen every time gdi+ pen is used.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45c24bbef3e914aaf4ffae5baef896fa2c0db311 gdiplus: Image getter stubs.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4156a716b01c0ebd8ac7dba11806d574fa2eb7f6 ntdll: Create the per-module activation context at module load time.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a71513d991fe6b818d92eb3c5435b472b216a0b ntdll: Initial implementation of RtlQueryInformationActivationContext.] ||
+|| Alexandre Julliard || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=270f725526ebe3bde8458b8eee44b2ea63cee3f6 ntdll: Create the process activation context at initialization time.] ||
+|| Evan Stade || 2007-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=021997fa636391f8b694cec76cba783b1b1b70f4 gdiplus: Added GdipCreateMetafileFromWmf stub.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f987ca01d0c30481fae09158ff71d4cf15260691 crypt32: Test and implement getting the encoded signers from an encoded signed message.] ||
+|| James Hawkins || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4147ca004022228257d3ee89ff1540eb90a0b60 msi: Add handling for the MSIMODIFY_UPDATE command.] ||
+|| Matt Jones || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f204ed1d192655d8443437266af937bd91fe11f1 kernel32: Added test for bad arguments to SetThreadPriority, test for correct error ...] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e43967773f6bb0759433d33910a2da974d9cc4bf gdiplus: Added GdipGetPenColor stub.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d11ddebc763bbccb5b07f952085fdb5d342f5ec7 crypt32: Add a partial stub for updating a signed encoded message.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d01c697eb9e721550fb20e751d7763553b4798db gdiplus: Use page unit when drawing.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc4005829da1ab4837985fad419de6e3741f4791 crypt32: Add tests for updating signed encoded messages.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b80101eb6516e0ac778c1d61bbb26a032ccbd0a2 crypt32: Partially implement encoding signed messages.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a72be4b1676091e779256ff4308f18ed724a8397 gdiplus: Added GdipSetPenBrushFill.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=99c475417a75c0137c86cd1c0e95569493f43d78 crypt32: Use consistent types for storing and encoding signed encode data.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=937b27f3a37e45790a12f790fea9524d399be3bb crypt32: Implement getting outer content of a signed message.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c81a386987236250a44786e3390f12f350bbb94 crypt32: Add tests for getting an encoded signed message's parameters.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b2ce0f94b2097fdcafc6f313b56858a45d2990a gdiplus: Implemented GdipSetSolidFillColor/GdipGetSolidFillColor.] ||
+|| James Hawkins || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8a7690c1519189d49d7fc4c6d4a2bd01462fddaf msi: Properly delete the columns view.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8a3f4483a9b73ed570b9f6843cea578787431575 crypt32: Use set encoding function for encoding PKCS signed info.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=82abeeea75adf4627fd5143d36434428a01398cd gdiplus: Added GdipSetSolidFillColor and GdipGetSolidFillColor stubs.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=777d661fd2bc3eea67896161b0c37dec9de5de28 gdiplus/tests: Added pen brush fill test.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=71a5859dedcaa774724bd775396f97e1b14d164e crypt32: Implement getting the hash for each signer of a signed encoded message.] ||
+|| James Hawkins || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6af199ef9c4e25e3521f8ad3b109a0ab43edebae msi: Use a different separator as a semi-colon may separate values in the CustomActio ...] ||
+|| Matt Jones || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6763742090f10d953f12d2e4a866f653f89ba529 server: Only commit SetThreadPriority if new priority is correct.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6467526469d91f72d05fc3851b797ec5018cb122 gdiplus: Added GdipFillPolygonI.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f30f90c39bc03b72e98ae00d5ff2767b5b6ee20 crypt32: Implement getting version from an encoded signed message.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e2b3ab9e18ad79f47fb568ef2212cbaff9c664c crypt32: Hash and sign data when updating signed messages.] ||
+|| James Hawkins || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=479aca473160842abe99a5e6717a0f3aaabb6dce msi: Add tests for the MSIMODIFY_UPDATE command.] ||
+|| Nigel Liang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3f02c27da96d45eb16d3efece4bd0d071fc2c4a4 winex11.drv: Take into account position of preedit area in PreEditCaretCallback.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37598f81e7c300cf3be10ad321c42c3244a4350f gdiplus: Added GdipGetPenBrushFill.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d359268e60c45903eafecdb42a346c561023379 crypt32: Separate signer handles from signer info to avoid unnecessary memory allocation.] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=27124d5d327c5fe9a975fd174c47b31bc72d3c25 gdiplus: Implemented GdipSetPenColor.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19e63d900484fe49fddbaf02cb872b7a60709a07 crypt32: Add tests for opening non-detached signed messages, and clarify detached ...] ||
+|| Evan Stade || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=10b575bc8636f262b8667310bbbd96da7d32f040 gdiplus: Added GdipSetPageUnit.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b0df876b2f306d298ca6bc93877cbb3dcd69072 crypt32: More parameter checking for opening signed encoded messages.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=058496451871e29ee705e1536c9c7ada02f215ee crypt32: Test and implement encoding signed data messages with CRLs.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01ab14e1745ae2630ddd409c822717bed7edec62 crypt32: Test and implement encoding signed messages with certificates.] ||
+|| Juan Lang || 2007-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=014f282b724eeaa8609677c0b621e4f33ea917c6 crypt32: Add tests for signed message encoding.] ||
+|| Juan Lang || 2007-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc28f99d22841cd529ec35b3307a5823dd3977ea crypt32: Introduce function to encode an array of items as a set.] ||
+|| Juan Lang || 2007-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45652e08029970f6991e0aab7c365eb6b2bb6343 crypt32: Check for and fail on indefinite-length encoding.] ||
+|| Evan Stade || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f56fa321f53e70825b00fc5eeaf71d4e2de4ea95 gdiplus: Use base inset for custom line caps.] ||
+|| James Hawkins || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ccef56f2cc6c253eb43fd4e8821456c959f2e908 msi: Ref count temporary columns and release them when necessary.] ||
+|| Evan Stade || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a84b567cba203a3191e03efcdecd4593e64104ce gdiplus: Added startcap rendering.] ||
+|| Evan Stade || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c5bcef9f3e5082f00387e49be7f6a56d6557ff6 gdiplus: Added rendering of fill-path type custom line caps.] ||
+|| Evan Stade || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=818051de2c8769029049ce3d36c6b856f47496c9 gdiplus: Change atan2 to gdiplus_arctan2.] ||
+|| Juan Lang || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=725d440d3c361df68c16711aa02c96120065e31e crypt32: Add tests for opening signed message to encode.] ||
+|| Juan Lang || 2007-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=223bad2312bc22dff601bbe9240ea33afbb36d40 crypt32: Add stub encoded signed message.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eb478be84cfed37ad2bc6e8466a6b2f3ebee2d9e gdiplus: Added GdipRotateMatrix.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea5898c0676634781538be7126c9de4f2c92d616 gdiplus: Use atan2 instead of atan.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d882fc043d83c7888dfa9a81813bb1e008b158d6 gdiplus: Added GdipScaleMatrix.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d07088ee8ae7c5d05e511c60f3c4280a47aae050 gdiplus: Initial custom line caps implementation.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2b4b87c3b2c6420056f8fd70ea2f01210e1b909 gdiplus: Added GdipCloneBrush.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a8322cb1ad1fc263e8634036dc125827ba2d7cc3 gdiplus: Added GdipCreateMatrix.] ||
+|| Alexandre Julliard || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a24f9cc101ff9d3c983e45953018c383df9b1fac ntdll: Don't fail to load manifests that contain unknown elements or attributes.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=937432ac176d39d37429017296192d27ba9d7f64 gdiplus: Added GdipSetPenStartCap.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f865f42ee368604b8e5e57ee305b5b19a85d62f gdiplus: Added custom line cap setters.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=85b5df42a792730c4343cbe021d2c69acee90141 gdiplus: Added rendering of custom line caps.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7af2e97a4a4688faf9fec35d02d38cd3193d0af2 gdiplus: Associate a brush with a pen.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=628237f3344b315b5561681a76a2aedc8d4fa700 gdiplus: Added GdipCloneCustomLineCap.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5306245c47cc59756497bc826b2292d668f79ae4 gdiplus: Updated GdipClonePen to clone pen's members by value, not reference.] ||
+|| Juan Lang || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=52cc727348a218ab42c35e3149b68532793ad02a crypt32: Move decoding hash messages to a helper function.] ||
+|| Evan Stade || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=477874797c089172b322b1ba2a2184349645aa9a gdiplus: Added GdipTranslateMatrix.] ||
+|| Alexandre Julliard || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1207d9b5937f7c8fb67d9e4b4843f13c74bea85a ntdll: Add support for abbreviated empty elements in manifests.] ||
+|| James Hawkins || 2007-07-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0fd733bf9096d51ef78cba7daafa8a1905bc3ee0 msi: Implement adding columns using the ALTER command.] ||
+|| Miko&#x0142;aj Zalewski || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f53e31418006ad899716007b41fbcb9ad409a24d comctl32: tooltips: Remove broken support for non-NULL-terminated strings in TOOLTIPS ...] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5bf0947f605cefd9ddfc205e3418d083ce8e8d7 ntdll: Add infrastructure for loading manifest dependencies (based on a patch by ...] ||
+|| Nigel Liang || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c52ce9bccc2b6735b73e790f060e31e7544af88b winex11.drv: Implement XIMPreEditCaretCallback.] ||
+|| Jacek Caban || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c0e7cd9d93f1b497db7fcb51d1d0a7c5fe2b1952 ntdll: Beginnings of manifest parsing.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b96df32560208c824786a8789ed51c80c931ea38 ntdll: Abstract the entity array type as we need it for assemblies too.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2b6fc1288525f290129ed8bfddd886fe090e3cc ntdll: Cope with missing assemblyIdentity elements in manifests.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5130f4e7280ffed6112f8ebe17eddb46a595ce6 ntdll: Add parsing of the processor architecture in manifests.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c58a2ce8cca8c83cf37e80f0ad04c664575fe8e ntdll: Add infrastructure for loading a manifest file or resource.] ||
+|| Evan Stade || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9b9e08c2107b31c77692acb5c512d290e36a4259 winex11.drv: Draw dashed lines for extended pens.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84a318265d71d587c50c8168d2950e92e9516acc ntdll: Add support for optional flag in dependencies.] ||
+|| Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=797dd942ecfc4d405e5e9c3cb528b9698cd79fb3 ntdll: Implemented handling of the per-thread activation context stack.] ||
+|| Juan Lang || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74bd61203daca013002c2fef988d846486b5b5c4 crypt32: Implement querying computed hash of a decoded hash message.] ||

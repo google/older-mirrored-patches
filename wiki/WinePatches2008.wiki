@@ -1,0 +1,1046 @@
+[Wine contributions Wine] from mid-March to the end of 2008.
+
+|| *Author* || *Date* || *Description* ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68525652a15bcc332f1d48571bdb0f2da86bce47 jscript: Added possibility to run test scripts from file.] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31b3071552b92fcd03988ee97764eb6249b80f57 jscript: Fixed backslash handling in regular expressions.] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=47b842bff7f93ac65b60230b506e4cf683c18817 jscript: Don't initialize variables without initialiser to undefined in variable_list_eval. LONG] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=56d1e9ec861e046c83b44203ea7d1e8ddcbac371 mshtml: Added IHTMLElement2::get_currentStyle implementation.] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3203524bb5937750e287a4ed180d65592c7b40ed mshtml: Added IHTMLStyle2 to IDispatchEx support.] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=239f7f70e77cdfe7466a6358d499fc5adb24d6ad mshtml: Added IHTMStyle2 stub implementation.] ||
+|| Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cbeeac0ebfec70c816ef6e656f75bbe80d4b0d2d mshtml.idl: Added IHTMLStyle2 interface declaration.] ||
+|| Dmitry Timoshkov || 2008-10-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9aaa24091f9b93f8071b9685b6eaa8c6f16ff826 winex11.drv: Add support for _NET_WORKAREA.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c248189f7ac0770adca62df351e3e80c3a2de27 jscript: Added delete expression for EXPRVAL_IDREF implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=65a207466dd3422e69e2dce302384414f23e67f0 jscript: Added IDispatchEx::GeleteMemberByDispID implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84d8cddcae73b6a130fdae20636712ddb0f91c94 jscript: Added Date constructor object implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a9c4d2b18e49957635fe0f942a1357cdf4cd59f7 jscript: Don't clear uninitialized variable.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50a84b454541eba099b082d9fa912df538b1c4ab jscript: Allocate variables when entering execution context.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=131d0b9f1be05b51a9d54bd2fcc6999facf559ce jscript: Optimize GetDispID usage.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b54f449e2d2514e3545d10e8e973339f8b55a2c6 mshtml: Ignore IDispatchJS in QueryInterface.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e80c55c367414f59961d1461e60760952d0bacc8 mshtml: Added IHTMLTableRow::get_cells implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac4117fdb5fc809aac2d23616d849563b2244bdf mshtml: Added IHTMLTable::get_rows implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf9155dbaa2760acde0239aca20ea76af8940c28 mshtml: Store nsIDOMHTMLTableElement in HTMLTable.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0769ebc8a62db7f7e49e08c0f5d4650f3f645351 mshtml: Use create_all_collection in IHTMLElement::get_all implementation.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53f00d02218d9d97908ef9a6faa9670768b18845 mshtml: Use create_collection_from_nodelist in IHTMLElement::get_children implementation. LONG] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c584effc737d5cc058f2cec6b54d456ae0e83ed3 mshtml: Move IHTMLElementCollection to separated file.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ee46d4814dabac5351d2f6a7fb85affdcdf7d2a mshtml: Don't use IHTMLControlElement in IDispatchEx implementations.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=630252c12d3f7f54cf20f2685e41ddfc0f33bf48 mshtml: Added IDispatchEx support to IHTMLTable.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea36413683f9ea7f64d6c0ce7ec181212e0e558d mshtml: Added IDispatchEx support to HTMLTableRow.] ||
+|| Jacek Caban || 2008-10-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=31ae80233ded69ad7ddee37b9070acbaad67776f mshtml: Added IHTMLTableRow stub implementation.] ||
+|| Jacek Caban || 2008-09-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b3c63dce6ee072122fefd6e65a3cc201aa64c1a mshtml.idl: Added DispHTMLTableRow declaration.] ||
+|| Jacek Caban || 2008-09-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e7fb15065fc9b6b3438660304c9a657f74ae8bd7 mshtml.idl: Added DispHTMLTable declaration.] ||
+|| Jacek Caban || 2008-09-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d893690e3b45868eb89575f39a2a612e126f3592 mshtml.idl: Added IHTMLTableRow declaration.] ||
+|| Alexandre Julliard || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cd3805336efd5d210474f6947f06d278985dff76 advapi32: Always pass a valid argv pointer to a service even if there are no arguments. LONG] ||
+|| Alexandre Julliard || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a2d04673e6522036fe7f3d9ee3b7a10b6ae41435 gdiplus: Fix a string buffer overflow.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3bdda810243ed6c8d6b9960d1df3b534653b438 mshtml: Use ActiveScript for JavaScript in file protocol documents.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6906c2f1baf039dc7069d179a3e5d5c2f9e9b2c7 jscript: Added String.split implementation.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9307a5ddfdb8fccdeabbd66f7e9a0fd9aa8258e3 jscript: Added String.match implementation for non-regexp arguments.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e0413ddfe598278df78519c5a79bd7689c045fd0 jscript: Added String.replace implementation.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b4796499e7bf6da2489eaf1c97c26a037053c494 jscript: Split regexp_match function.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=136f7933c65bd5ef87de12083cf4a631ed07e58b jscript: Added object to number conversion implementation.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b3630ec7b75b329e255d29ce50a0a19b93ace1a jscript: Added Number default value implementation.] ||
+|| Jacek Caban || 2008-09-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53040deefd78575dfa1ce2bdc989038ce6b7a07d jscript: Added VT_R8 to string conversion implementation.] ||
+|| Jacek Caban || 2008-09-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=87e2c255491a0b52ed2b13970448e5136f8f4c42 jscript: Fixed a typo.] ||
+|| Jacek Caban || 2008-09-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98f2dfee9cabde7fd62d11cd2850d608ec055aca jscript: Added RegExp contruction implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e806869d4e8b770ed63b94c22d703344f67e8ce2 jscript: Added Function default value implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5760eb808b17a8c80bbb42ea128499ace84b69af jscript: Added Function.toString implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68bd72c7cd28bf1f1f80eb2f3d4f0091a2b74dda jscript: Don't call IDispatch as constructor.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=90dd23cc4c7416288ff8d5cb45523f073011f21e jscript: Added Math.ceil implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c4fe1b2efdb10c04a2a0fa984b42d7aa3e979880 jscript: Added Math.pow implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37b69e9a9eac535bc14ed8ee8afbc80954b00d12 jscript: Added Math.max implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2149494c9dfbfe7cf0d90090a6c2929cf8d79ef6 jscript: Added Math.abs implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c395981b2fef13008a4aa807869b7d657f38abd3 jscript: Added Math.round implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50a24a4a1378e9bca1b6ff65055ab6d186048ee9 jscript: Added Math.min implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=17ceb90b30f14fba20c8205870f2a2f89f7a1e6b jscript: Added String function implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6751644835cc374baf5e04b80d878cee9f69c956 jscript: Added String.concat implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f134b41b32dc92738fcbb1730e68c72845d7f06 jscript: Added String default value implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3925f13023161e9beda334a61b026ba78c58df4b jscript: Added String constructor implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=84b69fb1aaa9b05402cdcfd9663f0fbfd2ebf760 jscript: Remove no longer used jsdisp_set_prototype.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f8537b6eb976ea65136d8ba0b0190c422974c5db jscript: Added parseInt implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8612ae880f5db8d16192711f80565e7862f7e39e jscript: Added String.charCodeAt implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2c6847d000655cc94ecb7bc729d6752748921af5 jscript: Added String.slice implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1388a6f421162736814d627c5d829405d72c8f46 jscript: Added String.valueOf implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=304e9fe0d41715b59468b58dad5f3e457565e764 jscript: Added String.toString implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5fdf258b1a3e16a098d0d8e69d22185460d3c97f jscript: Added String.substring implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dff4f0b598ba66d0f201488a67fd9291ead8344c jscript: Fixed typo in to_integer.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=898cb6fcd43fc8038c74c45552b69ef29a19e0da jscript: Added Array default value implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2efae9e79b1cf6f7a2980d40b8d54b323f801761 jscript: for..in is not error if in expression is not an object.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c6188fdffcb2e2b0c6129d8777499378999393b3 jscript: Added Object default value implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5fa649cae6c95114ad7ecaaae216b4b9c8262be0 jscript: Added Array.concat implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45cd5bc4a22926fe3a896992ae8606e4e8bc8e8d jscript: Fixed array literal length calculation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f1f2e8e6c575922d28216fd9a7be42458a770c60 jscript: Added Array.sort implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53e831e2cb62fda468bf63c02ece2d31de5428d2 jscript: Added Number function implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3e2a6f9d7897d9615e35ebcc971723238d11376 jscript: Added Number.toString implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9b74d6a91cdd1d46e7543cb312f759ab586055bd jscript: Added Number constructor implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b13719cd23f3e7bc29d4d3b6e0ffba2638ed835 jscript: Added Array.toString implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f62dd2a9fdc2a768205f93177285e89173caa093 jscript: Added Array.join implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=34e82951c3ebaa78fed3bd1d9315d1f605011973 jscript: Added Array.push implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91b798ddf802bb9d7e812d84df308a324f555652 jscript: Added string to number conversion implementation.] ||
+|| Jacek Caban || 2008-09-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e9277986c85463f638328ffd7e64a48a21940427 mshtml: Fixed dynamic properties allocation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5e07e0cf53357432002bd0804987cf102f677a72 jscript: Added function constructor object.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4778c069039a567da9f86858da9fc3b3ea71b3a5 jscript: Added more to_string implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3435603520b8da0514b959c97e428904edffd294 jscript: Minor fixes.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c1b76a333b79ea94e3a7fc9108fcb8162263e8c4 jscript: Added '>>>=' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bc641097a90410c4a845d1ad17a3a82b561e13ec jscript: Added '>>=' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=701797489d3b683a29af54ede839833caa0d6832 jscript: Added '&lt;&lt;=' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=13790a640b463aa97caae8bbfd1e393d5c001f4d jscript: Added '&gt;&gt;&gt;' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74fefe94ebe5d43c49a20fdcd4c4c092bcf16bc5 jscript: Added '&gt;&gt;' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ef78010df4975ccdd98c0f7496327505f39026c3 jscript: Added '&lt;&lt;' expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfb867af56f4b15986482deef588d33d2458b101 jscript: Added with statement implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e9749bf921e8ec4cd40dcfb3447a9e85a5cd3ff jscript: Added delete expression implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8e162404674d6981248fe940fca332ef58b9a785 jscript: Added for..in statement implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4731f174352033a2d2c226afdf94b334b5a4ef22 jscript: Added String.charAt implementation.] ||
+|| Jacek Caban || 2008-09-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=536573934afb2722fc5867c39233a283f378c227 jscript: Added void expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9e68badeaf63cf514d32c3a22038adf87fa13258 jscript: Added for statement implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=99335680630f0a48e999a2426b835dfb248e1459 jscript: Added continue statement implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7bde1a3345fb98075b0d5ed1d5cd16d159beb58a jscript: Added while and do..while statement implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b48489be3c884aecca8b5f3dd8f9eb21d4baa989 jscript: Added String.length implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c1372814695510564f53645346c1eab8b1dc0d0c jscript: Added to_string(VT_I4) implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=788197d592794849c981c79d8c6449f90bcec2b6 jscript: Added array literal implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44849c3fc90d09f18559d6f8e5ff190fc68efb0b jscript: Added eval implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1bbc34f2f2c02b4e9087bd5f06c79804f6c94dfa jscript: Added bool and null to number conversion implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c6b6c8ca840dc591d05bd3395163fb82eea7c3e jscript: Added plus expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=20bc98d5d86e6c0847a9be75b3272f4ba25d3712 jscript: Added '~' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c0bfbba859c99d4680d51bac73d7dd1661ac4758 jscript: Added ',' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5288c5b07c8f0116d298cb6cece49b26d10cbf6c jscript: Added '^=' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7202197dfa0654a515dc85ebd0e77bad78b5c8a7 jscript: Added '^' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8aeb15cb58f6ea5066dc847c11c62a8f52bd1a7 jscript: Added '&=' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d2de1d310375d0fa97ff7f5b0b0cb93e1eca8d6b jscript: Added '&' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a51ec811c727c62defde5942861d5ea58749cd6b jscript: Added '|=' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ec6411a7fca04c41b843f4776a481d712bd4952b jscript: Added '|' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32a3a167b6d133f6836a3fc264b0251c315ac783 jscript: Added break statement implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b16387708b2fc1842f726b899e8584eaf5c639f jscript: Added switch statement implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c0f3c78954e1e7f65644fba97cfc52c60f9b5cf4 jscript: Added 'new' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=47fcf8d0c7359865a99c10d5d1843580e8cc4d19 jscript: Added '!=' expression implementation.] ||
+|| Jacek Caban || 2008-09-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d699834892c0a47362c2f004a3222713ebda39ba jscript: Added '==' expression implementation.] ||
+|| Jacek Caban || 2008-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ef221478f02a18fa867dd2fa07e87fcfd90054eb mshtml: Fixed tests on IE7.] ||
+|| Jacek Caban || 2008-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e670c1c6bde92bb6d760f7e3aca9850f2862492 jscript: Fixed allocation of script buffer.] ||
+|| Lei Zhang || 2008-09-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=62823d272dd988f9417fa1bc4207c8cc9467d7d0 qcap: Make sure input to AMStreamConfig_SetFormat is not NULL.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c1c923d5efd86a03bbddb9e574dc90727485691 jscript: Added minus expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43f760ba1751430aa4543c94d1b259d9bdfd577a jscript: Added '/=' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=323e11b4abb0bfa8f347da1789f233e52ca6ed13 jscript: Added '/' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01a4acbd8c377bebd03c9767a4bc3aa5d3c081b0 jscript: Added '*=' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2385f8d494ca7a848309760381f321d04b83ebd1 jscript: Added '*' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2a672e334e1655e400beb9eca1179dc49cd417f3 jscript: Added '-=' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3af87180a7cd6f9ffeff848737a1abed69b47ed jscript: Added '-' expression implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1a97632a4e1a5f653fbfacb695b6c2b6bf9af73f jscript: Added to_object(number) implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7fa373e364320369eed110f51baad7639be4a8e0 jscript: Added to_object(VT_BOOL) implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e7903ecfa9aaa07ecf6ad32ffc5a15eb9cf73353 jscript: Added throw statement implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=66eb62ada690914070a7ee275a8ce253eef84a62 jscript: Added try statement implementation.] ||
+|| Hans Leidekker || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d943ffa6f798f106bc7e4b398bab9622f97a85b7 winhttp: Fix logic inversion bug in setting disable flags.] ||
+|| Hans Leidekker || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a706aae706a1636555e5528b0ad91936fc3e69c winhttp: Manage a session global cookie cache.] ||
+|| Hans Leidekker || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4ae5741c4e8a9ec7568a9e46da65ea1a44e1d643 winhttp: Move handling of default request parameters back to WinHttpOpenRequest.] ||
+|| Hans Leidekker || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8df906f28e9f1bd53bc105f5b4a0d06adaca2ac2 winhttp: Reset content length when all data has been read.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4b9bc9816b268f855fa25524f0b20a94062385b0 jscript: Added RegExp tests.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db69b121ac6e3306d95911c00b18fc1c7c4f5b67 jscript: Added String.match implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a752be1a799563e0790d2203917434c6d5ecea1 jscript: Added string to object conversion implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5670ca52ae50eba30775b20e65b48e6de39db5cb jscript: Added regular expression  compiler based on Mozilla regexp implementation. LONG] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4ac24dc2bf9dc6cf783405968162461867a36aeb jscript: Reuse temporary heap.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf1863ed09d2e2930b873f75c9aa696883a48237 jscript: Added parser support for regular expressions.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2e7626c7a24c1c927b9469fa29cef55689ef894 jscript: Added ArrayInstance::on_put implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=06d19171be21fde7bff7b7551c1b56baba301cdb jscript: Added Array.length implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c25917e5d94fd89a192d23a42032ce3d0354be5 jscript: Added Array constructor implementation.] ||
+|| Jacek Caban || 2008-09-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=199952bf5590d1acff24445d6f9479aa8aa8b432 jscript: Added missing RegExp properties.] ||
+|| Roy Shea || 2008-09-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91e33020f05618826a378b540a234f400a660ac8 kernel32/test: Test import entries of a core windows DLL.] ||
+|| Alexandre Julliard || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be3c3a52141e100075c11896ac96e50736411ae3 winex11: Driver-side implementation of SetLayeredWindowAttributes.] ||
+|| Alexandre Julliard || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9fb76ddd53fef4dc6b1e4a01c8f39aac326e4e22 user32: Add a SetLayeredWindowAttributes driver entry point.] ||
+|| Alexandre Julliard || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d476761f912a3f217e6356119cf328cfad4de3e2 user32/tests: Added some tests for Get/SetLayeredWindowAttributes.] ||
+|| Alexandre Julliard || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05b4181cac1f567f786a0ce7c182adb7e7355880 server: Implemented the server side of Get/SetLayeredWindowAttributes.] ||
+|| Alexandre Julliard || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f1121316868b79bfe01105b6a3814a17ec655d5 user32: Notify the user driver about window extended style changes too.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1c51d3598df31a196320c74fb39f9fa33f537dc9 mshtml: Added body dispatch id test.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2950c3fa2d9726af00adedd05083d58b11e67ee0 jscript: Added postfix decrement expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b291b83a6bfb3fbfb988048270e9c188acefefd8 jscript: Added postfix increment expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ce423c2e3bdf0ba1d8d5c8f6ad7191bfbf07c173 jscript: Added prefix decrement expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5df7ac456f0a812fe8d20d249061ab0101afd746 jscript: Added prefix increment expression.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa4f801ed0abdca2c8256645bb8c92dbd0a8d70f jscript: Added '&gt;=' expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa0c254e4afc57ce93ba4026dc8efa70f00b4b85 jscript: Added '&gt;' expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9332be04f0f07a3f8a6be71273ec0973ffd60da0 jscript: Added '&lt;=' implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8e2a9ae06a92b7602f184160103bdeaff8104993 jscript: Added '&lt;' expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bc9e6aa1e5a0124b14a832d75f0c7ead998d4f1d jscript: Added '&&' expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6d541ecc5dff7cb6a07d8b1a0ab488a1b68a82d2 jscript: Added '&#124;&#124;' expression implementation.] ||
+|| Jacek Caban || 2008-09-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50c7c4b7193cf21a956d2bdba656dc09e6f5fb26 jscript: Added '+=' expression implementation.] ||
+|| Hans Leidekker || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=10090eb2527ec86eec6c011b1d7c7f2318ea0c55 winhttp: Strip content-type/length headers from request on a redirect.] ||
+|| Hans Leidekker || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bddcb1b8bbb13e9ca87cb28f78f06f06c83f69b6 winhttp: Preserve cookies on redirects.] ||
+|| Hans Leidekker || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0451643e02b97480c3d0a23a3b05ac46159d553c winhttp: Redirects are always GET requests.] ||
+|| Hans Leidekker || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=28ae1d4f0dc55c59532c33a3d3d3443f23195c05 winhttp: Handle relative redirects.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=93a62e8f70be1eeb208799ea0217f97823baa250 jscript: Added add expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=beba0f711d0059b186dd205b0fcd09c253eac4c3 jscript: Added script types tests.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=23ccc9a293c6261e035a29f211970bf7c4a37fc5 jscript: Added conditional expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=026bbea6726ad396500bc45f380e3cb18ed506e5 jscript: Added block statement implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e7786d1d4588934d3ba9ccf1f457adfa1c16d89d jscript: Added object initialiser expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1edd64ef8b453ed44ab3f234d8b3d7be6d62e389 jscript: Added if statement implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eedc6dc715096488be5576c987860e6ad8986164 jscript: Added IActiveScriptParseProcedure2::ParseProcedureText implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44333104ced7668f10345f4053a2f1d62a0cf43d jscript: Release named items in IActiveScript::Close.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0c6b804e6302a05cd29cead8df12af6ca2f954fd jscript: Added initial prototype of functions.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2a93fe3c3f3bf820744cbeb21b8ea5c31d8608f jscript: Added function expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e4e47c01498ae4c1d4e96da5ede061e2b7bc2000 jscript: Added constructor invokation from Function object support.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bea575c9163465db5a7df8da8580e9d4443cec01 jscript: Added Object constructor implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=152b3e48c119f2bfe8325471ecca8ca52ca1d8ea jscript: Added 'new' expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8ef7038ba512a337c85b10bb981c3cf8b958d2b7 jscript: Added array expression implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68d4f489f2d26bddef00eae71608e40fb2c4ab22 jscript: Set arguments object on function call.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0d33508954880b31f8b70b24ebb229195fdd05db jscript: Set parameters on function call.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dd9f8f7dbc7a9010a610dee25567cee384d57cfd jscript: Added Function.[[call[]][]] implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a273e35f9bd00b01c970c426d7614e3c0a80b229 jscript: Added return statement implementation.] ||
+|| Jacek Caban || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0bd508db2f7e05d0317d3ab0e8eeb81219aa5572 jscript: Added this expression implementation.] ||
+|| Alexandre Julliard || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee375f7c22f727c4a26e194c4076f3663d04d171 kernel32: Added implementation for UnregisterWaitEx.] ||
+|| Dmitry Timoshkov || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=077cd6a9f5ecded0681098d6d89026a98983fe23 user32: Fix the work area test to pass on Windows when the taskbar is on top.] ||
+|| Dmitry Timoshkov || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c707e7d9a6a5c804b3ae286c9bd8bab279327dc6 user32: Implement SystemParametersInfo(SPI_GETWORKAREA) properly.] ||
+|| Dmitry Timoshkov || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5587387c9f07e0632d81090a1364b749156c90fd user32: Make GetMonitorInfoW print the monitor properties.] ||
+|| Lei Zhang || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc2404bc206b07f7ffe6e980a026d1badf9d1376 comctl32: Handle listview dragging better.] ||
+|| Lei Zhang || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5f9b0db21798e863c234fdc287fa3cfaa8a3cfe1 comctl32: listview: Prevent DragDetect from removing WM_LBUTTONUP messages.] ||
+|| Roy Shea || 2008-09-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b6806922aedc00e445f009389b2832c5da690ac shell32: Use default system icons if PrivateExtractIconsW in SHGetFileInfoW...] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=67684c48509458d6b8d669333e2fe13febc6a196 jscript: Added typeof expression implementation.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=083c95449ec28435a3888f7b99b28b4126e6a96f jscript: Added Math object stub implementation.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e2f743fad8b8ddc0ac3073f33d92855e1abee2fe jscript: Added RegExp constructor object implementation.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a3d60e9130aca54b0561c5cadc0468c27fd38d8 jscript: Added Number constructor object implementation.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f8be53fcf33208861887351be6f97861b1133763 jscript: Added Boolean constructor object.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=54d03ab8579cd7d1d5255b2e7b6a6a4405f8e66c jscript: Added Array constructor object implementation.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8482abe29ccdd2f39f6918c5dc8272a4d0de832e jscript: Added String constructor object.] ||
+|| Jacek Caban || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dd01f8b8f79d46e0fa951f5ab48b309ff744f581 jscript: Added Object constructor object implementation.] ||
+|| Hans Leidekker || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3cfa9c626f92f24f0f7e893bb5c079571fc493ee winhttp: Better diagnostics in the notification test.] ||
+|| Hans Leidekker || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ddbe713e6bdfedd0da03523f91ee3ecde59ad8ef winhttp: Increase sleep between two tests that connect to the same host.] ||
+|| Hans Leidekker || 2008-09-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f8f9c4cb9cc45075b829e3ffbdeb88a6c00c0ece winhttp: Don't loop on response codes other than 301 and 302.] ||
+|| Alexandre Julliard || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d3f4fb4929284085b8d634f932299e672eaa692e user32: Fix DeferWindowPos to work on windows belonging to other processes.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7c8c2544d82d550459ff28cad2b1b64cf39227b jscript: Added '!==' expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0170ad7f9719ad60a8c80629b9a1e8f982ea95c jscript: Added Function.length implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=99b4bc2347b4eac6103cc73880188d6463cb4aab jscript: Added member expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c6bf428b5a7883de2ed0813f746e5c3704e2683 jscript: Added function object stub implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c05e6c8692c930525d2f61c01228a579b4b4e03 jscript: Add static functions to variable objects.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc5a8836e9e41c97536c372bf4c5c945701f21be jscript: Added scope chain implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca2b797f6a7e5fa2f320fed0c4aaab70c0d44068 jscript: Added global object implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3938073dad90bcbd762768b2731bb8fa11b5456 jscript: Added '===' expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b60898353c47a507f08ccbf45748922adde93afb jscript: Added infrastructure for test scripts.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a16f205382994d39a0a10cafac9857a3682321d3 jscript: Added call expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=86a787bbc9a62bbd3d192ae953848bc7201864f1 jscript: Added assignment test.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=652a0121a9cf55d47bce176bcbb7e55c6927ec04 jscript: Added variable object handling.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=512505f9085781521c2e6693dde5e3d4bfbfee0d jscript: Added assign expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3c05ffe09487b66da4d377aaf0e76f24bd45449c jscript: Added literal expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=326cf6e0cf39203571ccfa33373184c79c17dc9f jscript: Added var statement implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2bbd9d410509a426b22f59c156daa15a35b78809 jscript: Added AddNamedItem implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2a7c9f1b922218ed1505d77812f8e1187efec81f jscript: Added identifier expression implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=11153d0e0542d623d25dc46a14dfff846efbb867 jscript: Added logical negation implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eb0bb55de28c5aa3183a3696d8e2823f0828de94 jscript: Added expression statement implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68326a391de3f22f13048f6c973398340825800f jscript: Added DeleteMemberByName implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=61734cd94517f05a179e9ec639e6e8d363eb91cf jscript: Added InvokeEx implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3612bae30c0496d13d076358ab41478e337deee6 jscript: Added GetMemberName implementation.] ||
+|| Jacek Caban || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=11d9a49b0a58cef37badf9e65fb8b3b0197a1317 jscript: Added GetNextDispID implementation.] ||
+|| Hans Leidekker || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f28c5f87e23fe4a079d1f1fb184228212a39709 winhttp: Make sure not to read more data than expected on a redirect.] ||
+|| Hans Leidekker || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01e7d128483cf4bec401dee3fc8a479109d7a072 winhttp: WinHttpQueryDataAvailable should do a blocking read if more data is expected. LONG] ||
+|| Hans Leidekker || 2008-09-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e6ffab63f1a44da02c817074c2cf009bfdd6a84 winhttp: Option WINHTTP_OPTION_SERVER_CERT_CONTEXT must return a pointer.] ||
+|| Alexandre Julliard || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d45cfde33f49339956167206a10da7229608df6 winex11: Support setting the window region on windows belonging to other threads. LONG] ||
+|| Alexandre Julliard || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=370368aace67b0bad2ce7813e800f668eaa8c027 winex11: Moved the X11DRV_WindowMessage function to window.c.] ||
+|| Jacek Caban || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c23ea508a1af4f4f64ae9b33f43c2c44ac00b698 jscript: Store more data in DispatchEx object.] ||
+|| Jacek Caban || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5ac404aa9c8e3279f6ad8ef6126196e54ad5a2b1 jscript: Added GetDispID implementation.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f3346a789ea01e578b93c7d4f0fdf870f80b446d winhttp: Support asynchronous requests.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4d0abb2344f93552add6eef9a723573c76ba6a2 winhttp: Add the remaining completion notifications.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=64a7d23565640b3815676cd53eba169fc246cccf winhttp: Implement WINHTTP_OPTION_SERVER_CERT_CONTEXT.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=520b6e815397b91c13b3ff135a503577532df226 winhttp: The last parameter of WinHttpWriteData is optional.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d8a9564cde87f34d9404917e0265b7d0fa8bdb7 winhttp: Start sending async completion notifications. Add corresponding tests.] ||
+|| Hans Leidekker || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2fb746783f363b8a34f87476c997ba55ccb1c90f winhttp: Use a process global SSL context instead of per connection.] ||
+|| Lei Zhang || 2008-09-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=887aa9eb3dd3fc22d4f50df125080f5fc82b583c sane.ds: Replace wsprintfW with sprintfW.] ||
+|| Hans Leidekker || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ecd01b8d1f19c32d5acd09da51e4b10fde8197f winhttp: The last parameter of WinHttpQueryDataAvailable and WinHttpReadData is optional. LONG] ||
+|| Hans Leidekker || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6fe2edb5def17acd18f420664eebffeac66ae8e5 winhttp: Implement WinHttpQueryHeaders(WINHTTP_QUERY_RAW_HEADERS).] ||
+|| Hans Leidekker || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b34e816f4a8a7284a29d1a20e56a5d37b63b897b winhttp: Implement WinHttpQueryOption(WINHTTP_OPTION_SECURITY_FLAGS).] ||
+|| Jacek Caban || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b40b352c8f8e995d06f1ab04742edadfc832cb05 jscript: Added empty statement implementation.] ||
+|| Jacek Caban || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a7ede8f272a4545a56703acbe97a52c7afd34553 jscript: Added ParseScriptText test.] ||
+|| Jacek Caban || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=51a2ccb4c475295741c03efe98b8a46bb82c509b jscript: Added SCRIPTSTATE_STARTED implementation.] ||
+|| Jacek Caban || 2008-09-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=69f8b4b9b23013e8bf879cced575c910f10fdb09 jscript: Added IActiveScript::ParseScriptText implementation.] ||
+|| Alexandre Julliard || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b44a109b8c06ef2cf6b071dc7b00b742e2ce8001 kernel32: Implemented the wrapper functions for job objects.] ||
+|| Alexandre Julliard || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=091d9748e3bc4494a2f1f6ee37a699fe98f875d4 ntdll: Add stubs for all the job object functions.] ||
+|| Alexandre Julliard || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0327f84a2f9e70b416146ee97fdccb1827fe38b4 ntdll: Implemented NtOpenProcessTokenEx and NtOpenThreadTokenEx.] ||
+|| Alexandre Julliard || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1abf80909981c9424b8bcc47ea363d02f585bf4f winebuild: Generate MS-style imports using the OriginalFirstThunk field.] ||
+|| Alexandre Julliard || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4eb350b86b50edf84a5587f54483c22ecb5a2750 libwine: Add support for relocating MS-style imports that use OriginalFirstThunk. LONG] ||
+|| Jacek Caban || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=720e8c625225a91109c77ce11c34e4e2dc3977be jscript: Added parser memory managment.] ||
+|| Jacek Caban || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b51a156ff1571d8c0af9e87b92d7949d82ecd0db jscript: Added lexer.] ||
+|| Jacek Caban || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9ebdd111264cfa646dd5219b5874166eb59217c1 jscript: Added parser.] ||
+|| Hans Leidekker || 2008-09-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e078f618eb7c05c3cbec915f69a1d69fd3b35bed winhttp: Implement some more options.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a74b52cf38402b4dc082e19eea880f7afd83881b winhttp: Add an initial implementation of WinHttpQueryOption and WinHttpSetOption. LONG] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9f8d4fe082349a9079a666d7be0a2c2fd208b233 winhttp: WinHttpCrackUrl and InternetCrackUrlW use different scheme constants.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=96bf72f27e3244e6fcad4677ca749e9e370f412c winhttp: Add status notification tests. Make them pass.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8063f5cbd4332b8d66d4adc2a390f76d1875fd7c winhttp: Move handling of default request parameters into build_request_string(). LONG] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6bb3090732ef5a4dd4584e22738d0df418e5a8f2 winhttp: A non-standard port must be included in the host header.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=567e21e13255f24cf6318024c93be94180ad7b2b winhttp: Avoid testing errno when it isn't set.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=41a763629f3150e5bcdf878e7d08554c50ef0f89 winhttp: Handle redirects.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=20d06b2a4cade847d8f4f7c252b5f6e1762dbb2a winhttp: Allow reusing a secure connection.] ||
+|| Hans Leidekker || 2008-09-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=04a11bb11718337bd398658330d9e1529ff4b34f winhttp: Add zero value content length header to POST requests without additional data. LONG] ||
+|| Dan Hipschman || 2008-09-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9e6784c2a7dfa6d409069f513c870f253a31ab6e oleaut32: Add a widl-generated proxy file for ocidl.idl.] ||
+|| Dan Hipschman || 2008-09-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a41de877daa3936590d6db5f1456cfd4e7b55cec widl: Output NULL for inherited methods in the vtbl.] ||
+|| Dan Hipschman || 2008-09-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19cccae29d736e1328417ccc7d9d8f58b5eae293 ole32: Add a widl-generated proxy file for oleidl.idl.] ||
+|| Dan Hipschman || 2008-09-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44800b6ad4570b0f0b47c696d7e129523b6ce468 ole32: Add a widl-generated proxy file for objidl.idl.] ||
+|| Dan Hipschman || 2008-09-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4afc326638201375438ed56b714453bc73421824 ole32: Add widl-generated proxies for unknwn.idl and dcom.idl.] ||
+|| Hans Leidekker || 2008-08-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=13ba609b0488fa28fc03bcde1262e62a6eae2178 winhttp: Use default values when empty strings are passed for verb, object and version parameters. LONG] ||
+|| Hans Leidekker || 2008-08-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f732065c4c8b8065701f49d8742a8d1a299205e7 winhttp: Test secure connections. Fix a crash when no response is returned.] ||
+|| Hans Leidekker || 2008-08-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b19e8559f89f2b6a503821d2ac5fffb31aec6ac winhttp: Add support for secure connections.] ||
+|| Lei Zhang || 2008-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f7e56d19c45f5b87bade0c4ecca3aa24d0264360 wininet: Remove redundant CrLf variables.] ||
+|| Lei Zhang || 2008-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bc9e214f6fb2ea68c9fcd7f635c47f3e85fc695c wininet: Work around NULL headers when handling HTTP_QUERY_RAW_HEADERS_CRLF.] ||
+|| Lei Zhang || 2008-08-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=faf9c55eb8fe296b508476a20f1899ce4c645409 regedit: Fix typo in commit c6d01ac847edc2ad02ef02c7a0ead7a833539c3c.] ||
+|| Hans Leidekker || 2008-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70c6a8ac62ecaf95a5c62ef154fef536b42715b2 winhttp: Implement WinHttpSetCredentials.] ||
+|| Hans Leidekker || 2008-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3f85f4552bf9ed54aa80fe61191083bab8c2598b winhttp: Implement WinHttpQueryAuthSchemes.] ||
+|| Dmitry Timoshkov || 2008-08-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dddec81dfbe13b202adbc36e59e6b92e0fe449f8 user32: Add a test for monitor work area, fix some failures.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=18677beb571c641bc36d117ad550435b1c86c54e winhttp: Remove some unneeded includes.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f07f2304b0b30e2efac70f0a4defc0999a7b583e winhttp: Implement WinHttpSendRequest.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7f54676526454bfe2eefe0d26f66f6a292f71d9 winhttp: Implement WinHttpQueryDataAvailable.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b170ac20dd615e93c8831757d67e80b91f430abd winhttp: Implement WinHttpReceiveResponse.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac95d77e1f0980cbe0025012c5a06156ea910447 winhttp: Add support for querying most of the standard header attributes.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=728bf77c83e331d821272131aaf8eb71600c2a77 winhttp: Implement WinHttpReadData.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6619e54d1eaf5f62115e8fa43a2db16589e47c16 winhttp: Implement WinHttpWriteData.] ||
+|| Hans Leidekker || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=266c4b2c046b334ca44cdc1826c4434625dcb29f winhttp: Add networking infrastructure.] ||
+|| Jacek Caban || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d367d9260f0e07ec3321abd5ac069edfd9d7c63 jscript: Added JSGlobal typelib.] ||
+|| Roy Shea || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c5f411e7ae82dd1ff6569adbb2c4f9a76a58103 mstask: Implemented CreateTrigger.] ||
+|| Roy Shea || 2008-08-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=65d987146390f0c69e86743cb5c8f214e967087b mstask: Implemented (Set|Get)Trigger.] ||
+|| Jacek Caban || 2008-08-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ad156168d170c5119c1e62c398a91dcf84c0516a mshtml: Added IHTMLElement::get_parentElement implementation.] ||
+|| Roy Shea || 2008-08-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2172120fae14d1c69e8b2e6b9588acf6f00a6996 mstask: Implemented PersistFile_Save stub.] ||
+|| Roy Shea || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f208025228852d2286ffcd8de7ba880216413d16 mstask: Implemented partial stub for (Set|Get)AccountInformation.] ||
+|| Roy Shea || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aec0eb87de7d71ab4d3160f3b2b0fb1250937243 mstask: Task PersistFile AddRef, QueryInterface, and Release.] ||
+|| Roy Shea || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a597d9eaed00489ba44cfb0ab339e7b60bd230ba mstask: Implemented (Set|Get)MaxRunTime.] ||
+|| Roy Shea || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37708b1e5c9923817384f5d51b9bd5e887d956a9 mstask: Implemented (Set|Get)Comment.] ||
+|| Roy Shea || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f95e5123be7b967d261a75a69ca27f7cfe03970 mstask: Implement (Set|Get)Parameters.] ||
+|| Maarten Lankhorst || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc224421416bd2616bfd52431388a6f9630bc860 dsound: Tune some parameters to make pulseaudio work.] ||
+|| Maarten Lankhorst || 2008-08-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=944cb7ea15a3e8cbdded643b91ba85acbac827c8 winealsa.drv: Tune some parameters to make pulseaudio work.] ||
+|| Lei Zhang || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=098dc7b3302f39c5500d644615a6f4c37d328ce0 comctl32: Set listview focus on WM_LBUTTONUP instead of WM_LBUTTONDOWN.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44941a55fa97b40b4c9ffa8e414e3a8a26efc65b expand: Extended expand program to accept /r argument.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca736551240f510cba58770c0ec9e156904160e7 mstask: Implemented (Set|Get)ApplicationName.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c5536ef1ae494e2283e977ba702f863923900f15 mstask/tests: Conformance test for (Set|Get)Trigger.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c131bb05691cf4fbbe76c4657099b13670478e1 mstask: TaskTrigger stub with AddRef, QueryInterface, and Release.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8d22f02df9882e673e3cd72f1ef4218a6fb22ef mstask/tests: Basic conformance test for (Set|Get)AccountInformation.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=714c6d3a66f0f31829ef95e84800d2d275a6e5e5 mstask/tests: Conformance test for (Set|Get)MaxRunTime.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7cca21426adbc0fda58adff763d5fc5409283a1a mstask/tests: Conformance test for (Set|Get)Comment.] ||
+|| Roy Shea || 2008-08-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cd8ac273046614430cf6d4359886442b7acd4bb0 mstask/tests: Conformance test for (Set|Get)Parameters.] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6603ad725a4f6f504f49cd587bc408268aa9d61f winhttp: Add some tests for WinHttpAddRequestHeaders.] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70fb4ef523d1d42181560f0660ec8365fae5eb9a winhttp: Use default values for verb, object and version parameters in WinHttpOpenRequest. LONG] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f14b6afb9c63dd555bae6f28da9e14a36d98acaf winhttp: Implement WinHttpQueryHeaders.] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f1d818bf3b48fa7f430e165706fc45a73b33f08 winhttp: Implement WinHttpAddRequestHeaders.] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fcb0e3a9d11c074bce9c98a45fa08cbf366e6df3 winhttp: Add a stub implementation for WinHttpSetTimeouts.] ||
+|| Hans Leidekker || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6b9f60da792141decb07c1c38de3e807f52901b9 winhttp: Deliver status notifications to the application.] ||
+|| Roy Shea || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5b3b540d8b0e9cfd5bf18740d88bc2d477f0d99f mstask/test: Conformance test for CreateTrigger.] ||
+|| Roy Shea || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32354497f73703657de85f04532ea3093585ac68 mstask/test: Conformance test for (Set|Get)ApplicationName.] ||
+|| Roy Shea || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1bc0cdded184d6e8a734ec9c91a3a229f8f9b980 include: Added defines used by TASK_TRIGGER members.] ||
+|| Roy Shea || 2008-08-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5331fa49d9dd7eb0233cbb6a6f7865c5cb7a4df5 include: Add task scheduler specific error codes.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=250cac32ca5ff4e7c282bd25abb4f1ae171476b8 winhttp: Implement WinHttpTimeFromSystemTime and WinHttpTimeToSystemTime.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=877d6c95c6e341cf3fc5f968fb4f88509c0b6937 winhttp: Forward WinHttpCrackUrl and WinHttpCreateUrl to wininet for the time being. LONG] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=587162c3b6ffe0dc977fbd037521234f52e42f39 winhttp: Add stub implementations for WinHttpGetDefaultProxyConfiguration, WinHttpGetProxyForUrl and WinHttpSetDefaultProxyConfiguration. LONG] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a3d9df7d4d6ab85a44468494c79251a26c692503 winhttp: Implement WinHttpSetStatusCallback. Start sending notifications.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ce00aa019f344403a41eb56f9ed8799a97304b26 winhttp: Implement WinHttpOpenRequest.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=770ee20461ba7a262f291a7c295ec2dfbd32333d winhttp: Implement WinHttpConnect.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=405e8cda4116e6ecbc52b91031100f57cce205d7 winhttp: Implement WinHttpOpen and WinHttpCloseHandle.] ||
+|| Hans Leidekker || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d5c0ccf93aed9f2d61734d2f8d3e2f5bee6744e7 winhttp: Add a handle management implementation.] ||
+|| Jacek Caban || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=984bff499edcd915cbd8ae6e9f7529ef3c89b0fd mshtml: Use heap_alloc_zero for HTMLWindow allocation.] ||
+|| Roy Shea || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=77ea6ef814a2dff8c9ccc43b7de1af1140e2081c mstask: Stub implementation of Activate.] ||
+|| Roy Shea || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=75e043ee5f7b5fbf43d74ce561cd0764e51d806a mstask: Activate conformance test.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfd9681fabd386a05d3d3a1754706bc0f46c3968 winhttp: Add test for adding/querying headers.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db0b7beffa21aaa1038e37c67fe60b5362ba68b5 winhttp: Add stub implementation for WinHttpAddRequestHeaders.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9dd04bfc32f2ae92143fdeb3b19f5ec7f53a289a winhttp: Add stub implementation for WinHttpQueryHeaders.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=525037d758a12e301fd3ba71acdad9850b80b289 winhttp: Add test for WinHttpTimeToSystemTime.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=59397fab0265efbb12b44f6e1d66faf1e4342efc winhttp: Add stub implementation for WinHttpTimeToSystemTime.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5706b84513dd54e1b3ff5a1ef6914eed359595c0 winhttp: Add test for WinHttpTimeFromSystemTime.] ||
+|| Zac Brown || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6858aa4a0fb1c326c1eb439fc07ccda140ea44d3 winhttp: Add stub implementation for WinHttpTimeFromSystemTime.] ||
+|| Maarten Lankhorst || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6a7127bfc201ff7a218795c239d5b2571ea413d7 winmm: Test opening the same device twice.] ||
+|| Maarten Lankhorst || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=179990ac36024b8f6054b68aa9849cc8a4cfd57e dsound: Remove int24_struct from conversion routines.] ||
+|| Maarten Lankhorst || 2008-08-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3995627de204284de96d50d3a42291f02e42c344 winealsa.drv: Fix compiler warnings and remove deprecated calls.] ||
+|| Lei Zhang || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=215f6c47caf16f966809b92002619adb622d30df shell32: Handle directories in ShellExecute.] ||
+|| Lei Zhang || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc6553973f02cbd763f043847498190a03e654f1 comctl32: Add a test for TTM_GETTEXT.] ||
+|| Maarten Lankhorst || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2cd620802a3a7a1011a89c301270737ac1a1cfe5 winealsa.drv: Add ability to recover from underruns to directsound driver.] ||
+|| Dan Hipschman || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=80c6099b2c61314bae50405a925758ea2ae75e59 advapi32/tests: Add tests for GetSecurityInfo with a NULL security descriptor...] ||
+|| Dan Hipschman || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=790e6dcd297717a7db160c68f3077c2a8a4c9718 widl: Honor typedef pointer attributes.] ||
+|| Dan Hipschman || 2008-08-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=62e5b6270ba3526bcbf4c3880ddd10be69fe2e44 advapi32: Implement GetSecurityInfo.] ||
+|| Roy Shea || 2008-08-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=777c2f1d4649d9e5f1a3b78737cdc6a72590d26c mstask: Task stub with AddRef, QueryInterface, and Release.] ||
+|| Roy Shea || 2008-08-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f366935d55ec3dfaf695f3f726037bbe18c7c12 mstask: Implemented NewWorkItem.] ||
+|| Dan Kegel || 2008-08-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0864c55eb9713966e78df5297beb3f436261a82 shell32/tests: Test whether SHGetFileInfo should clear hIcon.] ||
+|| Roy Shea || 2008-08-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=41da56a05f0c7eb362b0d99041ac23f4d5ed5f91 mstask/test: NewWorkItem conformance test.] ||
+|| Jacek Caban || 2008-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e273bf1f43d69b64d1b0f5e44ee21787a06c07df mshtml: Added IHTMLElement::get_offsetHeight implementation.] ||
+|| Zac Brown || 2008-08-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8ead5566485aa3b4fcbad9ea16facce31b73ccdc winhttp/tests: Add test for sending request.] ||
+|| Dan Kegel || 2008-07-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1e7f89194cec6693cea3c4fdec5702d8ccaa7eba wininet: HTTP_QUERY_RAW_HEADERS_CRLF length shouldn't include nul.] ||
+|| Lei Zhang || 2008-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e6bce797d3b1f13495637862e1b01fc8e5b41e3c cmd: Check the return value from HeapAlloc.] ||
+|| Dan Hipschman || 2008-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=54752c4f873e0ef940ede8767cabb9f7445fcb05 kernel32/tests: Add tests for undocumented default timer queue &quot;features&quot;.] ||
+|| Dan Hipschman || 2008-07-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a148e190af1ad0c62190e8eb1299b78abc9a9cbf ntdll: Add support for a default timer queue.] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=985115d804ba62893fbc82307686f964ede10198 mshtml: Forward IHTMLTextContainer::get_scrollTop to IHTMLElement2.] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4d89c62eab07ec1830f28a0e994052e0e2bcc070 mshtml: Added IHTMLElement2::get_scrollTop implementation.] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e1a553e3283c3b1c888fa2f46496ac711aea09ad mshtml: Forward IHTMLTextContainer::get_scroll[Hight|Width[]] implementation to IHTMLElement2. LONG] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=925dbb58db2e38bec53318e52d3abf6cd213f8c7 mshtml: Added IHTMLElement2::get_scrollWidth implementation.] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=158488fdc94b140c4b6530c6592a8347431946aa mshtml: Added IOmNavigator::get_platform implementation.] ||
+|| Jacek Caban || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e345794235401ba42082a794033c90e7fad92df mshtml: Added IHTMLElement2::get_scrollHeight implementation.] ||
+|| Zac Brown || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=deb49f6f8395d74ec1824055aaab07943d6bbc2b winhttp: Add stub implementation for WinHttpWriteData.] ||
+|| Roy Shea || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e5bfbfe17d71605973f16ed25d30934948ea1b6 mstask: Implemented DllRegisterServer.] ||
+|| Roy Shea || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=152ba903b85b5be950a8e69add824b205b4172e7 mstask: Implemented DllUnregisterServer.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=94ef37400ddd9f413b96549b2a37969cf9467a23 quartz: Fix support for files with multiple odml indexes.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6becc9e14b0b2f07cea727deea47b307bfa7ea2b quartz: Fix end of file handling when first request is already end of file.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=89f4eeece3435eba38ef643d6c5dfb0d39f7348a quartz: Pass InputPin as parameter to transform filter.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b452ced743333e8a3ba4a1dc560b5912192d8d4 quartz: Use correct media type in transformfilter's QueryAccept.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db2ccf43d4e9fc5ca1a418df6c9c83a054125dd1 quartz: Make transform filter return hresult from running/pausing.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fa38a7e313afaa04a78c736ed8f82bb379fbebfd quartz: Trace the iface pointer in the memory allocator.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=668be5c7578a1b66f78245f1651e85f10644f5c8 uuids: Add MEDIASUBTYPE_AYUV.] ||
+|| Maarten Lankhorst || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6032ab4f175a21dfb5d49885133cc3a9bd70d0df qcap: Make the server directly register a filter instead of the workarounds.] ||
+|| Zac Brown || 2008-07-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=72d201b03733e28e2b8e6891b18ae9e0af0c2ab4 include/winhttp.h: Add WINHTTP_TIME_FORMAT_BUFSIZE.] ||
+|| Dan Hipschman || 2008-07-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b287a4489c6eded2f156ab3dc1c41ce319be433 ntdll: Fix a small timer-queue bug whereby a deleted timer may still expire.] ||
+|| Dan Hipschman || 2008-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5ef54c4cec4d89c55918559b651e83481019b7dc ntdll: Implement the timer queue thread.] ||
+|| Dan Hipschman || 2008-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c64d0cdfa5a81724307e6a71cfbb4e67fea9075 ntdll: Implement RtlDeleteTimer for kernel32's DeleteTimerQueueTimer.] ||
+|| Dan Hipschman || 2008-07-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=396e47ef5c201ff01f2eef7fcb0339520db4e6fa ntdll: Implement RtlUpdateTimer for kernel32's ChangeTimerQueueTimer.] ||
+|| Jacek Caban || 2008-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2609e45c31263253d3e3c7d36f996971a236a25a mshtml: Added IOmNavigator::get_appCodeName implementation.] ||
+|| Jacek Caban || 2008-07-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e629e049dbb22d114a863db1484f8e8dfc23d2f5 mshtml: Added IHTMLDocument2::[get|put[]]_title tests.] ||
+|| Dan Kegel || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f164d504b966a8c67db68497e1c11473e583dbc winmm/tests: Test mciSendString with non-null return string buffer.] ||
+|| Zac Brown || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=34a17650f32ee977a340121511e3baf6df33e0fc include/winhttp.h: Add remaining flags.] ||
+|| Lei Zhang || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9b4f17f630c70c320d7ac5385ec4844d9ea9cb75 gdi32: Glyph advances should be measured for unrotated characters.] ||
+|| Lei Zhang || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=78a1e07c9344fd75eee4a95cfb949764ad8afc05 gdi32: Add a test for font orientation.] ||
+|| Dan Hipschman || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1a5011bb260f47c2a87e4f069af046253493500 include: Add WT_TRANSFER_IMPERSONATION to winnt.h.] ||
+|| Dan Hipschman || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d343f2baf76413eb690cbc44a0d56ed39915328d ntdll: Implement RtlCreateTimer for kernel32's CreateTimerQueueTimer.] ||
+|| Roy Shea || 2008-07-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dab039630cc52f1633d6f878b4ee8a8866d3a490 mstask: Implement ClassFactory, DllGetClassObject, and DllCanUnloadNow.] ||
+|| Dan Hipschman || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=20a1ca2bbfe1c79f2971e55ba18fa4dcab06426b ntdll: Implement [Rtl[]]Create/DeleteTimerQueue[Ex[]].] ||
+|| Dan Hipschman || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=09f4ca64e27103717c8455a1a3cd270d275c5062 kernel32/tests: Check that timers are not NULL in timer queue tests.] ||
+|| Dan Hipschman || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf0f78b11a3e99004483a2b73bd915d587572eed kernel32/tests: Add tests for Change/DeleteTimerQueueTimer.] ||
+|| Dan Hipschman || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ecd76fb77c91c9d46913c064f72b85e196ef6ccc kernel32: Add a stub for ChangeTimerQueueTimer.] ||
+|| Maarten Lankhorst || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3376ba6113f81a420c56292f25bb5420ae2b6465 quartz: Fix end of stream handling in avi splitter.] ||
+|| Lei Zhang || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee60c49dd63fc65b9eb6813cb910ba581d80758d ntdll: Use our own implementation of atoi and atol.] ||
+|| Lei Zhang || 2008-07-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c7ce692d139af1a5b7e4c6db00ef4750053f58ed ole32: Silence FIXME from CoGetContextToken stub.] ||
+|| Lei Zhang || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a27f8b665e4bc23a448cc709de000baa42d4439 gdiplus: Add tests for passing negative strides to GdipCreateBitmapFromScan0.] ||
+|| Roy Shea || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4f392cea55f1160d6dc35d05c393862e3edf8808 mstask: TaskScheduler stub with AddRef, QueryInterface, and Release.] ||
+|| Roy Shea || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=21fd0a0460d218ed2c25037a80e7c38b5235dbed mstask: Generate C file with GUID definitions from mstask.idl.] ||
+|| Dan Kegel || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d18cd895674dc7cac1a5155f2c4b65752818743f tools: Allow running tests with valgrind.] ||
+|| Lei Zhang || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ce552d4451ffecbb3c61eeb3982541a56872bae3 gdi32: CreateDIBitmap should check for SetDIBits failure.] ||
+|| Lei Zhang || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e031ef4807fdcda10d60c27dd0058232cd4abbe8 winex11: X11DRV_DIB_[GS[]]etImageBits should return 0 on failure.] ||
+|| Lei Zhang || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4fe68a9e1e8a4267217e9b2808d32f67c4411df4 oleaut32: Check return values in several functions.] ||
+|| Maarten Lankhorst || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=271ee48301838dd549d368100bfcf63cb7a8df48 quartz: Fix bugs that occur during connection.] ||
+|| Maarten Lankhorst || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0f9356eb16cceba6f39f4be5a5d865ccff2af56c quartz: Fix handling of zero byte samples and endofstreams.] ||
+|| Maarten Lankhorst || 2008-07-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a4dcea213f9633bb8330f508beb83da6ea04c8f include: Fix typo in vmrender.idl.] ||
+|| Zac Brown || 2008-07-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2be840e47b2f967031e1bbf8e111ecc991869df winhttp/tests: Add test for opening request.] ||
+|| Zac Brown || 2008-07-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=38f6dbc55ac0f3e85b4e9ff06c0048b1e6807270 ntdll: Remove byte reversed U+3000 (CJK space) from being checked in...] ||
+|| Jacek Caban || 2008-07-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=014b96ef15db221af72bb5de408dbdca4363b7f4 msi: Added Session::Message implementation.] ||
+|| Lei Zhang || 2008-07-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b3f4091b47e70681a9909bfccd19dee95657fabd user32: Clamp newly created windows to the minimum window size.] ||
+|| Lei Zhang || 2008-07-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ffd66dc6abddf9e6ae2414ed0dea46faa9aa6fac user32: Add a test for SetWindowPos.] ||
+|| Dan Hipschman || 2008-07-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc325c7674297ddee4085e6d5f8faa2d95f26903 kernel32/tests: Add tests for timer queues.] ||
+|| Roy Shea || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=80ee225f23ea8093f57f1e7b29b7fb60e6f6cdda mstask: Skeleton implementation of Task Scheduler Service.] ||
+|| Maarten Lankhorst || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5299795a8dd55c81e40208eb9a57e5cb64e3732e quartz: Fix wrong assignment of variable in parser.] ||
+|| Dan Hipschman || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c70e6125bf7a3ee8d15b42f47d38527e7e960370 kernel32/tests: Fix p_BindIoCompletionCallback declaration so it compiles with...] ||
+|| Dan Hipschman || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1b392bfa069eb43f0d6a65a4d623c95b6f624d85 libs/wine: Avoid over-allocating memory in default_dbgstr_wn.] ||
+|| Maarten Lankhorst || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3ad7198961d25e30f55c9de333e01f8a2c9ceb48 quartz: Explicitly handle wave headers in avi splitter.] ||
+|| Maarten Lankhorst || 2008-07-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f53f5ebd8121ee1cdc88ba7db969720857051ac5 winemp3: Be more tolerant to what a valid mp3 header is.] ||
+|| Jacek Caban || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1c1f8e206f62ff8f54f3a2a5f3f67d4c8d813072 mshtml: Added IHTMLElement2::getElementsByTagName tests.] ||
+|| Jacek Caban || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=952a54cbd933dbee18cbcc88521db11fb4ee7747 mshtml: Added IHTMLElement2::getElementsByTagName implementation.] ||
+|| Jacek Caban || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1de0055cc0d47088cb9011954cf3f05b014156fa mshtml: Allow timers to be cleaned during processing.] ||
+|| Maarten Lankhorst || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=28d6203ca9bd0ba17ce38e309f340b518f954c08 quartz: Fix reference leak in avi splitter on end of stream.] ||
+|| Maarten Lankhorst || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0e9704b02dfa0d0bdb1af4941cebddde84a2af0e quartz: Only allocate 1 buffer in transform filter.] ||
+|| Maarten Lankhorst || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf1d2f5e42fe418b0a66984bb9b0bf9134c23f20 quartz: Fix memory and sample leaks.] ||
+|| Maarten Lankhorst || 2008-07-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=36418d8ad162df4ff237853adf5c048e830ef016 quartz: Fix incorrect use of mtCurrent in transform filter.] ||
+|| Roy Shea || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c74ff3bbbcfab3bbf809095140514c2fbf3e8ef include: Add header for mstask.] ||
+|| Maarten Lankhorst || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=61ba32c0366c4dac79495efe3291bd538bcd4634 includes: Add video mixing renderer header.] ||
+|| Maarten Lankhorst || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ef8569c52cb58980187e3105c43ccc478c60c92 devenum: Call VariantInit instead of VariantClear.] ||
+|| Maarten Lankhorst || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2865c727de7e8732fb6646d473b7818271cef0fa quartz: Make the file source rotate around the 'first' sample, to prevent...] ||
+|| Maarten Lankhorst || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=484fdcf7e446aaab859eba1b9ae79d689241592a quartz: End the flush downstream first before restarting playback in pullpin.] ||
+|| Zac Brown || 2008-07-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d778f74569ce4cc123b6ec527ef3cdcc71551e00 include/winhttp.h: Add WinHttp status codes.] ||
+|| Jacek Caban || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c086429465cbe9387349ef6835dfa4ac1b33e654 shlwapi: Fixed handling mk protocol URLs in UrlCombineW.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e98933a2795363471673fef8779112826bf13f14 ntdll: Use module for path to activation context.] ||
+|| Zac Brown || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=173cd38e68cc0857317e9f0b63d10422fe32e3f7 wininet/tests: Change some traces to skips in tests.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e47bc7725e22b39d12e3408bda9f32be7d8435f2 quartz: Call run before pausing in transform filter.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=86393897a8da29935c145f3cd81d3f4ad56379e5 quartz: Make filtergraph quieter.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe9840f213d12967d99deda02d1c703b77a3ac94 quartz: Make parser start even if some of the pins aren't connected.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=adcf93aeaf446d657685cee8976365980499fb69 quartz: Fix deadlocks in dsound renderer.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43d0acd26a6f396a9f2e0d90a38f5156fb86b415 quartz: Fix end of stream handling.] ||
+|| Maarten Lankhorst || 2008-07-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6748f073ed13eec690524391ff2cd1634764a0b0 quartz: Always set current position again.] ||
+|| Maarten Lankhorst || 2008-07-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3adf811645daaa876e1d223f98fc5428d2f79f75 quartz: Add tests for avi splitter.] ||
+|| Maarten Lankhorst || 2008-07-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19360d41a0239970a7730756d7764be8f08970c8 quartz: Add rewrite of avi splitter.] ||
+|| Maarten Lankhorst || 2008-07-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=992fb02c732f8963cb70fd8167a7727911553d3d quartz: Fix deadlock with transform filter.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9575564af8eae8f455c02bf710a0fd706a8b298b winhttp: Add stub implementation for WinHttpCloseHandle.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=058c23f77d34e0e2318d50f7c7635dc535ddcaaa winhttp: Add stub implementation for WinHttpReadData.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cb5908fcb7a4139896c49119b0bde944dce2ae04 winhttp: Add stub implementation for WinHttpSetOption.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=000fe7058dc08aee65bfc9af95fb9a2131acd738 winhttp: Add stub implementation for WinHttpReceiveResponse.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d8698918f295ad0fce40445cde5191964e5afc5 winhttp: Add stub implementation for WinHttpQueryDataAvailable.] ||
+|| Zac Brown || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a39e23db65db784856ac6fc6f8f92b11f1ddd18 winhttp: Add stub implementation for WinHttpQueryOption.] ||
+|| Roy Shea || 2008-07-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=363516d7c394dac611468942a38567fc97de6a28 wintrust/test: Verify array length before calling memcmp in test.] ||
+|| Maarten Lankhorst || 2008-07-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e58855e0e913adc55df56d31020f027d55afe522 quartz: Only call begin process functions in transform filter when stopped.] ||
+|| Maarten Lankhorst || 2008-07-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6e4288ee70957c3823ac7fb5879df1b130362524 quartz: Fix tiny bug in IGraphBuilder_Render.] ||
+|| Maarten Lankhorst || 2008-07-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=53782ca47acfa8e5d7ae72b59602840e3b35cd81 quartz: Fix parser/pullpin to only care about the state transition...] ||
+|| Maarten Lankhorst || 2008-07-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=11e2b1ab2b0a867c8124a226475a12b199a1c0d5 quartz: Make sure transform filter commits allocator.] ||
+|| Jacek Caban || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=047e5aaad562e65c8a976c3c86bc753d9e0ff359 mshtml: Don't mix nsresult with HRESULT.] ||
+|| Maarten Lankhorst || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9985f2efc9d1e92932dd3d7f351ded3ae1db0b80 quartz: Implement state transitions in video renderer.] ||
+|| Maarten Lankhorst || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b6b67f698a193d3c076c42dc0e3a186631e547f4 quartz: Implement state transitions in directsound renderer, and block on pause.] ||
+|| Zac Brown || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f094b4332d4941502e4dc836f1b6df2931da3ec4 winhttp: Add stub implementation for WinHttpSendRequest.] ||
+|| Zac Brown || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae1e79d43ee2ff2d6017e98757828c87706ceff2 winhttp: Add stub implementation for WinHttpOpenRequest and fix function...] ||
+|| Zac Brown || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ca627f5b7df7cf69ed9f3623146e22c638c65eeb winhttp: Add stub implementation for WinHttpConnect.] ||
+|| Zac Brown || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5db545965f8153f65b7216ebddec67fd3ee74439 winhttp.h: Add WinHTTP error codes.] ||
+|| Maarten Lankhorst || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee317b19b2a3cfb3d3558ea079738845ca1d018e quartz: Set filesource initial state to stopped.] ||
+|| Maarten Lankhorst || 2008-07-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b65914cf9a84922d8f62452ae6bfa5b70f97b46 quartz: Make CLSID_AudioRender an alias for CLSID_DSoundRender.] ||
+|| Zac Brown || 2008-07-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d619ed4dccf658853f6731ef37c1b16914a95bc7 include: Add more #define's for winhttp options.] ||
+|| Maarten Lankhorst || 2008-07-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e5767b1c023574c00a828fb02795a138064bf4e9 quartz: Fix return values in directsound renderer.] ||
+|| Maarten Lankhorst || 2008-07-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=422d71f630c8f90ca280494eaef8fda7674d1c77 wined3d: Fix a deadlock that may occur during initialization.] ||
+|| Maarten Lankhorst || 2008-07-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=28c7b230ed84ee73bbfefe32c64ee7d8dbf270f1 quartz: Fix return value for video renderer.] ||
+|| Dan Hipschman || 2008-07-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d87bc0520f1bc6f6201b8b44bd25cf6dff69184c widl: Factor a small part of the grammar.] ||
+|| Dan Hipschman || 2008-07-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6725c5d756dc6cd1dc19e7de0e0c45005a2024a2 widl: Implement type redefinition checks.] ||
+|| Dan Hipschman || 2008-07-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6db7ce7a6dcf8023bf4c0ffc78c0eb3271e68cb0 include: Fix type redefinitions in IDL files.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4171385cd96dc8fee6774afdcf6861d153f54cd7 mshtml: Silence common invalid FIXME.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4fdbdaf0b91f97e840b0f1a031b8e6ad0982c124 mshtml: Ignore fdexNameImplicit flag.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9157c6d68ac2ccaaf06ca6440ffeab0afa10f211 mshtml: Return NULL in window object's GetNameSpaceParent.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45eba140e616504e12070b5b4c461e836e7f050a mshtml: Added IHTMLStyle::[get|put[]]_width implementation.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4690d6d572ea83750b1dda945264afafbb428fa5 mshtml: Added IHTMLImgElement::[get|put[]]_alt implementation.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe863e0326ec28e87454b5cc5700f2c8a9860605 mshtml: Silence common invalid QueryInterface FIXME.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af3d19fa0496f07669ea53b2d2f10099645d83e4 mshtml: DispatchEx's QueryInterface implementation clean up.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19be7d620d31de34fd86d5faa3895bebf6818659 mshtml: Added support for DOCHOSTUIFLAG_SCROLL_NO DOCHOSTINFO flag.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f58b963f4bb6fc986c7161a3eca44c84ae8e57ad mshtml: Added IHTMLWindow2::get_self implementation.] ||
+|| Jacek Caban || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebb4a9b1974ec0f77a13fe1d5ca337d98c0dc187 mshtml: Added IHTMLWindow::get_window implementation.] ||
+|| Zac Brown || 2008-07-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8f3ae2011c39d092b0c8e2e6a9aabddbd2596748 ntdll: Implement checking for control characters in RtlIsTextUnicode.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=876153976be7ff4d128c0e5ecc70715f21ac2e6d mshtml: Added IHTMLWindow2::clearInterval implementation.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8d3aa6799c16d568b7b660bd1b95fc358bec56b5 mshtml: Added IHTMLWindow2::clearTimeout implementation.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74f29f10878ef423c60121c5a383074880d844f7 mshtml: Added IHTMLWindow3::setInterval implementation.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0d56f1058fbcf671d6f5fde23235f4c4cbe08b99 mshtml: Forward IHTMLWindow2::setInterval to IHTMLWindow3.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44223acceb78c1c6cbe056d67d8182e1dbf9254e mshtml: Added VT_BSTR support to IHTMLWindow3::setTimeout.] ||
+|| Jacek Caban || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6971db7ee32451e2add828ad8f35d0d148013ea6 oleaut32: Added test showing need to QueryInterface on dual  interface in ITypeInfo::Invoke. LONG] ||
+|| Zac Brown || 2008-06-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=927335ef158e622b8af36b3d06d93c88eda9555d winhttp: Build an import library.] ||
+|| Zac Brown || 2008-06-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7a42aba9da5ce57478a567a9db3cf3413ae7b442 shell32: Add stub implementation for SHGetIconOverlayIndex[AW[]].] ||
+|| Maarten Lankhorst || 2008-06-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d54c53a4b64223cb5744571b9f56064543e385c0 quartz: Fix Render and RenderFile.] ||
+|| Maarten Lankhorst || 2008-06-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0d1eea691cd4e39a61fa5be5b5c5592ea7c0aa76 quartz: Make FilterGraph_Connect and ConnectDirect behave better.] ||
+|| Maarten Lankhorst || 2008-06-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=46f4c4b4d8d440500980f8ad46f4fee5886590c4 quartz: Make removing filters work slightly better.] ||
+|| Dan Hipschman || 2008-06-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=50b98a29466fdebca3a550e40fe5b8e9c26ec8a8 user32: Redefine internal pop-up tracking flags to avoid conflicts.] ||
+|| Jacek Caban || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c42d937402214d4d7a744ba36f18898e0b3a78ab urlmon: Make file protocol invalid URL handling behave like IE7.] ||
+|| Jacek Caban || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=44a314945bacb36db0d7923f20138c78e3764b88 mshtml: Added DOCUMENT_NODE type support.] ||
+|| Jacek Caban || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=beeaea11763e06b2c2233c210734413c9b07e386 mshtml: Added IHTMLDOMNode::get_parentNode implementation.] ||
+|| Jacek Caban || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=337f1b73937a7ebe8de88c45bf164272ac235249 mshtml: Added useful TRACEs.] ||
+|| Jacek Caban || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2617512f022f9c38f77ae4697e9ee43c1e0ecd5 mshtml: Added IHTMLElement::get_offsetTop implementation.] ||
+|| Lei Zhang || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f023be8aa7890a7301bda88e92ca7515e1b77a40 mshtml: Remove unneeded variable.] ||
+|| Dan Hipschman || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=36aa6c4c447f2ec2fe1b086eb9c4ace3567ea4af riched20: Implement ITextDocument_fnGetSelection.] ||
+|| Zac Brown || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7bd0c43f0384e835bb4f26c7f810fb3bf5172461 winealsa.drv: Initialize a variable in MIX_close.] ||
+|| Lei Zhang || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=011bad8ddf0322e6909a166a505225cf62459d7c comctl32: Use the system variable pitch font for ip address controls.] ||
+|| Maarten Lankhorst || 2008-06-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3bda54bb04cd898d6f9e508a525d8758c1dfcc8c quartz: Downgrade a fixme to a warn in dsoundrender.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d978d557f421c04dd602365115fca9be279dcff mshtml: Forward HTMLSelectElement's IDispatch functions to  IDispatchEx implementation. LONG] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1d6c28459be7c44d9aa897f9b5ac1e523523f021 mshtml: Added IHTMLSelectElement::get_type implementation.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9338979c11c5d85a69134d3f8baad7bc39c030c9 mshtml: Added IHTMLInputElement::put_disabled implementation.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6314becd8cf34346505974168a0d3d3142535b7c mshtml: Added IHTMLElement::put_title implementation.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f911e240d0ba98dd26b1f28b547ce818bcdb8b53 mshtml: Added IHTMLElement::get_title implementation.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a3a9a317de928700d266cde5dda61a605ebbeeb3 mshtml: Added IHTMLSelectElement::put_onchange implementation.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=da8560bbf70cfba80c75eef8b8575c9e1cdb9496 mshtml: Return NULL instead of empty string in  IHTMLSelectElement::get_value.] ||
+|| Jacek Caban || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c2759cb80d8fc046a9b11d9a4b458758b06db73e mshtml: Added IHTMLSelectElement::put_value implementation.] ||
+|| Roy Shea || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a4d8caed3154726736e9ba7be62dd5dd6dd3cd0 dsound/tests: Added additional tests of IDirectSound_CreateSoundBuffer.] ||
+|| Roy Shea || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d776828857706547e05053d7c1199028029d9c1f dsound/tests: Removed test depending on value of undefined variable.] ||
+|| Zac Brown || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e24e7e7852704a3d4594d2fe7b3ad6913697c5c6 ntdll/tests: Add tests for (Rtl)IsTextUnicode to verify that...] ||
+|| Dan Hipschman || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=92c8cac214715633459227b2d47df61a18dc8d82 gdi32: Return the correct value from GetTextFace.] ||
+|| Maarten Lankhorst || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8bedda7e1f3a9c8300b40d1473a4b43f577f527e quartz: Make the memory allocator emit more warnings and fix race condition.] ||
+|| Maarten Lankhorst || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6aabf5d39e1a5bd13d95a9ad7a9b318f775c95fd quartz: Create thread after connection is made.] ||
+|| Maarten Lankhorst || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33294331d2a6b35ad834a110d7dfd57e3540b276 quartz: Remove dead code from DSoundRender.] ||
+|| Maarten Lankhorst || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cdb66444edc807c50db247d020fe568d728e45c9 quartz: Handle case where ReceiveConnection is called on an already connected...] ||
+|| Zac Brown || 2008-06-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=332733a43bccc5a48ccda12b9a8c20eea7438e4e mshtml: Initialize variables in a couple structs.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c592c6e748bf9a20f8d924cc34b36f18c97afb34 mshtml: Added IHTMLDOMNode::hasChildNodes implementation.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3d8d052f6f5e0163aa0853cedb19905db507a30 mshtml: Added IHTMLDOMNode::removeChild implementation.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=91dcf287c7818eec598e69803da6f864e6b8a8c4 mshtml: Fixed argument checking in IHTMLDOMChildrenCollection::item.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8d7066b264c5ba741dfacd6ff281ff2f14c3ed78 mshtml: Added support to accessing child nodes by index in IHTMLDOMChildrenCollection. LONG] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8284724abcac810772d223f760050cc4950341c mshtml: Added IHTMLElement2::put_tabIndex implementation.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=807f5c78849318497163cb471d5e18898d1e811d mshtml: Added IHTMLElement2::get_tabIndex implementation.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9eb4ee2e06d7865d5f7a6ffc404bd0e71fe19287 mshtml: Added IHTMLElement::put_onkeyup implementation.] ||
+|| Jacek Caban || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0848cc977f0aefaa389ba261aaa108ae94da0684 mshtml: Added keyup event support.] ||
+|| Dan Kegel || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bcdb10a9edb26649c290ff384443d8c7ee8014ec wininet: InternetCrackUrlW: For URLs that have no urlpath, native clears...] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8a023f9f860e06d10907fed03bdd6b496bb7f08 quartz: Clear pin value if not connected.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9009e68c5b4aa7ff3dc592e8563e53591735916a quartz: Add support for VideoInfoHeader2 to AVI Decompressor.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b157969d49bd81d23b542b19d55a8c1f8bd004d8 quartz: Only enumerate renderers if bRender is set in filtermapper.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d283bcdb6230f2dd255cc085d12690802cbf6527 quartz: DSoundRender shouldn't delete buffer when already connected.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d43a629d05967af6fc9fd056f995b2a563f4f14 quartz: Have thread safety in memallocator.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dae09d000c96d1f26ef20585a4eb864b8e1d9bb2 quartz: Implement VideoRenderer_GetCurrentImage.] ||
+|| Maarten Lankhorst || 2008-06-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0bdc8bc5c115dc65a93ce1e41bfe0a2ca0fcbfcd quartz: Implement GraphConfig_Reconfigure.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cf51da73f6cfe5bae5f042feacdb5e93b5713835 mshtml: Added generic HTML event listener and use it for click  event.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=97298e66ec527260f5c85bad325b7e675c3a0e47 mshtml: Use heap_alloc_zero in NSContainer_Create.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=47d835206708bdedb63d779614056dca17ace71f mshtml: Added IHTMLElement::put_className implementation.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=41bdff629fb6f0fa4420d1a567f26d7894cab114 mshtml: Added IHTMLElement::put_onclick implementation.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=39c7951cf1b95b76f2b9a4bf2aaad068034211dc mshtml: Added IHTMLDocument3::createTextNode implementation.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=23ad09865e28cf9ffa4bc816514d4b858cf2a626 mshtml: Added IHTMLImgElement::put_src implementation.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19803de2b453186cac556fc6c7b64bdaf1940d40 mshtml: Added IHTMLDOMNode::appendChild implementation.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0497c9896154350512282668e48ba4e01e0c3172 mshtml: Return NULL instead of empty string in  IHTMLElement::get_className.] ||
+|| Jacek Caban || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01dc47c884b9461e50762fd9fd398509f34845b0 mshtml: Added onclick attribute support.] ||
+|| Dan Kegel || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=81fee5208b90fad16e1a1d3c750e8ffe23144d8a user32: Fix buffer length thinko in dde_client.c.] ||
+|| Dan Hipschman || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e22af18e7a3b0b44512d780dc9ff664c63665dcd kernel32/tests: Add tests for TLS functions.] ||
+|| Dan Kegel || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=578870bc4dced9fda006dd55192a826b099a3a09 msxml3/tests: VT_EMPTY is not a string.] ||
+|| Dan Kegel || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98fba5e56a8ad997f1363b792173a74278f25c0b kernel32/tests: Initialize a few variables.] ||
+|| Dan Kegel || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32393796bb534e9cf11dd988dce88722c67f7906 gdi32: GdiConvertToDevmodeW should not refer to unintialized name bytes.] ||
+|| Dan Kegel || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=97f4fbca7e6c363e39819c33afc613eec4c65ab9 winmm/tests: Initialize MIXERLINECONTROLSA before calling mixerGetLineControlsA.] ||
+|| Dan Hipschman || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9615e2977d136d24fd8acd6dac7701d320657f7f riched20/tests: Add a test for creating ITextDocument.] ||
+|| Dan Hipschman || 2008-06-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=76ee788afa72c481c5969577d44a60d7f5de4366 riched20/tests: Add tests for OLE interface.] ||
+|| Jacek Caban || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f0d8b8b15c84757ac05cbc2f90ad0bdea85b4aaa shdocvw: Added WebBrowser's IDispatch methods implementation.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=da92dcec66f34aa6d0d02812be855295f08938e2 include: Add definitions for VMR-9 interface.] ||
+|| Dan Hipschman || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c1480126b10ba3fe5c14242ee15e75eead3e4186 gdi32: Add tests for GetTextFace.] ||
+|| Lei Zhang || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=71ed7573aaa532eecae32a90136a4e0cb67a599a gdi32: Check for regular fonts by style instead of style name.] ||
+|| Lei Zhang || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4700b0bd876d4948a364dbd00ddda1def9febebc comctl32: Support LVCF_SUBITEM in LVM_GETCOLUMN.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=00beed3d9ef9f1842e9ac593d31a92f754fdb66f quartz: Implement IBasicVideo2 for the filtergraph.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2eb66373f5eb1b881cb8016ae8ec0ac58c1d5b81 quartz: Implement IMediaSeeking in the video renderer.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=29b6dbab8097108d6c20348afe889f9309d4a799 quartz: Implement MediaControl_GetState.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aaee8a1b0e19960b1d75cc3332f6197685cb6905 quartz: Try to render any existing renderers before creating a new one.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=365bbe8343f1f5461c4f2afe2d90be4007818878 quartz: Expose some methods so that a custom allocator can be created.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a9040c1f2a762c7e8dc68c240cb57fd08fee0b8 quartz: Only query for event interface when there is a filtergraph.] ||
+|| Maarten Lankhorst || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e8705402a40682b4e6d73856e196c2f6a8cbf3c8 quartz: Add the ability to force a pin to use a certain renderer.] ||
+|| Dan Kegel || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=025457e09be09b7a410feaa462f3d28690f85fba dsound: Don't free buffer if it's owned by alsa.] ||
+|| Dan Kegel || 2008-06-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=64a62d2e8f53cb004db6cebfbbac96e3bba32ae9 advpack: Don't close a handle if it wasn't opened.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=eb4e098c2c431610f50c9c73e22b76097e4fc480 mshtml: Added createElement test.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d0568d8c5bd3de7cbec2a06505303ae9e116c262 mshtml: Added IDispatchEx support to HTMLGenericElement.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d9cb62e37f3ef2008793e871b2c26c71b3e062ec mshtml: Added IHTMLGenericElement implementation.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f13c5685b5789e2cff5fe3b6501123c64ae181e7 mshtml: Added IHTMLDocument2::createElement implementation.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fdf676ac17d6c90978486aa62706e29fa86cd1a3 mshtml: Initialize node object from child node's constructors.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bb1190a8325141702ed274f743c370f187798fa8 mshtml.idl: Added IHTMLGenericElement declaration.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c9a7998c36871bf756c01b037da51f452e24f31 mshtml.idl: Added DispHTMLGenericElement declaration.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=723b745579dba79e693e190ac624f0dabd344cb5 mshtml: Better timer handling.] ||
+|| Jacek Caban || 2008-06-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1aac23d89e82d14674e262dcd9b15a5f8b704bcb urlmon: Make mk protocol behave like IE7.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc3377d08bd3a43ba34f5c177f7b1e7464237980 quartz: Forward some messages from IMediaSeekingPassThru.] ||
+|| Roy Shea || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6cfc6bd4f36ecf09b3dca3edefaa963200625f9a user32: Initialize hdd HDDEDATA to NULL (valgrind).] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd5c64dc2caa60d45605d1070956bb7eb3314795 mshtml: Forward HTMLInputElement IDispatch calls to IDispatchEx implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4360ee4d8b1501a3fadd1823f7974de4886c61e3 mshtml: Added IHTMLInputElement::put_value implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b54a3a0314a4f5daca4dfe7c4078f1b579ec2f89 mshtml: Added IHTMLElement::get_clientHeight implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1acddbf5c9c66e9dc31d782298fbe880da7f70be mshtml: Added IHTMLElement2::get_clientWidth implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=591bab3726228119e1b6eb8e789edf8df8671611 mshtml: Better stub for IHTMLElement::setAttribute with NULL  nselem.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6305be26b34f69862162194c89a7bb4af15ae5b4 mshtml: Added IHTMLElement2::put_accessKey implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=568f26959839e940cb0b9e4ea04d261c17dbc701 mshtml: Added IHTMLDOMNode::put_nodeValue implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=26e23bdd0718a42fd1df07c60a6d77418ed0dce2 mshtml: Added IHTMLDOMNode::get_nodeValue implementation.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0cb99eef5a866c363f0054c4af6bf06de78e6505 mshtml: Use heap_alloc_zero to allocate OmNavigator.] ||
+|| Jacek Caban || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=590b185e3a05fe8900a215a4d11cd4cac191f96c mshtml: Added IHTMLElement2::focus implementation.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=888b98975fdb7034faf146029da296bb06f4c8a0 qcap: Capture pin should have an IAMStreamConfig.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=586d9e140e3934e0a88979fe269e41aeddb04b35 winemp3: Try to find a valid header instead of failing immediately.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=13281501937fd3919eeaa22c2209bbad87810f0b include: Add definitions for IAMFilterMiscFlags interface.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3806ef6f28e3cd406443d9afadf3a69b9eaf9b3 include: Add definitions for IBasicVideo2 interface.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9473b750bf9ab0f4320683c95cb8ab1d251911cf quartz: Set data length in avi decompressor.] ||
+|| Maarten Lankhorst || 2008-06-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=40c0566879d58da8020296110fe049e39df39ec6 quartz: Improve the directsound renderer a bit.] ||
+|| Lei Zhang || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=59e3490cad4faa9d6d426ef4b01e576f50497e39 comctl32: Don't rearrange icons / update scroll bar when destroying a listview.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=57c49cbb0d57c5b43442fa2cb308a2ee3b1a8cc1 mshtml: Added IHTMLStyle::put_color implementation.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b53307188fe8609864dc68b6977cc08e41e03092 mshtml: Added IHTMLStyle::put_background implementation.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea7666a053a1aa34c511ec47c12c246f82fb8f90 mshtml: Change backslashes to shashes in URLs passed to...] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc021a86075f9cd9c3312714290edcfc9f219920 mshtml: Added more IDispatchEx tests.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=210d6a0abbfca8d4937d1db9f5d436392b26beb5 mshtml: Added missing tids to HTMLCommentElement.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=da4608227fa33701931b0663c95749ced03a586b mshtml: Use heap_alloc_zero in HTMLElementCollection_Create.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32ac703e306452e994a33a63a21f3f00f5e95d3e mshtml: Added fdexNameEnsure support to IDidpatchEx implementation.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1741e652b31eb718674e74336e6fb9e775dc10cb mshtml: Added IDispatchEx support to HTMLSelectElement.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=148a7d50c552aaa4b20bc05f3354c1955672c103 mshtml: Added IHTMLElement::put_id implementation.] ||
+|| Jacek Caban || 2008-06-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4ee45b2e4a2e2c818232be03ccf3a3c88743737e mshtml: Added IHTMLElement::get_id implementation.] ||
+|| Zac Brown || 2008-06-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e4ff8a0c0a346bd636709d8e286a08b6c8005144 dsound/tests: Improve test for IDirectSound8_CreateSoundBuffer.] ||
+|| Dan Kegel || 2008-06-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe508a9cd77ffe5a55ec86b290a117af8684988a d3dx8/tests: Initialize matrix before testing its value.] ||
+|| Dan Kegel || 2008-06-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=63557d572c2f3c20acbb48a8284f7ec2945ffd05 shell32/tests: Avoid buffer overflow during test.] ||
+|| Dan Kegel || 2008-06-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=035f1dd0b0f502675189ee7ca95284d49d164f95 oleaut32/tests: Initialize reserved fields to unique values.] ||
+|| Dan Kegel || 2008-06-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3b0924cf832789238006835ad213b2fb7d760d81 kernel32/tests: Initialize buffer.] ||
+|| Jacek Caban || 2008-06-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f6a3234bf36240baa5015ab75a32286564d70fe7 mshtml: Added FIXME about QUERY_USES_HISTORYFOLDER in about protocol.] ||
+|| Dan Kegel || 2008-06-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3fa578220e848a930bfa4aa2124fa3ad08c80bf7 oleaut32/tests: VariantInit() isn't enough, you have to give a value, too.] ||
+|| Dan Kegel || 2008-06-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d38dc0233a60d516f90a0626c3fd7b3a68281a36 msxml/tests: Use VariantInit, not VariantClear, to initialize new variants.] ||
+|| Dan Kegel || 2008-06-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a302ec645ca5f314f9985ac452ac70f002caf3a2 msi/tests: Initialize buffer lengths before calling MsiSourceListEnumMediaDisks.] ||
+|| Dan Kegel || 2008-06-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=06abaaf218f89a0e7add7289c42390e677ff77ea secur32/tests: Don't free if not allocated.] ||
+|| Dan Kegel || 2008-06-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a8ad5cd5587dd5e98857d7d222a4e8c8e46597e0 oleaut32/tests: Use VariantInit, not VariantClear, to initialize new variants.] ||
+|| Dan Kegel || 2008-06-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ecfa0fbcea9340f3de8a6b3c47af72fa0157f6cf msi: MsiSourceListEnumMediaDisksW: free original string, not substring.] ||
+|| Zac Brown || 2008-06-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d62c3197b3071e00c58d6967ad88d8d234ccc266 winmm: msiSendStringW: Don't free substring after original string has already...] ||
+|| Dan Kegel || 2008-06-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d54392ca9915d1a7ca43017774f4679e0d2dfad userenv/tests: Fix buffer overrun.] ||
+|| Zac Brown || 2008-06-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b483b680136944bdb59be89c27960906278c52b2 ntdll/tests: Actually verify right bytes received in aio test.] ||
+|| Maarten Lankhorst || 2008-05-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=06f65e65d0251abc6cc3e7556e41c2c22a041935 d3d9: Add a test to see whether offscreen surfaces can be locked while a reset...] ||
+|| Dan Kegel || 2008-05-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0161606b538c69ad6207b7adab867d0896adc04b advapi32: Don't test buffer length if buffer is null.] ||
+|| Dan Kegel || 2008-05-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=713290ebcea57bc5f2a0b7c1a7e237a225e8fdcb fusion: Use HeapAlloc, not strdup, to avoid malloc/HeapFree mismatch.] ||
+|| Dan Kegel || 2008-05-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8ad05a25fb572286b92f25e43db65e0d0175606 fusion: UninstallAssembly test: Fix typo, avoid undefined value.] ||
+|| Dan Kegel || 2008-05-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b608e39e1f3eeae36b190d07e14ec2a22ae14591 winmm: Use HeapAlloc in the capture test instead of using strdup.] ||
+|| Jacek Caban || 2008-05-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e787f84b012440de7bb37d88ef0ce5051c488f77 mshtml: Fixed copy&paste typo.] ||
+|| Maarten Lankhorst || 2008-05-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c77f02c0311e3c1e283bc91b4d150240753d65f2 include: Add missing RpcMgmtIsServerListening declaration.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a486ec907dda94b4e76ae605bdcda68286cc56cc include: Update aviriff header to use the right alignment.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=72be44ee7dd777903c9605d4fb455a9f5382bb77 winmm: Fix valgrind warnings on exit.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6589d9ab951d132aabfa1d455263585ded6d6a52 winmm: Use HeapAlloc in the wave test instead of using strdup.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=63699cf58c617de4f555fd15d45bf1062eef2e78 msacm32.drv: Check for message type before comparing handles.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5026c25e053147a7f8ef4d34981eb5c163454e2a quartz: Initialize some uninitialized variables in the video renderer.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c4e32aad01372f5624dce37c1d4699f6095d31af quartz: Do timekeeping in the avi decoder.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6d7518685e884d0d1a01230e0796cae513aa216c quartz: Don't free memory twice in null renderer.] ||
+|| Maarten Lankhorst || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a9a852faa9611bf155d151dab3d1bc943b99fa4f ntdll: Give earlier notify to valgrind that HeapFree is trying to free some...] ||
+|| Lei Zhang || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bd58463eda8e94deb75efa393ff7574d02c7e717 wininet: Send https scheme to proxy server when appropriate.] ||
+|| Lei Zhang || 2008-05-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=09e8a3328943d83c05c977ba21ad8a66577e6fe8 mshtml: Added ProxyEnable / ProxyServer handling.] ||
+|| Dan Kegel || 2008-05-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=83da377494a6dfa710088b53c7791ebc0b4b62b6 d3d9/tests: Another wee bit of slop.] ||
+|| James Hawkins || 2008-05-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70cd6bfbbd85e9caab0ec9e01314d605588eb109 msi: Check that the file key is valid before installing the assembly.] ||
+|| Lei Zhang || 2008-05-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e63bd4dea70db985f2484124355cf18053eb3259 wine.inf: Open xml files using winebrowser.] ||
+|| Lei Zhang || 2008-05-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b11156b84a60eb55c1bff13ac192f718baaa2440 explorer: Allow explorer with no arguments to run winefile.] ||
+|| Dan Kegel || 2008-05-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=480297336b13ce86236148c80ed073e09fc52483 d3d9/tests: Add missing skip().] ||
+|| Dan Kegel || 2008-05-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=95beaa21b87a6eec19dc788652ee2c87621996ea ws2_32/tests: Cannot reliably detect bad hostnames in &quot;modern&quot; internet.] ||
+|| Dan Kegel || 2008-05-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fbaf0375815ee68929f0e044c7941c08761eb3ec kernel32: comm.c: increase time slop.] ||
+|| James Hawkins || 2008-05-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9460ae35b5401e3bdcb4db0cba00c3e3803aa99f msi: Copy the assembly file directly if it's not compressed.] ||
+|| Dan Kegel || 2008-05-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d989b7f7199b3551976bcdeace91e9a18550361 d3d9: shademode_test: Increase slop in color comparison.] ||
+|| Maarten Lankhorst || 2008-05-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98f0b5f4797fba0af51411c639c87d4c76d39a6a quartz: Reset time when rejecting sample in the mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-05-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d6e28c3bbc612ef2f7d2e70ab8fd4b273ea4be1 quartz: Silence a fixme.] ||
+|| Lei Zhang || 2008-05-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a4d0d4fe360759dcfabd2c8857cd81f19ee19a3b quartz: Check input in MediaControl_GetState.] ||
+|| Jacek Caban || 2008-05-13 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7e497a9b0864fca9fae42fadb2201871359e5e18 mshtml: Fixed a typo.] ||
+|| Maarten Lankhorst || 2008-05-12 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c83a63d4b678f9d54ef2bb2560e8b390ff4cb61e quartz: Don't return a pin in filesource when there is none.] ||
+|| Maarten Lankhorst || 2008-05-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8bdebde3dc94baf1439697306e6f797ca5c7ad2 winealsa: Remove calls to deprecated functions.] ||
+|| Lei Zhang || 2008-05-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=255eebe44d7cc157f7ff3c5c8d6ea8ba29d0e873 wininet: Handle NULL input for FindCloseUrlCache.] ||
+|| Alexandre Julliard || 2008-05-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33914a1bf426f0d0d0670263b5b9f6fb24a87251 services: Send the service name in the control requests.] ||
+|| Maarten Lankhorst || 2008-05-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=864e24d2e586b796c2069576ca6d8fe4e7b8cef7 kernel32: Fix temporary path test.] ||
+|| Maarten Lankhorst || 2008-05-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db8e63af27b75d098db6f9a61a6fb0ab7d70d83f kernel32: Fix process tests to pass in Windows.] ||
+|| Maarten Lankhorst || 2008-05-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b574c11582eac45499e7a78fcbe654ad897dd94b ntdll: Fix file test to not free memory allocated on the stack.] ||
+|| Maarten Lankhorst || 2008-05-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c509234bc7d3d615da60b80e5c7c528d5858c0c ntdll: Fix some exception tests to pass on Windows.] ||
+|| Maarten Lankhorst || 2008-05-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd7b277d8ac23706b1c819d2ed1fd0ee9833fd06 rpcrt4: Fix ndr_marshall test failures.] ||
+|| Maarten Lankhorst || 2008-05-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=11a0e45304e9d9d69b1a2d9a6f6aa8a276f35f4c wininet: Ignore INTERNET_STATUS_DETECTING_PROXY messages in the http test.] ||
+|| Maarten Lankhorst || 2008-05-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c051f13941b15bd0a399431e36cae16b8fe092e winetest: Fix CreateProcess so that debugger tests run without timing out.] ||
+|| Maarten Lankhorst || 2008-05-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3c79c2e88ce436a909caea3ad2bd3066d31415e7 winetest: Fix CreateProcess so that debugger tests run without timing out.] ||
+|| Maarten Lankhorst || 2008-05-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a61ef431b8fe9593970aff497a6756a231df8657 netapi32: Fix test crash occuring when NetWkstaUserGetInfo fails.] ||
+|| Maarten Lankhorst || 2008-05-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fc777c0ed3adc1f3a81a45fca083595439b2ad75 winmm: Make mixer test less strict so it passes with SoundMAX drivers on XP.] ||
+|| Maarten Lankhorst || 2008-05-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f74075b776e4118a8522a2ba6e11623cba9ca7bd gdi32: Make mapping test slightly less strict so it passes on windows XP.] ||
+|| Maarten Lankhorst || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a2d53016b5ac4c214379b33663d8261311aeab89 netapi32: Make the tests pass under XP that enforces a strict password policy.] ||
+|| Maarten Lankhorst || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d50b5cef5e0c9296cc9855477615b69ed1d337c winex11.drv: Fix a compiler warning.] ||
+|| James Hawkins || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f52ecfe0411ce891d378169f5543bc9c06753693 fusion: Add the missing assembly table structs.] ||
+|| James Hawkins || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=56bfe2972fccc12430baa3f8750135960f0054e3 fusion: The Strings stream can be without a #.] ||
+|| James Hawkins || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4442306a847af82a03a5b579f752968c8623b24f fusion: Fix the type of an assembly struct member.] ||
+|| Jacek Caban || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7584f2793d320dfef441f6dc6b0b3d455a80a4ad mshtml: Added DispHTMLSelectElement declaration.] ||
+|| Jacek Caban || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=29d8c366bb278a6b73c3669817063087d7cd080d mshtml: Added IMG element tests.] ||
+|| Jacek Caban || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19ec36c92b37725f70dbdd63303f7a51b91a238d mshtml: Added more script tests.] ||
+|| Alexandre Julliard || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d760cba09095221c9f5ebf1e05c3194ad5bda8e2 services: Fixed the result check for the control mutex wait.] ||
+|| Alexandre Julliard || 2008-05-05 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8ae87c7f0ec59fb82f6e4cd5558581ca7fc24a11 services: Use the correct invalid handle value for the control pipe.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f263b637a99dbe749f7d3ef98c3ee2d9e9a7721c mshtml: Added IDispatchEx support to HTMLImgElement.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6279de21f35b0aa17aa1cf9abaadf976b5c55624 mshtml: Added IHTMLImgElement stub implementation.] ||
+|| Dan Hipschman || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c3537c4086b52201f1158a68d6b4aab59b76af87 gdi32: Add font faces to families in a specific order.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c4cdfdac35928cb4a6ad867078f01a9d2398092a quartz: More filesource fixes.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9cc32202edf4aa361b40b1f8a6bc14a7def8a556 headers: Add some extra defines to vfw.h.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8099a624697dbf1a72c58e95fa960f3355345aef quartz: Get rid of the sample holding code in the wave parser.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=753ac6f0159c82c8cb1cd99f221615707f309d6c quartz: Silence a fixme that isn't.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4afc2ae9511a45f995cf6a9246ec57dd2a185e03 Revert &quot;quartz: Handle failures better in acmwrapper.&quot;.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3066116f76c0c44950fde3552485b37dce24d1f8 quartz: Clean up pullpin code.] ||
+|| Maarten Lankhorst || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0f73bbad8ca65d7db2f225cc23481811203c355d quartz: Get rid of the sample holding code in the mpeg splitter.] ||
+|| Lei Zhang || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ed50b7746d99a50f985a9c7c20b5e17d1e2deb6e userenv: Add tests for environment variables for CreateEnvironmentBlock.] ||
+|| Lei Zhang || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf02fa309bcc08686d7751c51f08c33b74de33f6 userenv: Add more tests for environment variables for CreateEnvironmentBlock.] ||
+|| Lei Zhang || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0f7bae5af8f1d661155bdd8f4661fc8b09d5bcea userenv: Add a test for variable inheritance for CreateEnvironmentBlock.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cfb8975444eed4994df10bb99fbd4b2ac62c49a1 mshtml: Handle COMMENT_NODE like ELEMENT_NODE in element collection.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cecb2652486ee7e2b1110f387e1ee59f06a2f61d mshtml: Added IDispatchEx support to HTMLCommentElement.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c2db03120403cee27ca2ace5f010b7d74b6c16e2 mshtml: Added get_childNodes implementation.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af529308f3bc1d4711778cf24e972e277d996f5e mshtml: Don't assume that nselem is valid in HTMLElement.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac00714c401c6060b2a697f12adb541cad089ca2 mshtml.idl: Added DispHTMLCommentElement declaration.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9483760b35355024f892d85af35d1a3034079b9d mshtml: Added IDispatchEx support to HTMLStyle.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=791dd9558e67cee1b26c4029f5ef687ea2e32527 mshtml: Moved IDispatchEx initialization to HTMLElement_Init.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6da1c730476930f086286ef02de9aa71f6f79914 mshtml: Added IHTMLDOMChildrenCollection::item implementation.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=67333a2a19e78a0d1fc35f65181a3c9a1a4d5d44 mshtml: Added IHTMLCommentElement stub implementation.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=57a373afb36d2efb5fe0c7827b0ab848aa6e06aa mshtml: Added comment and childNodes test.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4ff929ebeb9ab1aff3fdc8b0dd2d3a2119096c72 mshtml: Added IHTMLDOMChildrenCollection::get_length implementation.] ||
+|| Jacek Caban || 2008-05-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=30d204753704cc1ff4c714e274effba98d1a21b5 mshtml: Added IDispatchEx support to HTMLDOMChildrenCollection.] ||
+|| Lei Zhang || 2008-04-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bca84d5467bc0242da027d24082871d8df3053fd userenv: Initial implementation of CreateEnvironmentBlock.] ||
+|| James Hawkins || 2008-04-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bfe07d1d07c9469a398858d0f077e26c26695b5d msi: Add initial implementation of MsiPublishAssemblies.] ||
+|| Jacek Caban || 2008-04-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e487b1e213acf3b77c3e62fb0c670817b5be91d9 mshtml.idl: Added DispHTMLStyle declaration.] ||
+|| Jacek Caban || 2008-04-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5ed14f98aab2b896074018b6793d4f1c49d5bc32 mshtml.idl: Added DispHTMLImg implementation.] ||
+|| Lei Zhang || 2008-04-30 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ffb04579826c5024387ff01e7ef36b96ad092d66 userenv: Add initial tests for CreateEnvironmentBlock.] ||
+|| Lei Zhang || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d20f982433b6c1fe735699f3172e67d2e0a6884b winmm: Do not unload drivers when the process is terminating.] ||
+|| Maarten Lankhorst || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e761d26135ba73bc8916fa3a3579512c1c3978b quartz: Some state changes fixes.] ||
+|| Maarten Lankhorst || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ba8ece76e1b87f43270edb1324c31b818e8162e quartz: Handle failures better in acmwrapper.] ||
+|| Maarten Lankhorst || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=37847b0d9b884752e86eedc96bc3294b78a9b51b quartz: Keep track of the time in the video renderer.] ||
+|| Maarten Lankhorst || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1fad872961499c48c2b33851636f8408d67321cc quartz: Fix bug in memallocator with test.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=928914c81ebbbb21ff66e3b044036bf7a4172d08 mshtml: Added IDispatchEx support to HTMLOptionElement.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7582518e18b50bf4ebbd2cda30822d25be3d81a9 mshtml: Added IDispatchEx support to HTMLInputElement.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1597967417caa123153bec5b307f31ed7fd5fa18 mshtml: Added indexed access to HTMLElementCollection object support.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ef4200fcf78159e1b7f1d5f87f98b054d15dbf75 mshtml: Added support for custom DISPIDs.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=96fdb0e7425317eece64e573f9444521194bd931 mshtml: Added IHTMLCommentElement declaration.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3186aa7a6508a03d0021c41ba1e4e1685952b892 mshtml.idl: Added DispHTMLOptionElement declaration.] ||
+|| Jacek Caban || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f885b332189f3656acd60834c677e6b76735b88a mshtml.idl: Added IHTMLDOMChildrenCollection and DispDOMChildrenCollection...] ||
+|| Lei Zhang || 2008-04-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9fca0f27d02d88c6e8f1f8ef870ae59838eeb51d advapi32: Replace UuidToStringW call with a sprintfW.] ||
+|| Jacek Caban || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4e913b9551746f432fc2c96ef8a708dcf9ad3323 mshtml: Added IHTMLInputElement::get_disabled implementation.] ||
+|| Jacek Caban || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=deeaa5d20fdf5c3fc207c044b7df8b0d0c65323b mshtml: Added put_backgroundImage implementation.] ||
+|| Jacek Caban || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=32846424be02af2600fee5aaadb2b9652b40902d mshtml.idl: Added DispHTMLInputElement declaration.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=10708b405c2303e782a688edad1a79215fca142d quartz: Fix acmwrapper time regression.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=512ee927cb56a6b3355550c2f929d34f080247ea quartz: Add a function that can be called when stopping processing data.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ec87de35af3ccb76383697b51aefe8041bbfdc15 quartz: Make dwSamplesProcessed a longlong.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=12a0fd3d8b0acff07ec07b4d7f5ea1f79effad93 quartz: Optimize the file source to do its job better.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=79349513435aa677e584bcad66865cafbac95db9 quartz: Make the EnumPins interface dynamic.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b7e20bfdd1bc9777e56cb3fe73976e38146c1741 quartz: Fix time discontinuities in the acm wrapper.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9e143cdb6323446506444a23caf717477270dc52 quartz: NotifyAllocator does not like a null argument.] ||
+|| Maarten Lankhorst || 2008-04-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1f136a57f7a54b78741540ae34378d7624bb1f3a quartz: Add a vtable argument to Parser_Create that individual filters can...] ||
+|| Lei Zhang || 2008-04-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ae1b735547857fd8473b7d01c6be1ee586807e6a user32: Edit controls should ignore WM_KEYDOWN on control + enter.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=989574510cdc8627b09b6ee94d1120ed1f334f73 mshtml: Added IDispatchEx support to HTMLElementCollection object.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74c571a441545997796b790e55ccb2851c7c2aaf mshtml.idl: Added DispHTMLElementCollection declaration.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bb05803a2ac56c078393803503fc73400c51c9c1 mshtml: Added get_nodeType implementation.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af271b3b45b195243a1798b4c111a94e41838877 mshtml: Added IDispatchEx support to text node.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=754adce78190c726db510873af89ba389b7d2b0c mshtml: Added IHTMLDOMTextNode stub implementation.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6bf5ffbc3b26cb521b57b656c6b6f375cbab6c0d mshtml: Added get_firstChild implementation.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1cb633a5ccdf4b3b359b7bf20e2264611e02f750 mshtml.idl: Added IHTMLDOMTextNode declaration.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f731140c91c08daa13125205b1b86c00651fa34d mshtml.idl: Added DispHTMLDOMText declaration.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d024a6d1db60fb3d71cdeeb3aa110b64c75e467 mshtml: Added IHTMLDOMNode2 to IDispatchEx support.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8dc2cf0d3a7babb16cafef2f1b7636d414609597 mshtml: Added IHTMLDOMNode2 stub implementation.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=872810e6419876c03d1d4c2a7dc69d77ab944338 mshtml: Return VT_NULL instead of empty string in getAttribute.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01f241c07df211f12e1fc00c7d9e5513f0f8e2c6 mshtml: Added more IDispatchEx tests.] ||
+|| Alexandre Julliard || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=981f31bedf5090393b50733c09e035ddba74f934 wine.inf: Fix the service type of the spooler service.] ||
+|| Alexandre Julliard || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af972cb1e414de53ae073d4af61c2885957b8925 services.exe: Don't reject config changes if the display name corresponds to...] ||
+|| Alexandre Julliard || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea746219860cc10389f04fec933ba27abe04c70d services.exe: Make the changed status event an auto-reset event.] ||
+|| Lei Zhang || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a442d2675e20ba1a0d5b8ea3ebded22673fa8f1a winex11: control + enter should generate '\n' instead of '\r'.] ||
+|| Dan Hipschman || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d3051cba22db94b5f419790230372d06bc53a100 wininet: Don't forget the INTERNET_STATUS_REDIRECT callback in HttpEndRequest.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6f33fee5afd224be3fc414e5dc34a763f23cbad1 mshtml: Return S_OK in QueryContinue.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=38e9364b65866d278150efebc945a92726a10dd8 mshtml: Fixed typo.] ||
+|| Lei Zhang || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f0b111243609c9501c130e341871cd6dedfb515 user32: Handle VK_RETURN WM_KEYDOWN events better in edit controls.] ||
+|| Lei Zhang || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1e5faee29e568b6c6df2b0eb3cc6d86b73ff91f1 user32: Add a test for sending WM_KEYDOWN to a child edit control.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d5059b8303b084ab13bb9eb042e161f12b32d164 mshtml: Added elements IDispatchEx implementation.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=38b14274fb507d1b6d387b38875f85720a5ee78d mshtml: Use heap_alloc_zero for allocating node objects.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=22eb495aaf0bf0d4d3374e0e6f5890badb351bea mshtml.idl: Added DispHTMLUnknownElement declaration.] ||
+|| Jacek Caban || 2008-04-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e610d2ff12fbb52ecd0fd17a4ade034de9b22d2d mshtml: Added IHTMLDocument3::getElementById implementation.] ||
+|| Alexandre Julliard || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bbd32aacff1555df0153deee22ca40de992de007 winex11: Don't allow changing the X11 size of a maximized window.] ||
+|| Alexandre Julliard || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6ba06fa7af24922ec6b88c1ba49a46628bec5299 winex11: Make sure that the window gravity is always set.] ||
+|| Dan Kegel || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8c8262510dbd1595bda8970bc59b389b0597cf81 gdiplus: GdipLoadImageFromStream: initialize variable.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bf739cbcc38c2ba95a0f087cb34be61f5ca395ef dsound: Skip WAVE_FORMAT_EXTENSIBLE tests on directx &lt; 8.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e0fe0ef01b32b06503e22310c1a54ae9c765b54b quartz: Make the file source support multiple samples by preallocating enough...] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3a39805ed8345047d217f4a0d7de3954cce7cb93 quartz: Make wave parser and mpeg splitter zero copy by getting rid of the...] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ec124be8239b6292ba239bb24f125cd4e267fdd5 quartz: Add some sanity checks to file splitter.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4abbf915d398d5a2402c7acf85d7456a488d03ac quartz: Copy discontinuity status in acmwrapper.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f736c4a5a6e1c652073cc5cc49b3e7bf0f42ba3 quartz: Fix inverted logic in memallocator.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1e9dbcc5125bd865ad982cc94f7e36c8580faba7 quartz: Fix error message names in tests.] ||
+|| Maarten Lankhorst || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0224676905f0b96f2ade672f90cea696a5434bc quartz: Optimize the processing thread to fetch one sample while processing...] ||
+|| Dan Kegel || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=faaccca59be08be547ec4e1948b6306eff3808a2 winecfg: Restrict dpi slider to sane values.] ||
+|| Dan Hipschman || 2008-04-23 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a1ebffb4527e083d3a39762851fbc3d76b5ecfa4 wininet: Remove custom content-length/type headers from redirects.] ||
+|| Maarten Lankhorst || 2008-04-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c02e01dcb1ee281fac7d50bdbc5e4fb93af4971 explorer/mountmgr.sys: Move device hotplug code over to mount manager.] ||
+|| Lei Zhang || 2008-04-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=321dfcc7a987d0be5738bdc8642d0531fb6db7d3 gdiplus: Do not access freed memory in a test.] ||
+|| Lei Zhang || 2008-04-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c9209ac0b45a7ca01ca42b04aeadb0a2219f9bb gdiplus: Initialize variables in the graphics test.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0a32cd868db912ad861bc2269c38e595f0e7c8c3 mshtml: Forward IHTMLDocument2's IDispatch methods to IDispatchEx...] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98ab1a92c03c9aa28963e5cb221a7fbd137bd318 mshtml: Added HTMLDocument's IDispatchEx implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d0034a5ba3ab64cba7440c28d642f4e8d1e0978 mshtml: Make IHTMLDocument2 iterface offset independent.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=788432af49d0ce9a63ab15397c5277c68ec574b2 mshtml: Added setTimeout implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=86409551889d99775aa04c64c48188c8cc32ad68 mshtml: Forward IHTMLWindow2::setTimeout to IHTMLWindow3::setTimeout.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aeb1095b47482fdbdb46814d51a54601712837ef mshtml: Added IHTMLWindow2::get_document implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7c63087a5c99c144567095ef65326350fcbd9b92 mshtml: Added navigator's IDispatchEx test.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f9c2d8e2f418fe901de82e3181491e4dd52af7ef quartz: Add some more tests and fix wine to pass them.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fb2c975a8f5b54f9e7a667ee3638f340d80f2af1 quartz: No longer drop packets on discontinuities.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d7fbc7ef8cb92c1c7811ea70dd4c68ff21002929 quartz: Drop preroll frames in directsound renderer too.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d16639d1fad14ff2b7afa43acc57d78122478432 quartz: Flux AsyncReader in PullPin_BeginFlush.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c1a4acde0153626095685ff1c97287cf25004087 quartz: Add more seek entries and fix a time continuity bug.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d9bf6f158cd8e9a734fddb311f3aee30ba4d486 quartz: Only drop Preroll samples after obtaining its time.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=810a933f68fe458b19f7734794206151e4c3b38e quartz: Change longlong printfs.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=458b09a84dc168ca4a1cde927226b93ba4afff2a quartz: Make the video renderer drop preroll samples.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33b2f69c9fef56107665bb4ae0e915b2dcd8df13 quartz: Fix sample leak in file source on failure path.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=172347341ae4b9e23704b7cb3f6888b9f84452cc quartz: Make acmwrapper respect preroll samples.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=119d7caf79674988df6b57f6e0ee766031270ab8 quartz: Fix theoretical memory leak.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0458c08b95d368cba6daf1f216c0e930c6387dd6 quartz: Set media time in the file source.] ||
+|| Maarten Lankhorst || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6c4d9448a9d25b693693912bcb3ab0cf4274d7d3 dsound: Skip the sound checks on the primary module and change its driver...] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=951084abcf16766f8c5636738ffd614089acf793 mshtml: Forward window IDispatch methods.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a5843056c5c77c522b803e8a6dcea01e725ec303 mshtml: Added window IDispatchEx implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=835b3eb0e81673d627a999bf57192e72d0d2032e mshtml: Forward IOmNavigator's IDispatch method to IDispatchEx implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0e0bf6b15c207ae7c1fc93497ec036e33e7a55b mshtml: Added IDispatchEx::GetIDsOfNames implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5c6ea438a00e6ad86926a5062f808517884758da mshtml: Added IDispatchEx::Invoke implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=de74e1aeb95285aea351ae8005f80c1b5350b9f2 mshtml: Added IDispatchEx::InvokeEx implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b81818e7ee209e49241f6d696cac6952a1ed89c3 mshtml: Added IDispEx::GetDispID implementation.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=12f312daccf5201e4b26d2d76ab4a87411821c15 mshtml: Added load event support.] ||
+|| Jacek Caban || 2008-04-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4c21a5d3b0a4bba4029d0debc0d3b894626f5bd3 mshtml: Parse and store onload attributes.] ||
+|| Lei Zhang || 2008-04-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d7f7bfc5e4c3c0fd1039c14df0aae44a490b3b9 msxml3: Check for xsltInit before calling it.] ||
+|| Jacek Caban || 2008-04-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfc84bd9642513558da3d489a1e0e029d3a23187 mshtml: Store IActiveScriptParseProcedure in ScriptHost.] ||
+|| Jacek Caban || 2008-04-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a009157331320cc52482089fa5eedcd8d9d15bcd mshtml: Added IHTMLWindow3 stub implementation.] ||
+|| Jacek Caban || 2008-04-18 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=625ed3d0aa631de0b70fef0a96ba4586b7f86df6 mshtml: Added possibility to get node object from nsIDOMNode only if available.] ||
+|| Alexandre Julliard || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5cc82b07b344d8c0cf11f1f6efa4a4c8e52f3df3 user32: Added support for WS_EX_RIGHT in the static control.] ||
+|| Alexandre Julliard || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4136deecb50643af02c520fa3f80f2473de61d1 user32: Added support for WS_EX_RIGHT in the edit control.] ||
+|| Alexandre Julliard || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bbd9e229e3c2676e9db7ce64d6a87bb75f506e84 user32: Added support for WS_EX_RIGHT in the button control.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3fd1fc760046165e63146a2803b510079ee00035 server: Make enum_desktop enumerate all the desktops on the window station with...] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=81069001ea65cd517b62e2a80cd28e35be044794 server: Make enum_winstations enumerate all the window stations with...] ||
+|| James Hawkins || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e52e5e67159753cdc0c5abfa409f71c0710dab47 fusion: Explicitly check for -1 for a missing table.] ||
+|| Jacek Caban || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=be59368dd1176becfd582d0d959e16b23430b97d mshtml: Move get_typeinfo to dispex.c.] ||
+|| Jacek Caban || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ed6a8acca71a37060234168aa5c755787d5dce2f mshtml: Added generic IDispatchEx implementation and use it in OnNavigator.] ||
+|| Jacek Caban || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d0d8dc2811b495914b1c1b6eb45b62ae26b2e5ac mshtml: Added IActiveScriptDebug32 stub implementation.] ||
+|| Jacek Caban || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b2c80e6b186079200875a936f853fffeb6967206 mshtml: Make sure to null terminate buffer in parse_extern_script.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebaadba498a9e8d546768f0714faa3e93f3a2e57 quartz: Obtain the duration using the index in avisplitter.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=162581711375fec58cc595ab75646235d31ee099 quartz: Store the stream index in the avi stream for files that have them.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0e8b97ffe470718a27dca98c674a3b61c16c213 quartz: Check for discontinuities in the directsound renderer.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=97b9e9c3add01235817b172b19626718fc2a02e7 quartz: Make sure at least 1 sample is processed before returning.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=405e21d5589c5563f9e0ab00b3ed1c9a4a498faf quartz: Reject samples in transform filter only when stopped.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3dc8384aa9e7525877c68d742ecddb8169a20779 quartz: Reject samples in video renderer when stopped.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=382a61391f30d0fd86e97a0a5d3b6c14d7a942cc quartz: Fix IMediaSample2 SetPreroll and SetSyncPoint.] ||
+|| Maarten Lankhorst || 2008-04-17 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cbb0ff37fa63eefcf1d86ccdf894c9accc4b93b8 quartz: Fix discontinuities in wave parser.] ||
+|| Maarten Lankhorst || 2008-04-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6165d87fc5d1a2147deba22e802ed41885e48635 quartz: Add a Disconnect function to the parser and use it to clean up...] ||
+|| Maarten Lankhorst || 2008-04-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa623d2eff75e03d6269bbb3c75bd296210c6181 quartz: Parse old style avi index.] ||
+|| Maarten Lankhorst || 2008-04-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f66ad4dbe0433b6679d61f6a147b2cb5e3712fae quartz: Make the avi splitter skip index headers.] ||
+|| Maarten Lankhorst || 2008-04-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=64be38a5b20b5fe64d52e4c2464434e6b5a313d0 quartz: Dump opendml indexes and header.] ||
+|| Dan Hipschman || 2008-04-16 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cacd1c448e633852c77bfa87572aa12895d7e86a qmgr/tests: Fix minor potential memory leaks.] ||
+|| James Hawkins || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=282246eca4aa778f447e8951dea416fb5e817657 fusion: Implement IAssemblyCache::InstallAssembly.] ||
+|| Lei Zhang || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=483116a89e96430b9ce41b629e5c75b52d45e7cc user32: Handle ctrl + end in edit control.] ||
+|| Lei Zhang || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfdd9290a7d90e11fec3a1045ad48fae6d79921e user32: Handle ctrl + home in edit control.] ||
+|| Lei Zhang || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4aef5cb86dcb1e2692a233883f3fe102a5477334 user32: Do checks in the right order in EDIT_BuildLineDefs_ML.] ||
+|| Jacek Caban || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b56a072eb964f51afc8f7e34a4d18207c1f5a868 mshtml.idl: Added IHTMLWindow3 declaration.] ||
+|| Jacek Caban || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a0a0453100e8912b74fb05059b12d292bccc9d7 mshtmdid.h: Fixed IHTMLWindow2 dispids.] ||
+|| Maarten Lankhorst || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b326924510faf14acb1fbfd024eedb5ac959803 include: Update aviriff header.] ||
+|| Maarten Lankhorst || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1281b74956d28c2814cb5c592121410ddd1b750c quartz: Update start_time if the current position is changed.] ||
+|| Maarten Lankhorst || 2008-04-15 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3e9cee050f801ab3cd69378d168f5efd51862f0b quartz: Add VIDEOINFOHEADER2 support to VideoRenderer.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ebe438c82a017e20500bc7c725cb12f83f70123f quartz: Bring waveparser to the same level as the mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8e31b5bdd2d921bf3010aec974b16e327c26479 quartz: Set sane defaults for pin stream rate.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ba10e6104a8f485ed40345212a325b94369525d1 quartz: Silence seeking fixmes on transform filter.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5fb4224f81c8b18ede56dd723c68fb74b76b83a4 quartz: Silence requests for IVideoWindow.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=48f80f629634d1bb62d1f49f4b260647c432eace quartz: Don't clean up in avi decoder if driver isn't opened.] ||
+|| Maarten Lankhorst || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=271f2eda14a1345044df11deeedb735435ad1015 include: Add dvdmedia stub header.] ||
+|| Alexandre Julliard || 2008-04-14 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9bf9c0b7ec6d4475962e6c739ca2f83a7a11fda7 winex11: Make WS_EX_APPWINDOW windows have normal type.] ||
+|| Rob Shearman || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe7e786ace4683769e0deb0061dc69504cf0a341 advapi32: Add exception handling around all service RPC calls.] ||
+|| Rob Shearman || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aa83f5a5aa5ffab8bbc25b8fb76e1dcdb5ae8a96 ole32: Use I_RpcExceptionFilter instead of custom exception filter for RPC...] ||
+|| Rob Shearman || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a35bd4971b363905491d00a4cbb152a84d27b49 services: Automatically start boot-start, system-start and auto-start services...] ||
+|| Rob Shearman || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=559fafebbf648925bbaab61ab61894b11c90c104 services: Split RPC_MainLoop into initialisation and the actual loop.] ||
+|| Rob Shearman || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a2914b11f92f1ccb3187eb782f622cbba1e6726 rpcrt4: Implement I_RpcExceptionFilter.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=54a06642f40129949475a689115383908e9b7dfa gdiplus: Add a stub for GdipSetMetafileDownLevelRasterizationLimit.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=82d01449129e3c5616eb9bc36ca2ccf80851b0ad gdiplus: Add a stub for GdipSetLineTransform.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=942f3496b392113d0d3913983af6690f2400f3b9 gdiplus: Add a stub for GdipSetLinePresetBlend.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0399cdaff0b8847b7fad13d49a7bdf42f7ac915b gdiplus: Add a stub for GdipSetLineLinearBlend.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=89b0a979c8855b09d1190df09836411d3c885b2e gdiplus: Add a stub for GdipSetLineColors.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0fe2f5b67716c18b074c60b341f9a7c602b41408 gdiplus: Add a stub for GdipSetInfinite.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6a44f191797b6425aa11dee13027fc3a71b57aee gdiplus: Add a stub for GdipSetImageAttributesToIdentity.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=03c7d5583049d59e8bae61406fe8c61d49fda928 gdiplus: Add a stub for GdipSetImageAttributesThreshold.] ||
+|| Lei Zhang || 2008-04-11 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=65445b9e7ebf77b4b24bda687249a67091152512 gdiplus: Add a stub for GdipSetImageAttributesRemapTable.] ||
+|| Alexandre Julliard || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70ef99e5e115078d7d3ece8b04aabb94f701e167 winex11: Make sure to flush painting operations before moving a window.] ||
+|| Maarten Lankhorst || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bd324db0597b450cff8b4bc87d20d852319d2196 quartz: Add stubs for the IMediaSeeking interface in SeekingPassThru.] ||
+|| Maarten Lankhorst || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=65e6bbd1861d403c364800c8aea29456c55680d5 quartz: Add a stub for SeekingPassThru.] ||
+|| Jacek Caban || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=732682b08cf3b64267045cf0ab051fb84af43aea mshtml: Correctly handle NULL req in get_nscontainer_from_load_group.] ||
+|| Jacek Caban || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2f9b7741ca97798baf3d416553bfbb2c3926f450 mshtml.idl: Added DispHTMLWindow2 dispinterface.] ||
+|| Jacek Caban || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ea215f790dd151fdf5b13000c37c53ff183a588f include: Added ICanHandleException interface.] ||
+|| Jacek Caban || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b9117b6166de3c8f27483ace5225f5c63975f85e jscript: Added IObjectSafety tests.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5ba99f4eb556b4d0b3518d91404460e8b7e05e16 gdiplus: Add a stub for GdipSetImageAttributesOutputChannelColorProfile.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=139da784bf1bae0fa19184a3a46be1449efbee1f gdiplus: Add a stub for GdipSetImageAttributesOutputChannel.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68f5cdb28e21d20dad925737485a163833960761 gdiplus: Add a stub for GdipSetImageAttributesNoOp.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7b403d6b4680ba2d958eef5a0f2913e14ee64b43 gdiplus: Add a stub for GdipSetImageAttributesGamma.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2b2db98cb6839b0baddf092ce0dd15409ec9fead gdiplus: Add a stub for GdipSetImageAttributesCachedBackground.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d7e2254f6a9bc3a844ada910995fa58728c5bf4 gdiplus: Add a stub for GdipSetEmpty.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=20a8cf641712289dfb96cc9cccfa5b06f1b8d970 gdiplus: Add a stub for GdipSetEffectParameters.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a1394d4d482c8f286b273f76d7617f1a4343edda gdiplus: Add a stub for GdipSetCustomLineCapWidthScale.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1131685a94ea1e23784af7b9e5854c56df369470 gdiplus: Add a stub for GdipSetCustomLineCapStrokeJoin.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=af1e221f170c4c5ee6c92083c5e91d92b5f7de51 gdiplus: Add a stub for GdipSetCustomLineCapBaseInset.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6112d16bad2cab5f3018af189f556f72bd718f91 gdiplus: Add a stub for GdipGetCustomLineCapBaseInset.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=39e9bdbd2a1d4a5c99f0c6c246a8c60e198d0391 gdiplus: Add a stub for GdipSetCustomLineCapBaseCap.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cec6c2eb4df6c823998171b243e434e79e26e5c3 gdiplus: Add a stub for GdipSetClipRegion.] ||
+|| Lei Zhang || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=95f323ed4666b5194816c707abc425fcf5745f6f user32: Handle VK_TAB in EDIT_WM_KeyDown.] ||
+|| Dan Hipschman || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dfbb2fc9e0ded9b06147f653de7e878cef3657dd qedit: Add a stub for IMediaDet_get_StreamLength.] ||
+|| Dan Hipschman || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=953600255210c563e938b3b83277aab058613a7f qedit: Implement IMediaDet_get_FrameRate.] ||
+|| Dan Hipschman || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3b0d68e4093622cdf7a943cc5e3825e81176be31 qedit: Implement IMediaDet_get_StreamMediaType.] ||
+|| Maarten Lankhorst || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7fa1c9d024231847c3385a82d478a7b9f59b32cc include: Add ISeekingPassThru interface.] ||
+|| Maarten Lankhorst || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2734e6332ccceb35182c89fc8cc9d222a0b05dd0 quartz: Implement stop position in the mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-04-10 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=43f9fff0a0237efa88de16e8a1ba7da9a58b09d3 quartz: Implement stop position in the filtergraph.] ||
+|| Lei Zhang || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5cc671eec57dde6659ae058af0b98b4ec1bb71eb user32: Fix a typo.] ||
+|| Lei Zhang || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b7ffa867256f7fdf886c23a93048399bd16794ed user32: Add edit control check to see if its in a dialog on WM_CHAR/VK_TAB.] ||
+|| Lei Zhang || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f704d5c69991d59c70859c172e903318e68536c7 user32: Add edit control check to see if its in a dialog on WM_CHAR/VK_RETURN.] ||
+|| Lei Zhang || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d9a4299bfc0d5fbc1f1cb6126f1546b49ad9118a gdiplus: Add a stub for GdipSetClipRectI.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f2dccab7e3a836eabcc27c3c25ef935e05fd5eb8 quartz: Make the directsound renderer handle the Play->Pause->Play position...] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=24cac935f05ef37405dc11b9d034efd4f7bde8f5 quartz: Generate a seek table for the mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=55f3ba9dc0df257e3488968b15545418b08148b4 quartz: Remove while { } while construct.] ||
+|| Dan Hipschman || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=33f270afc07541293c0f7a142473a66201547ba5 qedit: Implement IMediaDet_(put|get)_CurrentStream.] ||
+|| Dan Hipschman || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d3061d48e1c78c331b93be7a880876ebff2730dd qedit: Implement IMediaDet_get_OutputStreams.] ||
+|| Dan Hipschman || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d2d5a25cbe9a3722f183991729e694d5978905c qedit: Implement IMediaDet_get_Filename.] ||
+|| Dan Hipschman || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dc3d6fbe7fcaf0d6c73817d4a600e8b3cba24038 qedit: Implement IMediaDet_put_Filename.] ||
+|| Dan Hipschman || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=063aa3a1afb6c5441f76a13dc16e3fddf47ff99e qedit/tests: Fix an incorrect count given to GetTempPathW.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=994af69cac31bc53842ad13570bcce6797b89207 quartz: Make the pullpin forward the BeginFlush before doing its own flushing.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4763e83b60528a8564332d3ba18c51d3e4509f6c quartz: Don't free a null media type in the file source.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=de117c1eb54488f839a790d5901ae34c3063dfd3 quartz: Make the DirectSound renderer return S_FALSE packet if in the paused...] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8939a41563608585dbbfa0e76ce95237e93c3419 quartz: Drop packets in the transform filter if in the wrong state.] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0117468754bdf53266b6ea752a44528abb744c67 quartz: Try creating the file reader from the filter source first before...] ||
+|| Maarten Lankhorst || 2008-04-09 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4bc4457109075bd25ab8a5bd4dc8101636074f56 quartz: Make mpeg splitter keep track of play position and keep last sample if...] ||
+|| Maarten Lankhorst || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f4d9c09dd44d9ba32434787cee5f3a44fa54a899 quartz: Fix deadlocks in pullpin.] ||
+|| Maarten Lankhorst || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1aa222e85938424bf85b95f395df5a13877b644 quartz: Make wait timeout in directsound slightly larger.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6736ed82ed5cb416771390c5c1bee7781e95b61c user32: Handle VK_ESCAPE correctly in EDIT_WM_KeyDown.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f10fe07443a7eadb2b491981e69b1cbca9b5808 user32: Handle ES_MULTILINE correctly for WM_KEYDOWN/VK_RETURN.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8a4bb8fff225aa74d9a2c115cde7f2c4d31c5ba user32: Fix WM_CHAR return value for edit controls.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=42d32aba0223dcf4a08b577a2b32f7f65cc3faaa user32: Add tests for edit controls and VK_TAB.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d1abf27f8d3057131cf0bbc01bbfff121fdcb9c9 user32: Add tests for edit controls and VK_RETURN.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e91de3952191b1a5775b00adb62d5ef320b3d01f user32: Add more tests for single line edit control inside a dialog.] ||
+|| Lei Zhang || 2008-04-08 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8cf7eef073955e825a675485234b7ef1d6f00cea user32: Add more tests for ES_WANTRETURN.] ||
+|| Dmitry Timoshkov || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1bf824e0b00d2b179d5f34dd0c7ace83e83bd28a winex11.drv: Do not set window type to utility to avoid a Metacity bug.] ||
+|| Alexandre Julliard || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=334e88bc02305362c473ad362521f7801cdb86e4 winex11: Don't set NET_WM_STATE on the desktop window.] ||
+|| Jacek Caban || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c352a11cc4425053b58ea978e6931e9e1cb11cc mshtml: Added IHTMLWindow2::get_navigator implementation.] ||
+|| Jacek Caban || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7d95c210c891755cdc1c0eb0608c91ee2e108dec jscript: Added IObjectSafety implementation.] ||
+|| Dmitry Timoshkov || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=751a71a0449e44a603894fa7e8b6dc27fb31c014 winex11: Change the priority of evaluated window styles to workaround a...] ||
+|| Alexandre Julliard || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fd97acbadffdc8af6d2682cb761a92ff2ab2f355 winex11: Set the _NET_WM_STATE atom directly for unmapped windows.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=01c6e64da67ffde47cd846d37d3f254f7cc56cc0 quartz: Handle flushing and end of stream notifications for input pins.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ee792916e0b33de1f65499d01ff5f48416fd271d quartz: Reset EcCompleteCount before starting filters.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=3d3dcc4e07d9046a71a49309003690859b73422e quartz: Fix past mistake to release lock during seeking and changing state.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=45bd38ece3ce8dda36ae1c3e8d5cac942b6013ef quartz: Fix some memory leaks in the file source.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d56c50c85b96fbb13593c460572673e48c75b26a quartz: Make FileAsyncReader_WaitForNext return an empty sample in flushing...] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fab66ee7a04e8b6072888c2c53502dafa0d7ad26 quartz: Get rid of code duplication and add a flush method.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7f7c1d07527e4e9e2236fe6c7c9a5e0b12062403 quartz: Add more state transitions to the filtergraph.] ||
+|| Maarten Lankhorst || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=98933362f379e8a108703d9d5631f86e1c788fd1 dsound: Hold lock in GetStatus.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=742120ba94b2b9d58a9a0d5bd3eaa2b84434d21e qedit/tests: Add a partial test for IMediaDet_get_StreamMediaType.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b37ee801668d67cbdac6b072d08bdf4c17f3698d qedit/tests: Add a test for IMediaDet_(put|get)_CurrentStream.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=07f9c44b36450e98ece1427843b3894a998febf0 qedit/tests: Add a test for IMediaDet_get_Filename.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b0b47ac5f58f37bf06e76ab51173fd7617891774 qedit/tests: Add a test for IMediaDet_get_OutputStreams.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=999bc5bcb292a796454d081abf0ca1d868a00090 qedit/tests: Add test framework and test for IMediaDet_put_Filename.] ||
+|| Dan Hipschman || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8b432b3655637aaf4541906def9ff301b9801731 qedit/tests: Don't forget CoUninitialize.] ||
+|| Michael Moss || 2008-04-07 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4a8d26a9cf6da9fe0a05a26411fe81fa0bfae707 wine.inf: Move winebrowser.exe to the system directory.] ||
+|| Dan Hipschman || 2008-04-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f95a849a28948549b0870f7c3a76cf5cf64638d6 qedit: Indicate the methods of IMediaDet are not implemented in the FIXMEs.] ||
+|| Lei Zhang || 2008-04-04 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4bc0cd60cf87055b84b99d4e3e03fc7ddf7db5f7 user32: Use a bogus wildcard in listbox test, change wildcard string to a const.] ||
+|| Maarten Lankhorst || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=70a6495a31cc01d6ea4284d4a6dadf037d9b60df user32: Implement BroadcastSystemMessage.] ||
+|| Dan Hipschman || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=976f570f61af5a7bf3aaf3102c7a7f5490f208e5 widl: Fix a mistake in an ordered list (keywords).] ||
+|| Maarten Lankhorst || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cfeca053b843be495f356837b1dcfdf314717b0a quartz: Fix memory leak found by valgrind.] ||
+|| Maarten Lankhorst || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f5fdb793edd20abd152b50b90ebd2eb78492cdec winemp3: Change a few more fprintf's to wine logs.] ||
+|| Lei Zhang || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=376e45429cda0844b2106cc444a8cf7bac33de00 user32: Correctly handle VK_RETURN for edit controls with ES_WANTRETURN style.] ||
+|| Lei Zhang || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=08a4d2afc2ddfc1e508ef8528d5332d4b915b0a0 user32: Dialog should ignore WM_KEYDOWN messages if it gets DLGC_WANTCHARS.] ||
+|| Lei Zhang || 2008-04-03 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1d1f1373af9b0210a09add13e2c7013cbe578b40 user32: Add more edit dialog tests.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9c0ea9eaa8ef3faacd27b759153a435739825418 quartz: Implement seeking on the null renderer.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d6239bdace63b9148fb03b8c24965a4fa28b43e quartz: Fix stop_playback used in pullpin.] ||
+|| Alexandre Julliard || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d478cc42d8e12d88f5165bff902adc28d0afe936 wineboot: Make services.exe inherit the wineboot event to keep it alive.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e4136355f01f4f550cbd09a2cff64e7f01e38f5b include: Add BroadcastSystemMessageEx.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=975dc033024fb7f9215930a5bf75d38ac83dd481 quartz: Make acmwrapper respond to a sample discontinuity by dropping the frame...] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=553fe8565df83e3dc024841fdb2354ce088386cf quartz: Add seeking to mpeg splitter.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b1b75243d494da501f13c6cb213ff91255853ad0 quartz: Prepare mpeg splitter code for seeking by making most splitter parsing...] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0e9ed6b402c6d7a49be736623d7e2bcf649d270b quartz: Fix parser and pins logic to no longer deadlock.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=855e3a08b527f38bbc1b996982f6c8693c48b039 quartz: Implement filtergraph mediaseeking setposition.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7cb1324ae3d5924d8191d86ac2ab6306b2de36ad quartz: Don't hold lock when changing state in filtergraph.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4b5d06d30f681c95743f5f80f7f898946611c9b4 quartz: Fix locking in MediaSeeking and forward SetPosition.] ||
+|| Maarten Lankhorst || 2008-04-02 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e18129068e3fcfdf98c8b8ee571d4ee015b13646 quartz: Implement seeking stubs for transform filters.] ||
+|| Maarten Lankhorst || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c56389ea3cd4ab211c5770b01530d7bd9b86df18 quartz: Implement graph MediaSeeking GetPositions.] ||
+|| Maarten Lankhorst || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6fd90f16259fd91743ca6bb7869c5e2d15a43f45 quartz: Small mpeg splitter fixes.] ||
+|| Maarten Lankhorst || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1544e5239723522ede0054f033cf2067d9f59971 quartz: Allow parser filters to implement their own seeking methods.] ||
+|| Maarten Lankhorst || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0faee4af8504eef86a5b86b279a0afca4a1b32c3 winemp3: Replace fprintf with wine debugging facilities.] ||
+|| Rob Shearman || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9d834fc180df2d126334a98bc1f4ea245434ebae advapi32: Remove some unused services functions.] ||
+|| Rob Shearman || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0b7a37acdcb883eaaf83073aef01834261d14e1c services: Fix memory leak of some data in the service record.] ||
+|| Rob Shearman || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8aeb2858e44627c2002b9a20483a2a9c78a2aa3f rpcrt4: Add a reference to the binding object in I_RpcNegotiateTransferSyntax...] ||
+|| Rob Shearman || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c7f9b9347fdf7a073329d9b3fada993c2ea74717 rpcrt4: Improve trace in RPCRT4_find_interface to print the interface...] ||
+|| Alexandre Julliard || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc33f6c8a5df21589efa7ce26f8b13715e698008 ntdll: Add a guard page at the bottom of the stack and raise a stack overflow...] ||
+|| Alexandre Julliard || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=061bfac076b1c191b123f64f51579cc9ea8b68cc ntdll: Add support for handling page faults caused by guard pages on the thread...] ||
+|| Alexandre Julliard || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=600694546f6805c2e1a88a05e056a8b00d187d6e ntdll: Moved stack allocation for thread and process to a common routine in...] ||
+|| Jacek Caban || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2d1cf6ce34b110defa122c4ac0c49a89ea8b60c9 mshtml: Fixed copy&paste mistake.] ||
+|| Jacek Caban || 2008-04-01 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1ab87d4dee37800b3f44a01dda66e430a7d0d92c include: Added activedbg.idl.] ||
+|| Alexandre Julliard || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bd2ee68d6d8bf8951f3227ae39b5fda4430522dd wineboot: No longer needs to keep running now that we have services.exe.] ||
+|| Dan Kegel || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=338539c7090075918c5135df83366bb7058da537 gdi32: Test retrieving BI_BITFIELDS info for 16bpp modes.] ||
+|| James Hawkins || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9e021cff3d6af045b4d2e302f0a76054afdd0aa1 fusion: Add initial tests for IAssemblyCache.] ||
+|| Maarten Lankhorst || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=714e807aa538681472719e038f2741f5bff69a7c quartz: Check against a null dereference and don't read beyond the end of file.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cb7b58c528c874f40c4d47319de19cc20bab5b6e mshtml: Added parsing external scripts support.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=620a9500e25da9fdcda49a038869322ed8d29ec9 mshtml: Added parsing inline script support.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=40ab8e0c17feb4e41ce3f29d3bb8773428437c6e mshtml: Return S_OK in OnEnterScript and OnLeaveScript.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=438350321163d99497a667000e9f5358be4e54bf mshtml: Added IActiveScriptSite::GetItemInfo implementation.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b24151b5df3b4dbfc055f402228657115b7edc54 mshtml: Added IActiveScriptSite::GetLCID implementation.] ||
+|| Jacek Caban || 2008-03-31 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2db8f1a160e2b08e2e434097525de7497e063315 mshtml: Added IActiveScriptSiteWindow stub implementation.] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8529a3c404893ecbc710d4398cf43c6d1e36d650 services: Fill in the functions between implemented functions in svcctl.idl so...] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=809d714f243be1259b8b1553ee183c592620a3a9 services: Introduce an scmdatabase object to store the root key of the services...] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b8348b95a6accb18ae1df8d2c911f1b0bcf938fc services: Remove dependency on service name being determined correctly in order...] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=9a6fc01d84f65e6ac3ba2bffad796ac655e99564 services: Move ControlService and StartServiceW from advapi32.dll to...] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7afd9a977a84e80a02109351faa8d46182504c05 services: Move LockServiceDatabase and UnlockServiceDatabase from advapi32.dll...] ||
+|| Rob Shearman || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b48714b14814dfbfda6606d608a51299a8a77eff services: Move SetServiceStatus and QueryServiceStatusEx to services.exe.] ||
+|| Miko&#x0142;aj Zalewski || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=010dcb168b434661c0ad91d47743e9bddb8c07e2 services: Move GetServiceDisplayName to services.exe and implement...] ||
+|| Miko&#x0142;aj Zalewski || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=76d4eeebff5ee0fe6d56304cbcbe5294888b10a8 services: Move ChangeServiceConfigW implementation from advapi32.dll to...] ||
+|| Miko&#x0142;aj Zalewski || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a363b9a066ab10e384f74fe5e9b438c3a1b36999 services: Move QueryServiceConfigW from advapi32.dll to services.exe.] ||
+|| Miko&#x0142;aj Zalewski || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a2156fc348263c3fbd95c59b064746e8d74a21c4 services: Move CreateService, OpenService and DeleteService implementations...] ||
+|| Miko&#x0142;aj Zalewski || 2008-03-29 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4275fbf603d69e70ea0133e4b9abea44086812d1 services: Start a local RPC server.] ||
+|| Jacek Caban || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=05935eb6b80fa6fc01acaf2f9857026726d9a82c mshtml: Added IActiveScriptSiteInterruptPoll stub implementation.] ||
+|| Jacek Caban || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ac6cbb79afa01c85331c3317301e53285123814c mshtml: Set script engine state to SCRIPTSTATE_CONNECTED when page is loaded.] ||
+|| Jacek Caban || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0db1b86c175c5055965986049b59914ebf1e03c9 mshtml: Added script engine initialization implementation.] ||
+|| Jacek Caban || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d905ddd41a9fe2b2c87b93f16c5281e047a2a35 mshtml: Added IActiveScriptSite::OnStateChange implementation.] ||
+|| Jacek Caban || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6d5bf9cd8ac7d5ca60ab52a9bb8ff1e26d84c876 uuid: Include objsafe.h.] ||
+|| Maarten Lankhorst || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=39623a403a99ee32ba3d16d2db316544dccb417e quartz: Add GetCurrentPosition using the reference clock.] ||
+|| Maarten Lankhorst || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cc3ef90db000235f8de7a6692e9db79eda9680f3 quartz: Change name from Start position to Current position in MediaSeeking.] ||
+|| Dan Hipschman || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0929593b6c96a9dd482919b56f0a39d3ed015cb0 wininet: InternetReadFileExA should check INTERNET_FLAG_ASYNC.] ||
+|| Dan Hipschman || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=aaecdf79bdb0fef0c04901dc03f4540ad62f3f11 wininet: HttpSendRequestExA is not a stub.] ||
+|| Lei Zhang || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=bab3d82bcf0df511d07d29b525b2614465d94f3b user32: Add more DrawText tests.] ||
+|| Lei Zhang || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0fac05b97791145cc624034733ab474169640156 user32: Handle WM_CHAR messages better in edit controls.] ||
+|| Lei Zhang || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5d6bf737dbac8730b1ed229e88ec0a604239551e user32: Add more dialog with edit control tests.] ||
+|| Lei Zhang || 2008-03-28 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1560203215f19a969c91564e99161876a52858a4 user32: Make an edit test more readable.] ||
+|| Jacek Caban || 2008-03-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=7b48298e2755a18a7782aac87f06ce880e9c1e0a mshtml: Don't access released object in release_script_hosts.] ||
+|| Dmitry Timoshkov || 2008-03-27 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=113f2c9dbbf13517ebcfb5986b1f81a8fbede1db user32: Add a test for combobox navigation with arrow keys, make it pass under...] ||
+|| Jacek Caban || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=e2645dec1cd3d9ad0b67a43db8112be8022f879b mshtml: Added nsIChannel::SetContentType implementation.] ||
+|| Jacek Caban || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8abf7a8cc94f43266f1246e1c9df52e19559ded0 mshtml: Rename nsChannel::content to content_type and clean up its handling.] ||
+|| Jacek Caban || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1caf73be28dda1ad6fcc9ba3f2d0349686d300b7 mshtml: Added IHTMLDocument2::get_location implementation.] ||
+|| Dan Kegel || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=dcefb67781e261aff504562f4902a00ceacc673f kernel32: Test negative dest len in WideCharToMultiByte.] ||
+|| Alexandre Julliard || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a71998d0a60fb3c67aefe1938cc794f8263a7591 winex11: Fix X11DRV_CLIPBOARD_ReadProperty to read data in larger chunks and to...] ||
+|| Lei Zhang || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=41ea8f0e8a6fab93fa08da16ecc24260dbad327c user32: Tweak how the edit control handles WM_GETDLGCODE.] ||
+|| Lei Zhang || 2008-03-26 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=724d4b1fad2a213044937f9b658065a35ad7d9c6 msxml3: Fix compiles for systems without libxml2.] ||
+|| Lei Zhang || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=19ed9729db3a73f0860ab621047cafc0a6b41c58 comdlg32: Avoid double free in PRINTDLG_PaperSizeA/W.] ||
+|| James Hawkins || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=823640fc2faf80ef478989032ce631638ee30f15 fusion: Implement CreateAssemblyCache.] ||
+|| James Hawkins || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=082b46887a548599f980c08a58f07d1789e76d67 fusion: Add a stub implementation of IAssemblyEnum.] ||
+|| James Hawkins || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8a19faf261a23a54f6777b2acc94fce76f152e63 fusion: Add a stub implementation of IAssemblyCache.] ||
+|| Jacek Caban || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=d23309c040dc0e5e9da5983e67a6f91f8de08143 mshtml: Added script engine loading test.] ||
+|| Jacek Caban || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=1b5bce0d4c7e53ef0a151d2d916f99063c135d73 mshtml: Added script engine loading implementation.] ||
+|| Jacek Caban || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=63ebe0191e3881956b5bbd8308ef2b117f40533f jscript: Added tests.] ||
+|| Jacek Caban || 2008-03-25 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=8d4aa7decf3c6b7cba9697a09dc3cc44dd71ae05 jscript: Added DllCanUnloadNow implementation.] ||
+|| Alexandre Julliard || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=635544e20f52a939ed133fddba0d54f65baf2a2f user32: Make sure we set menu capture to a window that is visible.] ||
+|| Alexandre Julliard || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=78de7e363b8b9aeb0b7adb1083186da4ae58899a winex11: Grab the pointer in menu tracking mode too.] ||
+|| Alexandre Julliard || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5787c12ba66c055bc0747ef63644df1dbfad86be winex11: Setting window z-order using a sibling doesn't work with some window...] ||
+|| James Hawkins || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b83fbb4f03176c651c7beaef8ebf75f2641ff9da fusion: Add a stub implementation of IAssemblyName.] ||
+|| James Hawkins || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=87b970cedcaa6e0403a651c9afff3a883a3188db fusion: Add a few fusion stubs.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c8bb048b1a82d78b263542d5d217cb7e067a8758 mshtml: Abstract BSCallback implementation.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=6738db5af2dcdc4c61d9f20f9d889f8965537121 mshtml: Move hlink_frame_navigate function.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a7caae954015c45debc762934161e9211c765c71 mshtml: Move BSCallback declaration to navigate.c.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=5a04f526ad21ccf5bb4d3f323805172003cdaadf mshtml: Added new nsChannelBSC type.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=979b42d749d89f021bdc5554f542d27c47d5572a mshtml: Don't access BSCallback directly in nsembed.c.] ||
+|| Jacek Caban || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f792ada40fcbb755f09f3497277fa11adcf79233 mshtml: Don't access BSCallback directly in nsio.c.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=db8b2ca7b49efdf9d021ed7c902ea70d4976f4dd quartz: Silence requests for ipin on filters.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=4d745e0051e56de36deec70e3fbd80055733a7db quartz: Forward requests for MediaSeeking from all pins properly.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=17a1c646869784f3cdeef1f976c35801b13f6f7d quartz: Play silence in directsound renderer on end of stream notification.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f8bb8384555c7d03376ad2af9bbc196f631ea89e quartz: Make acmwrapper code aware of time, and get rid of its internal buffer.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c423511d2ee5d3ece6c91286109c91030dfd258a quartz: Add sanity check to mediaseeking setrate.] ||
+|| Maarten Lankhorst || 2008-03-24 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=b0c6a34358b5f2f9e1111f426dbeee4ef22a8d87 quartz: Parse audio packets in mpeg splitter to obtain the duration.] ||
+|| Dan Hipschman || 2008-03-22 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2904f543f4593c5101b32b1044794f36d62bd7d5 advapi32: Add a stub for CreateRestrictedToken.] ||
+|| Jacek Caban || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=cd0213bcb90f0315e676c8f1c81b61988558615a jscript: Added IObjectSafety stub implementation.] ||
+|| Jacek Caban || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=a0d8cbc6ef6b0ada17bd3e1001f0b0b336c348e2 jscript: Added IActiveScriptParseProcedure2 stub implementation.] ||
+|| Jacek Caban || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=96219452722091018a2d3c8fc469d01fe652841f jscript: Added IActiveScriptParseProcedure2 declaration.] ||
+|| Jacek Caban || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=f460cbf9aff6a74e6def11fd294b0c236ae63e06 wine.inf: Register jscript.dll.] ||
+|| James Hawkins || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=c0b3af34b999c7fca2e530b81d356ea9036d228d fusion: Add a stub implementation of fusion.dll.] ||
+|| Dan Hipschman || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=2fa83d94c877233f4eaf1e8d8c17c7b74c3f9ec8 widl: Make structures with FC_ENUM16 fields complex.] ||
+|| Dan Hipschman || 2008-03-21 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=629a29d81e3611056bcf1a987e59b14399e5923f rpcrt4: Handle FC_ENUM16.] ||
+|| Michael Moss || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ded68372a29eecc057718137a35f668f9d26d497 kernel32/tests: Test notifications for overlapping directory watches.] ||
+|| Dmitry Timoshkov || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=0506c341ac3c51c6b1ccb1ecd65165e3b17a62dd user32: Increase an initial buffer size from 32 to 128 hwnds for enumerated...] ||
+|| Michael Moss || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=ef7c4a8b6daf783773a9ca0f29602d3afab13abf kernel32/tests: Fix false positive file notification tests.] ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=74f2f09295175fdf813e2808eadd5934e18c71d2 comctl32: Correct listview hittest check to include the state rect.] ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=03f18eb425b16ad5388018e8ed1d59061591c77f comctl32: Fix listview redraw when deleting items.] ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=fe966335fd7d808f6055649ee3796bf82eae566c comctl32: Implement listview checkbox toggle.] ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=da98243ea13636a826bc94bf85853fd7bad62d50 comctl32: Redraw listview after changing extended styles.] ||
+|| Lei Zhang || 2008-03-20 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=778c04db079d3955bcea263bb5693c624318bf75 comctl32: Add listview checkbox toggle test.] ||
