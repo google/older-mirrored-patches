@@ -1,4 +1,4 @@
-[Wine contributions Wine] from mid-March to the end of 2008.
+[Wine Wine contributions] from mid-March to the end of 2008.
 
 || *Author* || *Date* || *Description* ||
 || Jacek Caban || 2008-10-06 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=68525652a15bcc332f1d48571bdb0f2da86bce47 jscript: Added possibility to run test scripts from file.] ||

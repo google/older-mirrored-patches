@@ -1,4 +1,4 @@
-[Wine contributions Wine] during from 2006 to mid-July 2007.
+[Wine Wine contributions] from 2006 to mid-July 2007.
 
 || *Author* || *Date* || *Description* ||
 || Alexandre Julliard || 2007-07-19 || [http://source.winehq.org/git/wine.git?a=commitdiff;h=64f6fdc57e930bbc9a218232bf4804f6872ccb2c kernel32: Move activation context creation to ntdll (based on a patch by Eric Pouech).] ||
