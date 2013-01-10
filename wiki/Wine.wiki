@@ -12,4 +12,8 @@ In 2008, we further improved support for Picasa and Photoshop, and fixed a few o
 
 Thanks again to Codeweavers and our interns (Maarten Lankhorst, Roy Shea, and Zac Brown) for a great job. 
 
-Here is a list of the patches described above, in chronological order. (Note: although some care was taken in constructing this list, it may still contain some errors. Sorry if we've missed anything!)
+The following pages list the patches described above, in reverse chronological order. (Note: although some care was taken in constructing this list, it may still contain some errors. Sorry if we've missed anything!)
+
+ * WinePatches2008
+ * WinePatches2007
+ * WinePatches2006
