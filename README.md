@@ -1,4 +1,4 @@
-These days, our patches and code generally are put into code.google.com projects. However, there are still a  very small number of patches and tarballs that were available through http://code.google.com/opensource/patches.html.
+These days, our patches and code generally are put into GitHub or Gerrit projects. However, there are still a very small number of patches and tarballs that were available through http://code.google.com/opensource/patches.html.
 
 All of those have now been moved to this project.
 
